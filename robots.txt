@@ -1,1 +1,1 @@
-Sitemap: https://nmfs-ost.github.io/PAM_template_lab_manual/sitemap.xml
+Sitemap: nmfs-ost.github.io/PAM_towed_array/sitemap.xml
