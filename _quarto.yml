@@ -4,8 +4,8 @@ project:
 website: 
   page-navigation: true
   title: "NOAA quarto simple" 
-  site-url: "https://nmfs-ost.github.io/PAM_template_lab_manual/" 
-  repo-url: "https://github.com/nmfs-ost/PAM_template_lab_manual"
+  site-url: "nmfs-ost.github.io/PAM_towed_array/" 
+  repo-url: "https://github.com/nmfs-ost/PAM_towed_array"
   repo-actions: [edit, source, issue]
   favicon: images/favicon.ico
   
@@ -24,8 +24,8 @@ website:
         href: https://nmfs-ost.github.io/PAM_National_NMFS_Network
         text: "NMFS National Passive Acoustic Monitoring Network"
       - icon: github
-        href: https://github.com/nmfs-ost/PAM_template_lab_manual
-        text: "NMFS PAM SI Lab Manual Template"
+        href: https://github.com/nmfs-ost/PAM_towed_array
+        text: "NMFS PAM Towed Arrays"
 
     style: "docked"
     search: true
@@ -33,45 +33,49 @@ website:
     contents:
       - href: index.qmd
         text: Home
-      - section: content/LabManagement.qmd
+      - section: content/arrayModel.qmd
         contents: 
-          - href: content/Safety.qmd
-            text: Safety
-          - href: content/Inventory.qmd
+          - href: content/arrayModel_modular.qmd
+            text: Modular Array
+          - href: content/history.qmd
+            text: Historical Arrays
+      - section: content/hardware.qmd
+        contents: 
+          - href: content/hydrophones.qmd
+            text: Hydrophones
+          - href: content/depth.qmd
+            text: Depth
+          - href: content/inventory.qmd
             text: Inventory
-          - href: content/Hardware.qmd
-            text: Hardware
-      - href: content/FieldMethods.qmd
-        text: "Field Methods"
-      - href: content/DataManagement.qmd
-        text: Data Management
-      - href: content/Hardware.qmd
-        text: Hardware
-      - section: content/SoftwareAnalysis.qmd
-#        text: "Software & Analysis"
+      - section: content/lab.qmd
         contents: 
-          - content/Software.qmd
-          - content/AnalysisMethods.qmd
-      - href: content/Reporting.qmd
-        text: Reporting
-      - section: "Optional Pages"
+          - href: xxx.qmd
+            text: xxx
+      - section: content/fieldMethods.qmd
         contents: 
-          - content/SharedValues.qmd
-          - content/Onboarding.qmd
-          - content/Offboarding.qmd
-          - content/FieldMethods.qmd
-          - content/OpenScience.qmd
-          - content/PublicationsPresentations.qmd
-          - content/Resources.qmd
-      # - section: "NMFS Open Science Directions"  #Removed but did not yet delete
-      #   contents:
-      #     - content/NMFS_OpenSciDirections/Getting-Started.qmd
-      #     - content/NMFS_OpenSciDirections/organize.qmd
-      #     - content/NMFS_OpenSciDirections/add-content.qmd
-      #     - content/NMFS_OpenSciDirections/rendering.qmd
-      #     - content/NMFS_OpenSciDirections/rmarkdown.Rmd
-      #     - content/NMFS_OpenSciDirections/code.qmd
-      #     - content/NMFS_OpenSciDirections/acknowledgements.qmd 
+          - href: content/xxx.qmd
+            text: xxx
+          - href: content/yyy.qmd
+            text: yyy
+      - section: content/software.qmd
+        contents: 
+          - href: content/xxx.qmd
+            text: xxx
+          - href: content/yyy.qmd
+            text: yyy
+      - section: content/sop.qmd
+        contents: 
+          - href: content/xxx.qmd
+            text: xxx
+          - href: content/yyy.qmd
+            text: yyy
+      - section: content/troubleshoot.qmd
+        contents: 
+          - href: content/xxx.qmd
+            text: xxx
+          - href: content/yyy.qmd
+            text: yyy
+
         
 format:
   html:
