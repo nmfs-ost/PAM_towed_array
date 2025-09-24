@@ -1,19 +1,27 @@
 ---
 title: "NOAA Fisheries Passive Acoustic Towed Arrays"
 page-layout: full
+editor: 
+  markdown: 
+    wrap: 72
 ---
 
 ## Towed Hydrophone Arrays
 
-Array Models
-Sensors
-Lab Setup
-Field Methods
-Software
-Platform SOPs
-Troubleshooting
+-   [Array
+    Models](https://nmfs-ost.github.io/PAM_towed_array/content/arrayModel.html)
 
+-   [Hardware](https://nmfs-ost.github.io/PAM_towed_array/content/hardware.html)
 
+-   [Lab
+    Setup](https://nmfs-ost.github.io/PAM_towed_array/content/lab.html)
 
+-   [Field
+    Methods](https://nmfs-ost.github.io/PAM_towed_array/content/fieldMethods.html)
 
+-   [Software](https://nmfs-ost.github.io/PAM_towed_array/content/software.html)
 
+-   [Platform
+    SOPs](https://nmfs-ost.github.io/PAM_towed_array/content/sop.html)
+
+-   [Troubleshooting](https://nmfs-ost.github.io/PAM_towed_array/content/troubleshoot.html)
