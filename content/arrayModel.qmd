@@ -1,3 +1,3 @@
 ---
-title: Towed Passive Acoustic Array Models
+title: Array Models
 ---

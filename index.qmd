@@ -8,20 +8,16 @@ editor:
 
 ## Towed Hydrophone Arrays
 
--   [Array
-    Models](https://nmfs-ost.github.io/PAM_towed_array/content/arrayModel.html)
+-   [Array Models](content/arrayModel.qmd)
 
--   [Hardware](https://nmfs-ost.github.io/PAM_towed_array/content/hardware.html)
+-   [Hardware](content/hardware.qmd)
 
--   [Lab
-    Setup](https://nmfs-ost.github.io/PAM_towed_array/content/lab.html)
+-   [Lab Setup](content/lab.qmd)
 
--   [Field
-    Methods](https://nmfs-ost.github.io/PAM_towed_array/content/fieldMethods.html)
+-   [Field Methods](content/fieldMethods.qmd)
 
--   [Software](https://nmfs-ost.github.io/PAM_towed_array/content/software.html)
+-   [Software](content/software.qmd)
 
--   [Platform
-    SOPs](https://nmfs-ost.github.io/PAM_towed_array/content/sop.html)
+-   [Platform SOPs](content/sop.qmd)
 
--   [Troubleshooting](https://nmfs-ost.github.io/PAM_towed_array/content/troubleshoot.html)
+-   [Troubleshooting](content/troubleshoot.qmd)
