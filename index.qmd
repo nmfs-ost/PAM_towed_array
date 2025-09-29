@@ -10,13 +10,13 @@ editor:
 
 -   [Array Models](content/arrayModel.qmd)
 
--   [Hardware](content/hardware.qmd)
+-   [Hardware](content/Hardware.qmd)
 
 -   [Lab Setup](content/lab.qmd)
 
--   [Field Methods](content/fieldMethods.qmd)
+-   [Field Methods](content/FieldMethods.qmd)
 
--   [Software](content/software.qmd)
+-   [Software](content/Software.qmd)
 
 -   [Platform SOPs](content/sop.qmd)
 
