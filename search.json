@@ -4,10 +4,7 @@
     "href": "content/Hardware.html",
     "title": "Hardware",
     "section": "",
-    "text": "This page is for components (not full arrays)",
-    "crumbs": [
-      "Hardware"
-    ]
+    "text": "This page is for components (not full arrays)"
   },
   {
     "objectID": "content/history.html",
@@ -32,6 +29,17 @@
     ]
   },
   {
+    "objectID": "content/sop/ne/sop_ne.html",
+    "href": "content/sop/ne/sop_ne.html",
+    "title": "NEFSC Towed Array SOP",
+    "section": "",
+    "text": "This serves as a landing page for the NEFSC Towed Array SOP You can put an intro here, or links to the different sections, or whatever you want.\nI find it is good to have a first landing page for a section, but it is not required. Change this info as it suits you (or delete).",
+    "crumbs": [
+      "Platform SOP",
+      "NEFSC Towed Array SOP"
+    ]
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "NOAA Fisheries Passive Acoustic Towed Arrays",
@@ -52,13 +60,61 @@
     ]
   },
   {
+    "objectID": "content/sop/ne/page1.html",
+    "href": "content/sop/ne/page1.html",
+    "title": "page1",
+    "section": "",
+    "text": "Change name of this file. Lower left of RStudio, Files-&gt; PAM_towed_array/content/sop/ne, then click on box next to ‘page1.qmd’… then click on ‘More’ and rename to a name that suits you. Suggestion: Use the minimum wording needed for clarity, use lowercase and “_” and absolutely NO other symbols. Save.\nOpen quarto.yml (in root directory of PAM_towed_array), scroll down to find the ‘page1.qmd’ and change the name to your new filename. Change the name you wan to see on the left-hand sidebar (should be short but informative name). Save.\nBack to your new file… Remove this blurb, and then copy/paste in your relevant info. Don’t worry about it being perfect, but if you use the ‘Visual’ approach in RStudio (top left window), then you can easily add bullets, headers, bold, italics, links, and images. Save and render locally to see if your changes worked.\nImages? make sure any of your images have are thoughtfully named (only “_”, avoid other symbols, and maybe add ‘ne’ if they are for your SOP).",
+    "crumbs": [
+      "Platform SOP",
+      "NEFSC Towed Array SOP",
+      "Sidebar Name"
+    ]
+  },
+  {
+    "objectID": "content/sop/ne/page1.html#sop-ne-landing-page",
+    "href": "content/sop/ne/page1.html#sop-ne-landing-page",
+    "title": "page1",
+    "section": "SOP-NE Landing Page",
+    "text": "SOP-NE Landing Page\n\nOpen sop_ne.qmd and change that page to reflect what you’d like to see on your SOP ‘landing page’.",
+    "crumbs": [
+      "Platform SOP",
+      "NEFSC Towed Array SOP",
+      "Sidebar Name"
+    ]
+  },
+  {
+    "objectID": "content/sop/ne/page1.html#add-a-new-page",
+    "href": "content/sop/ne/page1.html#add-a-new-page",
+    "title": "page1",
+    "section": "Add a New Page",
+    "text": "Add a New Page\n\nGo back to Files (lower right on RStudio), navigate to your sop/ne folder. Click ‘New File’ and select a quarto document (*.qmd). Name it and then enter in your info.\nGo to the _quarty.yml and add that page to the structure. If you are unsure how to do it, or have problems… then you can comment out that line in the yaml (#) so that it hopefully will not mess up your rendering.",
+    "crumbs": [
+      "Platform SOP",
+      "NEFSC Towed Array SOP",
+      "Sidebar Name"
+    ]
+  },
+  {
+    "objectID": "content/sop/ne/page1.html#help",
+    "href": "content/sop/ne/page1.html#help",
+    "title": "page1",
+    "section": "Help",
+    "text": "Help\nPAM Open Science Site",
+    "crumbs": [
+      "Platform SOP",
+      "NEFSC Towed Array SOP",
+      "Sidebar Name"
+    ]
+  },
+  {
     "objectID": "content/depth.html",
     "href": "content/depth.html",
     "title": "Depth Sensors",
     "section": "",
     "text": "The depth of an oil-filled array can be measured using a pressure transponder that is submersed in the oil. The pressure in the oil will be the same as the water pressure (this is not true of solid-urethane hydrophones). Use a pressure transponder that measures pressure using a 4-20 milliamp scale (e.g. Keller model # PA7FLE ). When a voltage is applied to the positive wire, the current will be proportional to the depth. The current will be 4 mA at the surface and 20 mA at the maximum rated depth of the transponder (for example 20 Bar or approximately 200 m). You can use a 9v battery and a digital multimeter to measure this current. Because this device uses electronics, you cannot reverse the wires. The positive wire needs to be attached to the positive side of the battery. The current can be translated to depth using a simple formula. For a 20 Bar transponder:\nDepth (m) = [current (mA) * 12.5] - 50.\nNotes: 200 m / 16  = 12.5 meters per mA (16 is the range of mA [20-4].\n            12.5 meters per mA * 4 = 50 (to account for not starting at 0 mA)\nTo display and record depth data on a computer, you need to use an Analog-to-Digital (A/D) converter (e.g. Measurement Computing model # USB-1208LS). This device measures voltage, not current. You can measure the voltage drop over a resistor to measure current if you put a 100 ohm resistor in series with the depth transponder (see figure). Ohm’s law says that the voltage drop (V) over a resistor is equal to the product of the resistance in ohms (R) and the current (I):\nV= I * R\nSo, with a 100 ohm resistor, voltage will be 100 times the current in amps. The equation for depth is therefore:\nDepth (m) = [voltage (V) * 125] - 50.\nThe Measurement Computing 1208LS can be used in single-ended (grounded) or differential mode. The latter measures the voltage difference between the two pins but does not ground one of the pins. This is less likely to introduce noise from the computer or the A/D device itself into the array cable. You can change this setting with the Instacalc software included with the 1208LS. You can also set the voltage range to give the best resolution using PamGuard’s depth setup window or Logger’s database. Voltage across the resistor will not exceed 2 volts, so you can chose the +/- 2.5V scale.\n\n\n\nThe depth of an oil-filled array can be measured using a pressure transponder that is submersed in the oil. The pressure in the oil will be the same as the water pressure (this is not true of solid-urethane hydrophones). Use a pressure transponder that measures pressure using a 4-20 milliamp scale (e.g. Honeywell model # PX2EN1XX200PSCHX ). When a voltage is applied to the positive wire, the current will be proportional to the depth. The current will be 4 mA at the surface and 20 mA at the maximum rated depth of the transponder (in this case, 200 psi or 13.79 Bar, or approximately 137.3 m). You can use a 9v battery and a digital multimeter to measure this current. Because this device uses electronics, you cannot reverse the wires. The positive wire needs to be attached to the positive side of the battery. The current can be translated to depth using a simple formula. For a 13.79 Bar transponder:\nDepth (m) = [current (mA) * 8.6] – 34.4.\nNotes: 137.3 m / 16 = 8.6 meters per mA (16 is the range of mA [20-4].\n            8.6 meters per mA * 4 = 34.4 (to account for not starting at 0 mA)\nTo display and record depth data on a computer, you need to use an Analog-to-Digital (A/D) converter (e.g. Measurement Computing model # USB-1208LS). This device measures voltage, not current. You can measure the voltage drop over a resistor to measure current if you put a 100 ohm resistor in series with the depth transponder (see figure). Ohm’s law says that the voltage drop (V) over a resistor is equal to the product of the resistance in ohms (R) and the current (I):\nV= I * R\nSo, with a 100 ohm resistor, voltage will be 100 times the current in amps. The equation for depth is therefore:\nDepth (m) = [voltage (V) * 86] – 34.4.\nThe Measurement Computing 1208LS can be used in single-ended (grounded) or differential mode. The latter measures the voltage difference between the two pins but does not ground one of the pins. This is less likely to introduce noise from the computer or the A/D device itself into the array cable. You can change this setting with the Instacalc software included with the 1208LS. You can also set the voltage range to give the best resolution using PamGuard’s depth setup window or Logger’s database. Voltage across the resistor will not exceed 2 volts, so you can chose the +/- 2.5V scale.",
     "crumbs": [
-      "Hardware",
+      "content/hardware.qmd",
       "Depth"
     ]
   },
@@ -69,7 +125,7 @@
     "section": "",
     "text": "The depth of an oil-filled array can be measured using a pressure transponder that is submersed in the oil. The pressure in the oil will be the same as the water pressure (this is not true of solid-urethane hydrophones). Use a pressure transponder that measures pressure using a 4-20 milliamp scale (e.g. Keller model # PA7FLE ). When a voltage is applied to the positive wire, the current will be proportional to the depth. The current will be 4 mA at the surface and 20 mA at the maximum rated depth of the transponder (for example 20 Bar or approximately 200 m). You can use a 9v battery and a digital multimeter to measure this current. Because this device uses electronics, you cannot reverse the wires. The positive wire needs to be attached to the positive side of the battery. The current can be translated to depth using a simple formula. For a 20 Bar transponder:\nDepth (m) = [current (mA) * 12.5] - 50.\nNotes: 200 m / 16  = 12.5 meters per mA (16 is the range of mA [20-4].\n            12.5 meters per mA * 4 = 50 (to account for not starting at 0 mA)\nTo display and record depth data on a computer, you need to use an Analog-to-Digital (A/D) converter (e.g. Measurement Computing model # USB-1208LS). This device measures voltage, not current. You can measure the voltage drop over a resistor to measure current if you put a 100 ohm resistor in series with the depth transponder (see figure). Ohm’s law says that the voltage drop (V) over a resistor is equal to the product of the resistance in ohms (R) and the current (I):\nV= I * R\nSo, with a 100 ohm resistor, voltage will be 100 times the current in amps. The equation for depth is therefore:\nDepth (m) = [voltage (V) * 125] - 50.\nThe Measurement Computing 1208LS can be used in single-ended (grounded) or differential mode. The latter measures the voltage difference between the two pins but does not ground one of the pins. This is less likely to introduce noise from the computer or the A/D device itself into the array cable. You can change this setting with the Instacalc software included with the 1208LS. You can also set the voltage range to give the best resolution using PamGuard’s depth setup window or Logger’s database. Voltage across the resistor will not exceed 2 volts, so you can chose the +/- 2.5V scale.",
     "crumbs": [
-      "Hardware",
+      "content/hardware.qmd",
       "Depth"
     ]
   },
@@ -80,7 +136,7 @@
     "section": "",
     "text": "The depth of an oil-filled array can be measured using a pressure transponder that is submersed in the oil. The pressure in the oil will be the same as the water pressure (this is not true of solid-urethane hydrophones). Use a pressure transponder that measures pressure using a 4-20 milliamp scale (e.g. Honeywell model # PX2EN1XX200PSCHX ). When a voltage is applied to the positive wire, the current will be proportional to the depth. The current will be 4 mA at the surface and 20 mA at the maximum rated depth of the transponder (in this case, 200 psi or 13.79 Bar, or approximately 137.3 m). You can use a 9v battery and a digital multimeter to measure this current. Because this device uses electronics, you cannot reverse the wires. The positive wire needs to be attached to the positive side of the battery. The current can be translated to depth using a simple formula. For a 13.79 Bar transponder:\nDepth (m) = [current (mA) * 8.6] – 34.4.\nNotes: 137.3 m / 16 = 8.6 meters per mA (16 is the range of mA [20-4].\n            8.6 meters per mA * 4 = 34.4 (to account for not starting at 0 mA)\nTo display and record depth data on a computer, you need to use an Analog-to-Digital (A/D) converter (e.g. Measurement Computing model # USB-1208LS). This device measures voltage, not current. You can measure the voltage drop over a resistor to measure current if you put a 100 ohm resistor in series with the depth transponder (see figure). Ohm’s law says that the voltage drop (V) over a resistor is equal to the product of the resistance in ohms (R) and the current (I):\nV= I * R\nSo, with a 100 ohm resistor, voltage will be 100 times the current in amps. The equation for depth is therefore:\nDepth (m) = [voltage (V) * 86] – 34.4.\nThe Measurement Computing 1208LS can be used in single-ended (grounded) or differential mode. The latter measures the voltage difference between the two pins but does not ground one of the pins. This is less likely to introduce noise from the computer or the A/D device itself into the array cable. You can change this setting with the Instacalc software included with the 1208LS. You can also set the voltage range to give the best resolution using PamGuard’s depth setup window or Logger’s database. Voltage across the resistor will not exceed 2 volts, so you can chose the +/- 2.5V scale.",
     "crumbs": [
-      "Hardware",
+      "content/hardware.qmd",
       "Depth"
     ]
   },
