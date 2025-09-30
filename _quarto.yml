@@ -39,7 +39,7 @@ website:
             text: Modular Array
           - href: content/history.qmd
             text: Historical Arrays
-      - section: content/Hardware.qmd
+      - section: content/hardware.qmd
         contents: 
           - href: content/hydrophones.qmd
             text: Hydrophones
@@ -51,13 +51,13 @@ website:
         contents: 
           - href: content/PI_LabSetup_1.qmd
             text: PIFSC Lab Bench
-      - section: content/FieldMethods.qmd
+      - section: content/fieldMethods.qmd
         contents: 
           - href: content/xxx.qmd
             text: xxx
           - href: content/yyy.qmd
             text: yyy
-      - section: content/Software.qmd
+      - section: content/software.qmd
         contents: 
           - href: content/xxx.qmd
             text: xxx
@@ -67,8 +67,10 @@ website:
         contents: 
           - href: content/xxx.qmd
             text: xxx
-          - href: content/yyy.qmd
-            text: yyy
+          - section: content/sop/ne/sop_ne.qmd
+            contents:
+            - href: content/sop/ne/page1.qmd
+              text: Sidebar Name       
       - section: content/troubleshoot.qmd
         contents: 
           - href: content/xxx.qmd

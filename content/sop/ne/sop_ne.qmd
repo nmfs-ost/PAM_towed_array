@@ -1,0 +1,9 @@
+---
+title: "NEFSC Towed Array SOP"
+format: html
+---
+
+This serves as a landing page for the NEFSC Towed Array SOP
+You can put an intro here, or links to the different sections, or whatever you want. 
+
+I find it is good to have a first landing page for a section, but it is not required. Change this info as it suits you (or delete).

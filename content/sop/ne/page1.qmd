@@ -1,0 +1,23 @@
+---
+title: "page1"
+format: html
+---
+
+1.  Change name of this file. Lower left of RStudio, Files-\> PAM_towed_array/content/sop/ne, then click on box next to 'page1.qmd'... then click on 'More' and rename to a name that suits you. Suggestion: Use the minimum wording needed for clarity, use lowercase and "\_" and absolutely NO other symbols. Save.
+2.  Open *quarto.yml (in root directory of PAM*\_towed_array), scroll down to find the 'page1.qmd' and change the name to your new filename. Change the name you wan to see on the left-hand sidebar (should be short but informative name). Save.
+3.   Back to your new file... Remove this blurb, and then copy/paste in your relevant info. Don't worry about it being perfect, but if you use the 'Visual' approach in RStudio (top left window), then you can easily add bullets, headers, bold, italics, links, and images. Save and render locally to see if your changes worked.
+4.  Images? make sure any of your images have are thoughtfully named (only "\_", avoid other symbols, and maybe add 'ne' if they are for your SOP).
+
+## SOP-NE Landing Page
+
+1.  Open sop_ne.qmd and change that page to reflect what you'd like to see on your SOP 'landing page'.
+
+## Add a New Page
+
+1.  Go back to Files (lower right on RStudio), navigate to your sop/ne folder. Click 'New File' and select a quarto document (\*.qmd). Name it and then enter in your info.
+
+2.  Go to the \_quarty.yml and add that page to the structure. If you are unsure how to do it, or have problems... then you can comment out that line in the yaml (#) so that it hopefully will not mess up your rendering.
+
+## Help
+
+[PAM Open Science Site](https://nmfs-ost.github.io/PAM-OpenScience/)
