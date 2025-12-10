@@ -463,8 +463,14 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#tracking-process" id="toc-tracking-process" class="nav-link active" data-scroll-target="#tracking-process">TRACKING PROCESS</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/nmfs-ost/PAM_towed_array/edit/main/content/sop.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/nmfs-ost/PAM_towed_array/blob/main/content/sop.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/nmfs-ost/PAM_towed_array/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -490,8 +496,35 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<section id="tracking-process" class="level3">
+<h3 class="anchored" data-anchor-id="tracking-process">TRACKING PROCESS</h3>
+<ol type="1">
+<li><p>Tracking animals will be done primarily through the click detector. Once you see a click train (3-5 consecutive clicks along the same bearing), start a detection in the Detection tab. Hit F1 to enter the time &amp; date. Hit F1 to enter the Lat/long. Enter the Acoustic ID # along with at least the initial bearing angle. You can fill out the other fields as the event goes on. There are 3 Detection tabs so that you can track 3 things at once. You can also use the TD tab to localize whistles.</p>
+<ol type="1">
+<li>For encounters in which there are both bearings from the whistles and clicks, you can merge them into one event by going to the map, holding down CTRL + left click and select “Assign X bearings to UID#”. You should then see both the whistle and click bearings as the same color. You may need to repeat this step over the course of the encounter.</li>
+</ol></li>
+<li><p>A mark should be placed at the start position on the trackline of the initial bearing location- clicks don’t stay on the map for long, the markers will last longer. Double click the spot on the map to enter “start of A#- [species]”</p></li>
+<li><p>Measuring the perpendicular distance from the ship’s track to the marked location can be done in the Map tab, by double-clicking next to the map comment and click + hold to the convergences (note: if you happen to select the pixel the map comment is on Pamguard won’t draw the measuring line). If you have R and L locations, measure on both sides of the ship’s track and take the average distance (this will be the beam distance). If you only have one location, take all measurements from the trackline to that location. Also measure the distance from the ship’s track along the first angle plotted that converged at the location (the first detection distance).</p></li>
+<li><p>Can you tie this detection to a visual sighting?? If so, be sure to record the visual ID, and any other info from the visual team in the comments field (time, bearing, distance, species ID, etc.).</p>
+<ol type="1">
+<li>Use the Visual to Array Angle module and the incoming information from the flying bridge to do so</li>
+</ol></li>
+<li><p>For marking the end of a detection, follow these general guidelines</p>
+<ol type="1">
+<li><p>Sperm whales: until 5 min have passed where no clicks are detected (can feel free to press F1 prior to this but keep the detection tab open for another 5 min)</p></li>
+<li><p>Beaked whales: get an end time when 1 minute has passed without clicks. You will probably need to press F1 a few times as the clicks come back (thus constantly updating the end time)</p></li>
+<li><p>Dolphins: if it’s just clicks, the end time is within 30s of the last click train. If it’s whistles and clicks, keep the detection open for up to 2 min after the last whistle. It’s common for whistle presence to come in and out</p></li>
+</ol></li>
+<li><p>Click “Save” to save this detection to the database.</p>
+<ol type="1">
+<li>If you end the encounter prematurely, you can double click on the row below the form to make any changes. Note that the F1 features do not work in this view. If the encounter’s row is not visible, you can make a comment using an asterisk (*) in the User Input for later modification during the QAQC process.</li>
+</ol></li>
+<li><p>Look/listen for new groups. Continue to check bearings to sounds. Sometimes you will pick up a new group ahead of the ship while you are still hearing a group behind the ship.&nbsp; Start a new Acoustic ID when another group is detected.&nbsp; If a second group is detected before you have stored the info about the first group, you can save the first group and start a new group, then go back and edit the info for the 1st group when time allows.&nbsp; Make note if long periods occur with no acoustic activity (i.e.&nbsp;“AQ”).</p></li>
+</ol>
+<p>For further details, please refer to the <video src="images/Towed-Array_Real-time-monitoring_Demo.MOV" class="img-fluid" controls=""><a href="images/Towed-Array_Real-time-monitoring_Demo.MOV">Video</a></video></p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -927,7 +960,7 @@ ul.task-list li input[type="checkbox"] {
 </div>   
     <div class="nav-footer-center">
       &nbsp;
-    <div class="toc-actions"><ul><li><a href="https://github.com/nmfs-ost/PAM_towed_array/edit/main/content/sop.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/nmfs-ost/PAM_towed_array/blob/main/content/sop.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/nmfs-ost/PAM_towed_array/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/nmfs-ost/PAM_towed_array/edit/main/content/sop.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/nmfs-ost/PAM_towed_array/blob/main/content/sop.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/nmfs-ost/PAM_towed_array/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
 <p>This page is built with <a href="https://quarto.org/">Quarto</a>.</p>
 </div>
