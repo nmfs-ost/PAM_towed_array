@@ -71,8 +71,6 @@ website:
             contents:
             - href: content/sop/ne/page1.qmd
               text: Sidebar Name 
-            - href: content/sop/ne/NEFSC_Towed-array_Field-Manual.qmd
-              text: NEFSC Towed Manual 
       - section: content/troubleshoot.qmd
         contents: 
           - href: content/xxx.qmd
