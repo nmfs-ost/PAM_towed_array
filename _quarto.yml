@@ -52,7 +52,7 @@ website:
         contents: 
           - href: content/PI_LabSetup_1.qmd
             text: PIFSC Lab Bench
-      - section: content/fieldMethods.qmd
+      - section: content/FieldMethods.qmd
         text: Field Methods
         contents: 
           - href: content/NEFSC_towed_array_manual.qmd
@@ -61,7 +61,7 @@ website:
             text: yyy
           - href: content/Real-time_SpeciesGuides.qmd
             text: Species Guides
-      - section: content/software.qmd
+      - section: content/Software.qmd
         text: Software
         contents: 
           - href: content/xxx.qmd
