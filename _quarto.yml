@@ -46,7 +46,7 @@ website:
             text: Hydrophones
           - href: content/depth.qmd
             text: Depth
-          - href: content/inventory.qmd
+          - href: content/Inventory.qmd
             text: Inventory
       - section: content/lab.qmd
         contents: 
