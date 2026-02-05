@@ -39,7 +39,7 @@ website:
             text: Modular Array
           - href: content/history.qmd
             text: Historical Arrays
-      - section: content/hardware.qmd
+      - section: content/Hardware.qmd
         text: Hardware
         contents: 
           - href: content/hydrophones.qmd
