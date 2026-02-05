@@ -1,0 +1,129 @@
+---
+title: "NEFSC_towed_array_manual"
+author: "Annamaria DeAngelis"
+date: "2025-06-10"
+format: 
+  html:
+    # toc: true
+    # toc-depth: 3
+    # number-sections: true
+---
+
+## PURPOSE {#purpose}
+
+### MAIN GOALS FOR REAL-TIME DATA COLLECTION
+
+-   Get accurate start/end times of all species encounters.
+-   Determine overlap between acoustic groups and visual sightings of delphinids, so that we have acoustic encounters identified to species as often as possible.
+-   Collect group vocal period information for Gervais’ beaked whales (high quality recordings of Gervais’ needed).
+-   Collect high quality recordings of Kogia species and get group vocal period information.
+-   Mark start and ends of sperm whale vocal activity.
+-   Capture the changing environmental conditions/situations.
+
+------------------------------------------------------------------------
+
+## GENERAL DATA COLLECTION PROCEDURE {#general-procedure}
+
+We will be using Pamguard to collect and record data. There is both an aural (sperm whales, some dolphin whistles and clicks), and visual component (spectrogram, click bearing-time display), data entry form, and incoming sightings information on a separate computer, so your attention needs to be diverted amongst multiple screens and incoming information.
+
+-   Please keep in mind that while you will hear sperm whales and dolphin whistles, you often will not hear echolocation – the aural component is to reduce the stress of what to pay attention to on screen.
+-   Sperm whale start/ends can be assessed aurally, and for dolphins, serve more as a cue.
+
+------------------------------------------------------------------------
+
+## START OF CRUISE {#start-of-cruise}
+
+### MAINTAIN LOGGER LOOKUP TABLE
+
+In the steps below, you will be generating a blank database specific to each cruise that will contain all of the information pertaining to the modules in your Pamguard settings file. This blank database however, will not contain the historical record of the field options for the Logger forms. To use those options (and create new ones) requires you to upload the master Logger form into your new database. The master Logger form is `Logger_UDF_20190814_Blank_NEFSC.sqlite3`.
+
+![Logger Form Content Description](images/IMG1.jpg)
+
+-   All tables starting with “UDF” equates to a Logger form that an analyst can fill out to record cruise metadata and detection data.
+-   If there is an “x” preceding “UDF”, it means that form is invisible to Pamguard, but still retained in case you ever need to use it.
+-   Check to make sure that the forms you need for your cruise are active in the Logger file.
+
+#### LOOKUP TABLE
+
+The Lookup table within the `Logger_UDF_20190814_Blank_NEFSC` database contains all the reference material to populate the Logger forms.
+
+| Field | Definition |
+|------------------------------------|------------------------------------|
+| **Id** | Has to be a unique ID number. Please sort this column to see the last number used. |
+| **Topic** | General theme the field relates to (e.g., “Who”, “species”, “cruise number”). |
+| **DisplayOrder** | Order in which the row should show up in the dropdown menu; must be unique within a Topic. |
+| **Code** | Shortened code of the ItemText stored in database tables. |
+| **ItemText** | Human readable short description. |
+| **isSelectable** | Binary 1/0 to let Pamguard know whether to show that row (1) or not (0). |
+
+------------------------------------------------------------------------
+
+## DRY LAB SETUP {#dry-lab-setup}
+
+### Towed Array Order of Connection
+
+-   Tail, End Array, attach to tow cable.
+-   Tow cable and array in full deployed are attached to the deck cable.
+-   Deck cable plugs into the front of the Acoustic Recording System (ARS).
+-   ARS sound cards plug into the Recording and Tracking computers via black USB cables.
+
+### Power and Depth Sensor
+
+-   White power cord at the back of the ARS plugs into ship’s UPS strip.
+-   White USB cable from the back of the ARS plugs into the Recording computer.
+
+------------------------------------------------------------------------
+
+## START OF LEG {#start-of-leg}
+
+### DRY LAB COLD START UP: TOWED ARRAY
+
+1.  Power up Recording and Tracking computers.
+2.  Login to encryption and Admin profiles.
+3.  Update time on computers at beginning of the Leg (UTC).
+4.  **Configuring GPS:** Use serial to USB adapter cables (Keyspan Tripp-Lite).
+
+![Tripp-Lite Serial to USB Adapter](images/IMG2.jpg)
+
+-   Requires driver: `USA-19HS Windows v3.7S`.
+-   Toggle Windows Security "Memory integrity" to **Off** to allow driver installation.
+-   Plug in GPS USB **AFTER** the computer has been restarted to avoid the "jumpy mouse" problem.
+
+### Soundcard and Depth Sensor
+
+-   Install NiDAQ_installer_1551.
+-   Follow the setup wizard and ensure "Always trust software from National Instruments" and "Disable Windows Fast Startup" are checked.
+
+![NI-DAQ Driver Installation 1](images/IMG3.jpg) ![NI-DAQ Driver Installation 2](images/IMG4.jpg)
+
+#### Configuring Depth Sensor in Pamguard
+
+-   Download Instacal to the recording computer.
+-   Apply the Windows 11 fix from MicroDAQ.
+
+![MicroDAQ Windows 11 Fix](images/IMG5.jpg)
+
+-   Ensure the USB-1208LS is recognized in Instacal.
+
+![Instacal Recognition](images/IMG6.jpg)
+
+-   Configure Depth Readout in Pamguard settings.
+
+![Pamguard Depth Configuration 1](images/IMG7.jpg) ![Pamguard Depth Configuration 2](images/IMG8.jpg)
+
+------------------------------------------------------------------------
+
+## TOWED ARRAY: DEPLOYMENT AND RECOVERY {#deployment}
+
+### MORNING
+
+-   Contact Bridge for deck department assistance.
+-   Deploy at speeds between 5-10 knots (5 preferred).
+-   Do not deploy in waters less than 100 meters.
+-   **Safety:** Always wear a life jacket during over-the-side work.
+-   Two people should handle the oil-filled section (at least one acoustician).
+-   Connect lines with carabiners to the Yale grip and secure to aft cleats.
+
+![Yale Grip](images/IMG9.jpg)
+
+![Bigelow Fantail Setup](images/IMG10.jpg)

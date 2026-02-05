@@ -40,6 +40,7 @@ website:
           - href: content/history.qmd
             text: Historical Arrays
       - section: content/hardware.qmd
+        text: Hardware
         contents: 
           - href: content/hydrophones.qmd
             text: Hydrophones
@@ -52,12 +53,16 @@ website:
           - href: content/PI_LabSetup_1.qmd
             text: PIFSC Lab Bench
       - section: content/fieldMethods.qmd
+        text: Field Methods
         contents: 
-          - href: content/xxx.qmd
-            text: xxx
+          - href: content/NEFSC_towed_array_manual.qmd
+            text: NEFSC_test
           - href: content/yyy.qmd
             text: yyy
+          - href: content/Real-time_SpeciesGuides.qmd
+            text: Species Guides
       - section: content/software.qmd
+        text: Software
         contents: 
           - href: content/xxx.qmd
             text: xxx
@@ -65,12 +70,12 @@ website:
             text: yyy
       - section: content/sop.qmd
         contents: 
-          - href: content/xxx.qmd
-            text: xxx
-          - section: content/sop/ne/sop_ne.qmd
-            contents:
-            - href: content/sop/ne/page1.qmd
-              text: Sidebar Name 
+       #   - href: content/xxx.qmd
+        #    text: xxx
+         # - section: content/sop/ne/sop_ne.qmd
+          #  contents:
+           # - href: content/sop/ne/page1.qmd
+            #  text: Sidebar Name 
       - section: content/troubleshoot.qmd
         contents: 
           - href: content/xxx.qmd

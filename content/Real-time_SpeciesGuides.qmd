@@ -1,0 +1,23 @@
+---
+title: "Real-time_SpeciesGuides"
+author: "Annamaria DeAngelis"
+date: "2026-02-05"
+format: html
+---
+
+### Atlantic
+
+(images/Atlantic_Odontocete_decision_tree_2025.png)
+
+This table serves as a visual cheat sheet for classifying acoustic detections in the Atlantic. Match the colors and symbols seen in the Pamguard click detector to the species listed below.
+
+-   [**🞳 Green Star:**]{style="color: #008000;"} **Upsweep between 30-50 kHz** (Beaked whales, Risso’s dolphins)
+-   [**◆ Orange Diamond:**]{style="color: #FFA500;"} **Peak Freq. 2-15 kHz** (Sperm whales, false killer whales)
+-   [**⬣ Red Hexagon:**]{style="color: #FF0000;"} **Peak Freq. 15-30 kHz** (Pilot whales, killer whales, rough-toothed dolphins, common dolphins, and Cuvier’s beaked whales)
+-   [**● Blue Circle:**]{style="color: #0000FF;"} **Peak Freq. 30-50 kHz** (Striped, bottlenose, spinner, and spotted dolphins; beaked whales)
+-   [**■ Yellow Square:**]{style="color: #FFFF00;"} **Peak Freq. 50-80 kHz** (Large groups of dolphins close to the ship)
+-   [**▲ Pink Triangle:**]{style="color: #FFC0CB;"} **Peak Freq. 80-200 kHz** (Kogia)
+
+------------------------------------------------------------------------
+
+### Pacific
