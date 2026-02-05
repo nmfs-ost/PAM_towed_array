@@ -149,7 +149,7 @@
     "section": "",
     "text": "Atlantic\n(images/Atlantic_Odontocete_decision_tree_2025.png)\nThis table serves as a visual cheat sheet for classifying acoustic detections in the Atlantic. Match the colors and symbols seen in the Pamguard click detector to the species listed below.\n\n🞳 Green Star: Upsweep between 30-50 kHz (Beaked whales, Risso’s dolphins)\n◆ Orange Diamond: Peak Freq. 2-15 kHz (Sperm whales, false killer whales)\n⬣ Red Hexagon: Peak Freq. 15-30 kHz (Pilot whales, killer whales, rough-toothed dolphins, common dolphins, and Cuvier’s beaked whales)\n● Blue Circle: Peak Freq. 30-50 kHz (Striped, bottlenose, spinner, and spotted dolphins; beaked whales)\n■ Yellow Square: Peak Freq. 50-80 kHz (Large groups of dolphins close to the ship)\n▲ Pink Triangle: Peak Freq. 80-200 kHz (Kogia)\n\n\n\n\nPacific",
     "crumbs": [
-      "content/fieldMethods.qmd",
+      "Field Methods",
       "Species Guides"
     ]
   },
@@ -187,7 +187,7 @@
     "section": "",
     "text": "Get accurate start/end times of all species encounters.\nDetermine overlap between acoustic groups and visual sightings of delphinids, so that we have acoustic encounters identified to species as often as possible.\nCollect group vocal period information for Gervais’ beaked whales (high quality recordings of Gervais’ needed).\nCollect high quality recordings of Kogia species and get group vocal period information.\nMark start and ends of sperm whale vocal activity.\nCapture the changing environmental conditions/situations.",
     "crumbs": [
-      "content/fieldMethods.qmd",
+      "Field Methods",
       "NEFSC_test"
     ]
   },
@@ -198,7 +198,7 @@
     "section": "",
     "text": "Get accurate start/end times of all species encounters.\nDetermine overlap between acoustic groups and visual sightings of delphinids, so that we have acoustic encounters identified to species as often as possible.\nCollect group vocal period information for Gervais’ beaked whales (high quality recordings of Gervais’ needed).\nCollect high quality recordings of Kogia species and get group vocal period information.\nMark start and ends of sperm whale vocal activity.\nCapture the changing environmental conditions/situations.",
     "crumbs": [
-      "content/fieldMethods.qmd",
+      "Field Methods",
       "NEFSC_test"
     ]
   },
@@ -209,7 +209,7 @@
     "section": "GENERAL DATA COLLECTION PROCEDURE",
     "text": "GENERAL DATA COLLECTION PROCEDURE\nWe will be using Pamguard to collect and record data. There is both an aural (sperm whales, some dolphin whistles and clicks), and visual component (spectrogram, click bearing-time display), data entry form, and incoming sightings information on a separate computer, so your attention needs to be diverted amongst multiple screens and incoming information.\n\nPlease keep in mind that while you will hear sperm whales and dolphin whistles, you often will not hear echolocation – the aural component is to reduce the stress of what to pay attention to on screen.\nSperm whale start/ends can be assessed aurally, and for dolphins, serve more as a cue.",
     "crumbs": [
-      "content/fieldMethods.qmd",
+      "Field Methods",
       "NEFSC_test"
     ]
   },
@@ -220,7 +220,7 @@
     "section": "START OF CRUISE",
     "text": "START OF CRUISE\n\nMAINTAIN LOGGER LOOKUP TABLE\nIn the steps below, you will be generating a blank database specific to each cruise that will contain all of the information pertaining to the modules in your Pamguard settings file. This blank database however, will not contain the historical record of the field options for the Logger forms. To use those options (and create new ones) requires you to upload the master Logger form into your new database. The master Logger form is Logger_UDF_20190814_Blank_NEFSC.sqlite3.\n\n\n\nLogger Form Content Description\n\n\n\nAll tables starting with “UDF” equates to a Logger form that an analyst can fill out to record cruise metadata and detection data.\nIf there is an “x” preceding “UDF”, it means that form is invisible to Pamguard, but still retained in case you ever need to use it.\nCheck to make sure that the forms you need for your cruise are active in the Logger file.\n\n\nLOOKUP TABLE\nThe Lookup table within the Logger_UDF_20190814_Blank_NEFSC database contains all the reference material to populate the Logger forms.\n\n\n\n\n\n\n\nField\nDefinition\n\n\n\n\nId\nHas to be a unique ID number. Please sort this column to see the last number used.\n\n\nTopic\nGeneral theme the field relates to (e.g., “Who”, “species”, “cruise number”).\n\n\nDisplayOrder\nOrder in which the row should show up in the dropdown menu; must be unique within a Topic.\n\n\nCode\nShortened code of the ItemText stored in database tables.\n\n\nItemText\nHuman readable short description.\n\n\nisSelectable\nBinary 1/0 to let Pamguard know whether to show that row (1) or not (0).",
     "crumbs": [
-      "content/fieldMethods.qmd",
+      "Field Methods",
       "NEFSC_test"
     ]
   },
@@ -231,7 +231,7 @@
     "section": "DRY LAB SETUP",
     "text": "DRY LAB SETUP\n\nTowed Array Order of Connection\n\nTail, End Array, attach to tow cable.\nTow cable and array in full deployed are attached to the deck cable.\nDeck cable plugs into the front of the Acoustic Recording System (ARS).\nARS sound cards plug into the Recording and Tracking computers via black USB cables.\n\n\n\nPower and Depth Sensor\n\nWhite power cord at the back of the ARS plugs into ship’s UPS strip.\nWhite USB cable from the back of the ARS plugs into the Recording computer.",
     "crumbs": [
-      "content/fieldMethods.qmd",
+      "Field Methods",
       "NEFSC_test"
     ]
   },
@@ -242,7 +242,7 @@
     "section": "START OF LEG",
     "text": "START OF LEG\n\nDRY LAB COLD START UP: TOWED ARRAY\n\nPower up Recording and Tracking computers.\nLogin to encryption and Admin profiles.\nUpdate time on computers at beginning of the Leg (UTC).\nConfiguring GPS: Use serial to USB adapter cables (Keyspan Tripp-Lite).\n\n\n\n\nTripp-Lite Serial to USB Adapter\n\n\n\nRequires driver: USA-19HS Windows v3.7S.\nToggle Windows Security “Memory integrity” to Off to allow driver installation.\nPlug in GPS USB AFTER the computer has been restarted to avoid the “jumpy mouse” problem.\n\n\n\nSoundcard and Depth Sensor\n\nInstall NiDAQ_installer_1551.\nFollow the setup wizard and ensure “Always trust software from National Instruments” and “Disable Windows Fast Startup” are checked.\n\n \n\nConfiguring Depth Sensor in Pamguard\n\nDownload Instacal to the recording computer.\nApply the Windows 11 fix from MicroDAQ.\n\n\n\n\nMicroDAQ Windows 11 Fix\n\n\n\nEnsure the USB-1208LS is recognized in Instacal.\n\n\n\n\nInstacal Recognition\n\n\n\nConfigure Depth Readout in Pamguard settings.",
     "crumbs": [
-      "content/fieldMethods.qmd",
+      "Field Methods",
       "NEFSC_test"
     ]
   },
@@ -253,7 +253,7 @@
     "section": "TOWED ARRAY: DEPLOYMENT AND RECOVERY",
     "text": "TOWED ARRAY: DEPLOYMENT AND RECOVERY\n\nMORNING\n\nContact Bridge for deck department assistance.\nDeploy at speeds between 5-10 knots (5 preferred).\nDo not deploy in waters less than 100 meters.\nSafety: Always wear a life jacket during over-the-side work.\nTwo people should handle the oil-filled section (at least one acoustician).\nConnect lines with carabiners to the Yale grip and secure to aft cleats.\n\n\n\n\nYale Grip\n\n\n\n\n\nBigelow Fantail Setup",
     "crumbs": [
-      "content/fieldMethods.qmd",
+      "Field Methods",
       "NEFSC_test"
     ]
   },
