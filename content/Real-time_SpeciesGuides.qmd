@@ -7,7 +7,7 @@ format: html
 
 ### Atlantic
 
-(images/Atlantic_Odontocete_decision_tree_2025.png)
+![](images/Atlantic_Odontocete_decision_tree_2025.png){fig-align="center"}
 
 This table serves as a visual cheat sheet for classifying acoustic detections in the Atlantic. Match the colors and symbols seen in the Pamguard click detector to the species listed below.
 
@@ -21,3 +21,7 @@ This table serves as a visual cheat sheet for classifying acoustic detections in
 ------------------------------------------------------------------------
 
 ### Pacific
+
+![](images/Pacific_BeakedWhale_DecisionTree_ICIs.png){fig-align="center"}
+
+![](images/Pacific_BeakedWhale_DecisionTree_Wigners.png){fig-align="center"}

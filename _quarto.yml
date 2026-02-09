@@ -64,8 +64,8 @@ website:
       - section: content/Software.qmd
         text: Software
         contents: 
-          - href: content/xxx.qmd
-            text: xxx
+          - href: content/Pamguard_tips_tricks.qmd
+            text: PAMGuard tips
           - href: content/yyy.qmd
             text: yyy
       - section: content/sop.qmd
