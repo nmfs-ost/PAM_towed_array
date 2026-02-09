@@ -1,0 +1,20 @@
+---
+title: "NEFSC_lab_setup"
+format: html
+---
+
+![](images/PC2501_PAM_Computer_Setup_schematic.jpg){fig-align="center"}
+
+![](images/PC2501_PAM_Computer_Setup_labeled_photo.jpg){fig-align="center"}
+
+**Client laptop**: mirrors flying bridge visual team's computer. To synch to the flying bridge computer, follow these instructions
+
+**Bigelow desktop 1**: has a live map of which trackline we're on (map provided by the Bigelow)
+
+**Bigelow desktop 2**: unused (this is what the visual team will use to offload their photos at the end of the day)
+
+**ITD laptop 1**: primary acoustic tracking computer. Data entry also to be done with this computer. *Needs GPS feed from the ship*
+
+**ITD laptop 2**: recording computer and Kogia tracking computer. *Needs GPS feed from the ship*
+
+**ARS**: analog to digital converter. Connects to the towed array via deck cable

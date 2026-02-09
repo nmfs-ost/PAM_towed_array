@@ -52,11 +52,13 @@ website:
         contents: 
           - href: content/PI_LabSetup_1.qmd
             text: PIFSC Lab Bench
+          - href: content/NEFSC_lab_setup.qmd
+            text: NEFSC Lab Bench
       - section: content/FieldMethods.qmd
         text: Field Methods
         contents: 
           - href: content/NEFSC_towed_array_manual.qmd
-            text: NEFSC_test
+            text: NEFSC
           - href: content/yyy.qmd
             text: yyy
           - href: content/Real-time_SpeciesGuides.qmd
