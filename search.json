@@ -1,68 +1,218 @@
 [
   {
-    "objectID": "content/Hardware.html",
-    "href": "content/Hardware.html",
-    "title": "Hardware",
+    "objectID": "content/NEFSC_lab_setup.html",
+    "href": "content/NEFSC_lab_setup.html",
+    "title": "NEFSC_lab_setup",
     "section": "",
-    "text": "This page is for components (not full arrays)",
+    "text": "Client laptop: mirrors flying bridge visual team’s computer. To synch to the flying bridge computer, follow these instructions\nBigelow desktop 1: has a live map of which trackline we’re on (map provided by the Bigelow)\nBigelow desktop 2: unused (this is what the visual team will use to offload their photos at the end of the day)\nITD laptop 1: primary acoustic tracking computer. Data entry also to be done with this computer. Needs GPS feed from the ship\nITD laptop 2: recording computer and Kogia tracking computer. Needs GPS feed from the ship\nARS: analog to digital converter. Connects to the towed array via deck cable",
     "crumbs": [
-      "Hardware"
+      "Lab Setup",
+      "NEFSC Lab Bench"
     ]
   },
   {
-    "objectID": "content/history.html",
-    "href": "content/history.html",
-    "title": "Historical Array Models",
+    "objectID": "content/PI_LabSetup_1.html",
+    "href": "content/PI_LabSetup_1.html",
+    "title": "PIFSC - Towed Array Lab Setup",
     "section": "",
-    "text": "Southwest Fisheries Science Center initiated towed array research in the late 1990s using solid hydrophone arrays developed by Norris (Santa Barbara). Breakages at sea were common, and Jay Barlow began designing a custom towed hydrophone to provide more control over building and repairing equipment. The first towed hydrophones developed by SWFSC consisted of solid polyeurethane hydrophones molded onto cable (see Construction Guide). These solid hydrophones required a long and robust ‘tail’ to minimize ‘fish-tailing’, and yet damage to internal wires at the front end of the mold were common (this area acted as a ‘joint’, bending and eventually leading to wear on the internal wires). A need for more robust towed arrays with the ability to repair and replace internal components lead to the design of oil-filled towed hydrophone arrays (still in use today).\nLater, SWFSC conducted several efforts to develop a volumetric (tetrahedral) towed hydrophone array to allow for improved real-time localization. Initial efforts led by Jay Barlow led to successful tracking of beaked whales during SoCal Behavioral Response Studies (SoCal BRS), and later collaborations with external organizations via Small Business Innovation Research programs.\nUltimately, the need for real-time detection during surveys off the U.S. West Coast did not justify the resources required and SWFSC conducted their final towed array survey in 2016. All towed array equipment was transferred to other science centers still conducting towed array surveys, and ongoing improvement of towed array systems are being led by our colleagues at PIFSC.",
+    "text": "Acoustic Recording System (ARS) - Schematic\n\n\n\n\n\nHigh Resolution PDF for better zooming found here.",
     "crumbs": [
-      "Array Models",
-      "Historical Arrays"
+      "Lab Setup",
+      "PIFSC Lab Bench"
     ]
   },
   {
-    "objectID": "content/history.html#resources",
-    "href": "content/history.html#resources",
-    "title": "Historical Array Models",
-    "section": "Resources",
-    "text": "Resources\nA guide to constructing hydrophones and hydrophone arrays for monitoring marine mammal vocalizations. 2008. Jay Barlow, Shannon Rankin, Steve Dawson.\nA guide to constructing hydrophone arrays for passive acoustic data collection during NMFS shipboard cetacean surveys. 2013. Shannon Rankin, Jay Barlow, Yvonne Barkley, Robert Valtierra.\nDevelopment and testing of two towed volumetric hydrophone array prototypes to improve localization accuracy during shipboard line-transect surveys. 2016. Yvonne Barkley, Jay Barlow, Shannon Rankin, Geral D’Spain, Erin Oleson.\nDesign of a flooded housing for a towed autonomous hydrophone recording system (NOAA Technical Memorandum NMFS-SWFSC-647). 2021. Jay Barlow. National Oceanic and Atmospheric Administration, U.S. Department of Commerce. 12 pp.\nAn assessment of the accuracy and precision of localization of a stationary sound source using a two-element towed hydrophone array (NOAA Technical Memorandum NMFS-SWFSC-416). 2008. Shannon Rankin, Jay Barlow, Julie Oswald. National Oceanic and Atmospheric Administration, U.S. Department of Commerce. 33 pp.\nAcoustic Recording System: a portable hardware system for shipboard passive acoustic monitoring of cetaceans using a towed hydrophone array (NOAA Administrative Report). 2011. Shannon Rankin, Jay Barlow. National Oceanic and Atmospheric Administration, U.S. Department of Commerce. 8 pp.\nMulti-bank power supply system for small towed hydrophone arrays. (NOAA Technical Memorandum NMFS-SWFSC-544). 2015. Emily Griffiths, J. Scott Ferguson, Erin Oleson, and Shannon Rankin. National Oceanic and Atmospheric Administration, U.S. Department of Commerce. 19 pp.\nDevelopment and testing of two towed volumetric hydrophone array prototypes to improve localization accuracy during shipboard line-transect cetacean surveys (NOAA Technical Memorandum NMFS-PIFSC-49). 2016. Yvonne Barkley, Jay Barlow, Shannon Rankin, Gerald D’Spain, Erin Oleson. National Oceanic and Atmospheric Administration, U.S. Department of Commerce. 42 pp.\nBuilding a Better Array: Developments in towed hydrophone arrays improve identification and localization of cetacean groups.Shannon Rankin, Jay Barlow, Robert Valtierra, and Yvonne Barkley. Poster for DCLDE conference.\nPIFSC Blog: NMFS acousticians collaborate to create new interchangeable hydrophone array systems",
+    "objectID": "content/NEFSC_towed_array_manual.html",
+    "href": "content/NEFSC_towed_array_manual.html",
+    "title": "NEFSC_towed_array_manual",
+    "section": "",
+    "text": "Get accurate start/end times of all species encounters.\nDetermine overlap between acoustic groups and visual sightings of delphinids, so that we have acoustic encounters identified to species as often as possible.\nCollect group vocal period information for Gervais’ beaked whales (high quality recordings of Gervais’ needed).\nCollect high quality recordings of Kogia species and get group vocal period information.\nMark start and ends of sperm whale vocal activity.\nCapture the changing environmental conditions/situations.",
     "crumbs": [
-      "Array Models",
-      "Historical Arrays"
+      "Field Methods",
+      "NEFSC"
     ]
   },
   {
-    "objectID": "content/depth.html",
-    "href": "content/depth.html",
-    "title": "Depth Sensors",
+    "objectID": "content/NEFSC_towed_array_manual.html#purpose",
+    "href": "content/NEFSC_towed_array_manual.html#purpose",
+    "title": "NEFSC_towed_array_manual",
     "section": "",
-    "text": "The depth of an oil-filled array can be measured using a pressure transponder that is submersed in the oil. The pressure in the oil will be the same as the water pressure (this is not true of solid-urethane hydrophones). Use a pressure transponder that measures pressure using a 4-20 milliamp scale (e.g. Keller model # PA7FLE ). When a voltage is applied to the positive wire, the current will be proportional to the depth. The current will be 4 mA at the surface and 20 mA at the maximum rated depth of the transponder (for example 20 Bar or approximately 200 m). You can use a 9v battery and a digital multimeter to measure this current. Because this device uses electronics, you cannot reverse the wires. The positive wire needs to be attached to the positive side of the battery. The current can be translated to depth using a simple formula. For a 20 Bar transponder:\nDepth (m) = [current (mA) * 12.5] - 50.\nNotes: 200 m / 16  = 12.5 meters per mA (16 is the range of mA [20-4].\n            12.5 meters per mA * 4 = 50 (to account for not starting at 0 mA)\nTo display and record depth data on a computer, you need to use an Analog-to-Digital (A/D) converter (e.g. Measurement Computing model # USB-1208LS). This device measures voltage, not current. You can measure the voltage drop over a resistor to measure current if you put a 100 ohm resistor in series with the depth transponder (see figure). Ohm’s law says that the voltage drop (V) over a resistor is equal to the product of the resistance in ohms (R) and the current (I):\nV= I * R\nSo, with a 100 ohm resistor, voltage will be 100 times the current in amps. The equation for depth is therefore:\nDepth (m) = [voltage (V) * 125] - 50.\nThe Measurement Computing 1208LS can be used in single-ended (grounded) or differential mode. The latter measures the voltage difference between the two pins but does not ground one of the pins. This is less likely to introduce noise from the computer or the A/D device itself into the array cable. You can change this setting with the Instacalc software included with the 1208LS. You can also set the voltage range to give the best resolution using PamGuard’s depth setup window or Logger’s database. Voltage across the resistor will not exceed 2 volts, so you can chose the +/- 2.5V scale.\n\n\n\nThe depth of an oil-filled array can be measured using a pressure transponder that is submersed in the oil. The pressure in the oil will be the same as the water pressure (this is not true of solid-urethane hydrophones). Use a pressure transponder that measures pressure using a 4-20 milliamp scale (e.g. Honeywell model # PX2EN1XX200PSCHX ). When a voltage is applied to the positive wire, the current will be proportional to the depth. The current will be 4 mA at the surface and 20 mA at the maximum rated depth of the transponder (in this case, 200 psi or 13.79 Bar, or approximately 137.3 m). You can use a 9v battery and a digital multimeter to measure this current. Because this device uses electronics, you cannot reverse the wires. The positive wire needs to be attached to the positive side of the battery. The current can be translated to depth using a simple formula. For a 13.79 Bar transponder:\nDepth (m) = [current (mA) * 8.6] – 34.4.\nNotes: 137.3 m / 16 = 8.6 meters per mA (16 is the range of mA [20-4].\n            8.6 meters per mA * 4 = 34.4 (to account for not starting at 0 mA)\nTo display and record depth data on a computer, you need to use an Analog-to-Digital (A/D) converter (e.g. Measurement Computing model # USB-1208LS). This device measures voltage, not current. You can measure the voltage drop over a resistor to measure current if you put a 100 ohm resistor in series with the depth transponder (see figure). Ohm’s law says that the voltage drop (V) over a resistor is equal to the product of the resistance in ohms (R) and the current (I):\nV= I * R\nSo, with a 100 ohm resistor, voltage will be 100 times the current in amps. The equation for depth is therefore:\nDepth (m) = [voltage (V) * 86] – 34.4.\nThe Measurement Computing 1208LS can be used in single-ended (grounded) or differential mode. The latter measures the voltage difference between the two pins but does not ground one of the pins. This is less likely to introduce noise from the computer or the A/D device itself into the array cable. You can change this setting with the Instacalc software included with the 1208LS. You can also set the voltage range to give the best resolution using PamGuard’s depth setup window or Logger’s database. Voltage across the resistor will not exceed 2 volts, so you can chose the +/- 2.5V scale.",
+    "text": "Get accurate start/end times of all species encounters.\nDetermine overlap between acoustic groups and visual sightings of delphinids, so that we have acoustic encounters identified to species as often as possible.\nCollect group vocal period information for Gervais’ beaked whales (high quality recordings of Gervais’ needed).\nCollect high quality recordings of Kogia species and get group vocal period information.\nMark start and ends of sperm whale vocal activity.\nCapture the changing environmental conditions/situations.",
     "crumbs": [
-      "Hardware",
-      "Depth"
+      "Field Methods",
+      "NEFSC"
     ]
   },
   {
-    "objectID": "content/depth.html#kellar",
-    "href": "content/depth.html#kellar",
-    "title": "Depth Sensors",
-    "section": "",
-    "text": "The depth of an oil-filled array can be measured using a pressure transponder that is submersed in the oil. The pressure in the oil will be the same as the water pressure (this is not true of solid-urethane hydrophones). Use a pressure transponder that measures pressure using a 4-20 milliamp scale (e.g. Keller model # PA7FLE ). When a voltage is applied to the positive wire, the current will be proportional to the depth. The current will be 4 mA at the surface and 20 mA at the maximum rated depth of the transponder (for example 20 Bar or approximately 200 m). You can use a 9v battery and a digital multimeter to measure this current. Because this device uses electronics, you cannot reverse the wires. The positive wire needs to be attached to the positive side of the battery. The current can be translated to depth using a simple formula. For a 20 Bar transponder:\nDepth (m) = [current (mA) * 12.5] - 50.\nNotes: 200 m / 16  = 12.5 meters per mA (16 is the range of mA [20-4].\n            12.5 meters per mA * 4 = 50 (to account for not starting at 0 mA)\nTo display and record depth data on a computer, you need to use an Analog-to-Digital (A/D) converter (e.g. Measurement Computing model # USB-1208LS). This device measures voltage, not current. You can measure the voltage drop over a resistor to measure current if you put a 100 ohm resistor in series with the depth transponder (see figure). Ohm’s law says that the voltage drop (V) over a resistor is equal to the product of the resistance in ohms (R) and the current (I):\nV= I * R\nSo, with a 100 ohm resistor, voltage will be 100 times the current in amps. The equation for depth is therefore:\nDepth (m) = [voltage (V) * 125] - 50.\nThe Measurement Computing 1208LS can be used in single-ended (grounded) or differential mode. The latter measures the voltage difference between the two pins but does not ground one of the pins. This is less likely to introduce noise from the computer or the A/D device itself into the array cable. You can change this setting with the Instacalc software included with the 1208LS. You can also set the voltage range to give the best resolution using PamGuard’s depth setup window or Logger’s database. Voltage across the resistor will not exceed 2 volts, so you can chose the +/- 2.5V scale.",
+    "objectID": "content/NEFSC_towed_array_manual.html#general-procedure",
+    "href": "content/NEFSC_towed_array_manual.html#general-procedure",
+    "title": "NEFSC_towed_array_manual",
+    "section": "GENERAL DATA COLLECTION PROCEDURE",
+    "text": "GENERAL DATA COLLECTION PROCEDURE\nWe will be using Pamguard to collect and record data. There is both an aural (sperm whales, some dolphin whistles and clicks), and visual component (spectrogram, click bearing-time display), data entry form, and incoming sightings information on a separate computer, so your attention needs to be diverted amongst multiple screens and incoming information.\n\nPlease keep in mind that while you will hear sperm whales and dolphin whistles, you often will not hear echolocation – the aural component is to reduce the stress of what to pay attention to on screen.\nSperm whale start/ends can be assessed aurally, and for dolphins, serve more as a cue.",
     "crumbs": [
-      "Hardware",
-      "Depth"
+      "Field Methods",
+      "NEFSC"
     ]
   },
   {
-    "objectID": "content/depth.html#honeywell",
-    "href": "content/depth.html#honeywell",
-    "title": "Depth Sensors",
-    "section": "",
-    "text": "The depth of an oil-filled array can be measured using a pressure transponder that is submersed in the oil. The pressure in the oil will be the same as the water pressure (this is not true of solid-urethane hydrophones). Use a pressure transponder that measures pressure using a 4-20 milliamp scale (e.g. Honeywell model # PX2EN1XX200PSCHX ). When a voltage is applied to the positive wire, the current will be proportional to the depth. The current will be 4 mA at the surface and 20 mA at the maximum rated depth of the transponder (in this case, 200 psi or 13.79 Bar, or approximately 137.3 m). You can use a 9v battery and a digital multimeter to measure this current. Because this device uses electronics, you cannot reverse the wires. The positive wire needs to be attached to the positive side of the battery. The current can be translated to depth using a simple formula. For a 13.79 Bar transponder:\nDepth (m) = [current (mA) * 8.6] – 34.4.\nNotes: 137.3 m / 16 = 8.6 meters per mA (16 is the range of mA [20-4].\n            8.6 meters per mA * 4 = 34.4 (to account for not starting at 0 mA)\nTo display and record depth data on a computer, you need to use an Analog-to-Digital (A/D) converter (e.g. Measurement Computing model # USB-1208LS). This device measures voltage, not current. You can measure the voltage drop over a resistor to measure current if you put a 100 ohm resistor in series with the depth transponder (see figure). Ohm’s law says that the voltage drop (V) over a resistor is equal to the product of the resistance in ohms (R) and the current (I):\nV= I * R\nSo, with a 100 ohm resistor, voltage will be 100 times the current in amps. The equation for depth is therefore:\nDepth (m) = [voltage (V) * 86] – 34.4.\nThe Measurement Computing 1208LS can be used in single-ended (grounded) or differential mode. The latter measures the voltage difference between the two pins but does not ground one of the pins. This is less likely to introduce noise from the computer or the A/D device itself into the array cable. You can change this setting with the Instacalc software included with the 1208LS. You can also set the voltage range to give the best resolution using PamGuard’s depth setup window or Logger’s database. Voltage across the resistor will not exceed 2 volts, so you can chose the +/- 2.5V scale.",
+    "objectID": "content/NEFSC_towed_array_manual.html#start-of-cruise",
+    "href": "content/NEFSC_towed_array_manual.html#start-of-cruise",
+    "title": "NEFSC_towed_array_manual",
+    "section": "START OF CRUISE",
+    "text": "START OF CRUISE\n\nMAINTAIN LOGGER LOOKUP TABLE\nIn the steps below, you will be generating a blank database specific to each cruise that will contain all of the information pertaining to the modules in your Pamguard settings file. This blank database however, will not contain the historical record of the field options for the Logger forms. To use those options (and create new ones) requires you to upload the master Logger form into your new database. The master Logger form is Logger_UDF_20190814_Blank_NEFSC.sqlite3.\n\n\n\nLogger Form Content Description\n\n\n\nAll tables starting with “UDF” equates to a Logger form that an analyst can fill out to record cruise metadata and detection data.\nIf there is an “x” preceding “UDF”, it means that form is invisible to Pamguard, but still retained in case you ever need to use it.\nCheck to make sure that the forms you need for your cruise are active in the Logger file.\n\n\nLOOKUP TABLE\nThe Lookup table within the Logger_UDF_20190814_Blank_NEFSC database contains all the reference material to populate the Logger forms.\n\n\n\n\n\n\n\nField\nDefinition\n\n\n\n\nId\nHas to be a unique ID number. Please sort this column to see the last number used.\n\n\nTopic\nGeneral theme the field relates to (e.g., “Who”, “species”, “cruise number”).\n\n\nDisplayOrder\nOrder in which the row should show up in the dropdown menu; must be unique within a Topic.\n\n\nCode\nShortened code of the ItemText stored in database tables.\n\n\nItemText\nHuman readable short description.\n\n\nisSelectable\nBinary 1/0 to let Pamguard know whether to show that row (1) or not (0).",
     "crumbs": [
-      "Hardware",
-      "Depth"
+      "Field Methods",
+      "NEFSC"
     ]
+  },
+  {
+    "objectID": "content/NEFSC_towed_array_manual.html#dry-lab-setup",
+    "href": "content/NEFSC_towed_array_manual.html#dry-lab-setup",
+    "title": "NEFSC_towed_array_manual",
+    "section": "DRY LAB SETUP",
+    "text": "DRY LAB SETUP\n\nTowed Array Order of Connection\n\nTail, End Array, attach to tow cable.\nTow cable and array in full deployed are attached to the deck cable.\nDeck cable plugs into the front of the Acoustic Recording System (ARS).\nARS sound cards plug into the Recording and Tracking computers via black USB cables.\n\n\n\nPower and Depth Sensor\n\nWhite power cord at the back of the ARS plugs into ship’s UPS strip.\nWhite USB cable from the back of the ARS plugs into the Recording computer.",
+    "crumbs": [
+      "Field Methods",
+      "NEFSC"
+    ]
+  },
+  {
+    "objectID": "content/NEFSC_towed_array_manual.html#start-of-leg",
+    "href": "content/NEFSC_towed_array_manual.html#start-of-leg",
+    "title": "NEFSC_towed_array_manual",
+    "section": "START OF LEG",
+    "text": "START OF LEG\n\nDRY LAB COLD START UP: TOWED ARRAY\n\nPower up Recording and Tracking computers.\nLogin to encryption and Admin profiles.\nUpdate time on computers at beginning of the Leg (UTC).\nConfiguring GPS: Use serial to USB adapter cables (Keyspan Tripp-Lite).\n\n\n\n\nTripp-Lite Serial to USB Adapter\n\n\n\nRequires driver: USA-19HS Windows v3.7S.\nToggle Windows Security “Memory integrity” to Off to allow driver installation.\nPlug in GPS USB AFTER the computer has been restarted to avoid the “jumpy mouse” problem.\n\n\n\nSoundcard and Depth Sensor\n\nInstall NiDAQ_installer_1551.\nFollow the setup wizard and ensure “Always trust software from National Instruments” and “Disable Windows Fast Startup” are checked.\n\n \n\nConfiguring Depth Sensor in Pamguard\n\nDownload Instacal to the recording computer.\nApply the Windows 11 fix from MicroDAQ.\n\n\n\n\nMicroDAQ Windows 11 Fix\n\n\n\nEnsure the USB-1208LS is recognized in Instacal.\n\n\n\n\nInstacal Recognition\n\n\n\nConfigure Depth Readout in Pamguard settings.",
+    "crumbs": [
+      "Field Methods",
+      "NEFSC"
+    ]
+  },
+  {
+    "objectID": "content/NEFSC_towed_array_manual.html#deployment",
+    "href": "content/NEFSC_towed_array_manual.html#deployment",
+    "title": "NEFSC_towed_array_manual",
+    "section": "TOWED ARRAY: DEPLOYMENT AND RECOVERY",
+    "text": "TOWED ARRAY: DEPLOYMENT AND RECOVERY\n\nMORNING\n\nContact Bridge for deck department assistance.\nDeploy at speeds between 5-10 knots (5 preferred).\nDo not deploy in waters less than 100 meters.\nSafety: Always wear a life jacket during over-the-side work.\nTwo people should handle the oil-filled section (at least one acoustician).\nConnect lines with carabiners to the Yale grip and secure to aft cleats.\n\n\n\n\nYale Grip\n\n\n\n\n\nBigelow Fantail Setup",
+    "crumbs": [
+      "Field Methods",
+      "NEFSC"
+    ]
+  },
+  {
+    "objectID": "content/sop/ne/page1.html",
+    "href": "content/sop/ne/page1.html",
+    "title": "page1",
+    "section": "",
+    "text": "Change name of this file. Lower left of RStudio, Files-&gt; PAM_towed_array/content/sop/ne, then click on box next to ‘page1.qmd’… then click on ‘More’ and rename to a name that suits you. Suggestion: Use the minimum wording needed for clarity, use lowercase and “_” and absolutely NO other symbols. Save.\nOpen quarto.yml (in root directory of PAM_towed_array), scroll down to find the ‘page1.qmd’ and change the name to your new filename. Change the name you wan to see on the left-hand sidebar (should be short but informative name). Save.\nBack to your new file… Remove this blurb, and then copy/paste in your relevant info. Don’t worry about it being perfect, but if you use the ‘Visual’ approach in RStudio (top left window), then you can easily add bullets, headers, bold, italics, links, and images. Save and render locally to see if your changes worked.\nImages? make sure any of your images have are thoughtfully named (only “_”, avoid other symbols, and maybe add ‘ne’ if they are for your SOP)."
+  },
+  {
+    "objectID": "content/sop/ne/page1.html#sop-ne-landing-page",
+    "href": "content/sop/ne/page1.html#sop-ne-landing-page",
+    "title": "page1",
+    "section": "SOP-NE Landing Page",
+    "text": "SOP-NE Landing Page\n\nOpen sop_ne.qmd and change that page to reflect what you’d like to see on your SOP ‘landing page’."
+  },
+  {
+    "objectID": "content/sop/ne/page1.html#add-a-new-page",
+    "href": "content/sop/ne/page1.html#add-a-new-page",
+    "title": "page1",
+    "section": "Add a New Page",
+    "text": "Add a New Page\n\nGo back to Files (lower right on RStudio), navigate to your sop/ne folder. Click ‘New File’ and select a quarto document (*.qmd). Name it and then enter in your info.\nGo to the _quarty.yml and add that page to the structure. If you are unsure how to do it, or have problems… then you can comment out that line in the yaml (#) so that it hopefully will not mess up your rendering."
+  },
+  {
+    "objectID": "content/sop/ne/page1.html#help",
+    "href": "content/sop/ne/page1.html#help",
+    "title": "page1",
+    "section": "Help",
+    "text": "Help\nPAM Open Science Site"
+  },
+  {
+    "objectID": "content/sop.html",
+    "href": "content/sop.html",
+    "title": "Platform SOP",
+    "section": "",
+    "text": "Tracking animals will be done primarily through the click detector. Once you see a click train (3-5 consecutive clicks along the same bearing), start a detection in the Detection tab. Hit F1 to enter the time & date. Hit F1 to enter the Lat/long. Enter the Acoustic ID # along with at least the initial bearing angle. You can fill out the other fields as the event goes on. There are 3 Detection tabs so that you can track 3 things at once. You can also use the TD tab to localize whistles.\n\nFor encounters in which there are both bearings from the whistles and clicks, you can merge them into one event by going to the map, holding down CTRL + left click and select “Assign X bearings to UID#”. You should then see both the whistle and click bearings as the same color. You may need to repeat this step over the course of the encounter.\n\nA mark should be placed at the start position on the trackline of the initial bearing location- clicks don’t stay on the map for long, the markers will last longer. Double click the spot on the map to enter “start of A#- [species]”\nMeasuring the perpendicular distance from the ship’s track to the marked location can be done in the Map tab, by double-clicking next to the map comment and click + hold to the convergences (note: if you happen to select the pixel the map comment is on Pamguard won’t draw the measuring line). If you have R and L locations, measure on both sides of the ship’s track and take the average distance (this will be the beam distance). If you only have one location, take all measurements from the trackline to that location. Also measure the distance from the ship’s track along the first angle plotted that converged at the location (the first detection distance).\nCan you tie this detection to a visual sighting?? If so, be sure to record the visual ID, and any other info from the visual team in the comments field (time, bearing, distance, species ID, etc.).\n\nUse the Visual to Array Angle module and the incoming information from the flying bridge to do so\n\nFor marking the end of a detection, follow these general guidelines\n\nSperm whales: until 5 min have passed where no clicks are detected (can feel free to press F1 prior to this but keep the detection tab open for another 5 min)\nBeaked whales: get an end time when 1 minute has passed without clicks. You will probably need to press F1 a few times as the clicks come back (thus constantly updating the end time)\nDolphins: if it’s just clicks, the end time is within 30s of the last click train. If it’s whistles and clicks, keep the detection open for up to 2 min after the last whistle. It’s common for whistle presence to come in and out\n\nClick “Save” to save this detection to the database.\n\nIf you end the encounter prematurely, you can double click on the row below the form to make any changes. Note that the F1 features do not work in this view. If the encounter’s row is not visible, you can make a comment using an asterisk (*) in the User Input for later modification during the QAQC process.\n\nLook/listen for new groups. Continue to check bearings to sounds. Sometimes you will pick up a new group ahead of the ship while you are still hearing a group behind the ship.  Start a new Acoustic ID when another group is detected.  If a second group is detected before you have stored the info about the first group, you can save the first group and start a new group, then go back and edit the info for the 1st group when time allows.  Make note if long periods occur with no acoustic activity (i.e. “AQ”).\n\n&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD For further details, please refer to the [movie link- TBD]",
+    "crumbs": [
+      "Platform SOP"
+    ]
+  },
+  {
+    "objectID": "content/sop.html#data-qaqc-backup",
+    "href": "content/sop.html#data-qaqc-backup",
+    "title": "Platform SOP",
+    "section": "DATA QAQC & BACKUP",
+    "text": "DATA QAQC & BACKUP\n\nTracking Computer\n\nClean up edits at the end of each day\n\nOpen SQLiteStudio from the task bar (silver icon)\nLook at tables for current cruise Leg\nTables to check are Detection (1,2,3), Effort, Sperm whale, UserInput, Map comments\n\nOpen table (double click), then select the Data tab\nScroll to bottom and/or advance page to end for latest data entries\nDetection (1,2,3): Use notepad ID numbers to check AC_ID count and all relevant fields. Where localizations were impossible, the entry should have NA\nSperm whale: should have at a minimum a start and end time, start and end lat/lon, click types heard/seen, and estimate of number of animals in the comments field\nTo edit a field - double click and it will turn blue, click once more in the field, then the cursor will appear and you can edit. Click on the GREEN check box to commit the edit. Click the RED X if you want to restore the field to its original value.\nR-Click on lower bar and select Close all windows\n\nMake sure all fields are filled in and Acoustic ID numbers have not been skipped\n* in front of any comment signifies a correction is needed\n\nAdd (DONE) to the beginning of all * fields that have been corrected\n\n\nInsert NEFSC_48 hard drive into computer\nGo to E:\\AMAPPS 2025 Backup\\Pamguard_Binaries_Databases\n\nMake copies of the day’s database with the date (ex. NEFSC_NE-OFFSHORE_20250110_PC2501_Leg1_Tracking.sqlite3)\nCopy the days Binary files, and Database to Acoustics NEFSC_48 hard drive under the respective computer’s folder\n\nUpdate daily summary of acoustic detections NEFSC_NE-OFFSHORE_202501_PC2501_Acoustic-Detection-Summary\n\nBackup to the external hard-drive under Cruise_Summary\n\nUpdate daily notes in the cruise log PC2505_Leg#_PAM_Cruise_Log \n\nBackup to the external hard-drive under Cruise_Summary\n\nSave daily print screen power point \n\nBackup to the external hard-drive under Daily_Printscreens\n\n\n\n\nRecording Computer\n\nGo to E:\\AMAPPS 2025 Backup\\Pamguard_Binaries_Databases\n\nMake copies of the day’s database with the date (ex. NEFSC_NE-OFFSHORE_20250110_PC2501_Leg1_Tracking.sqlite3)\nCopy the days Binary files, and Database to Acoustics NEFSC_48 hard drive under the respective computer’s folder\n\n\nTerraMaster\n\nCheck that the internal hard drive has enough space for the next day; change drives if they will run out of space.\n\n\nThis will need to be moved to a NEFSC protocol section",
+    "crumbs": [
+      "Platform SOP"
+    ]
+  },
+  {
+    "objectID": "content/sop.html#active-acoustics",
+    "href": "content/sop.html#active-acoustics",
+    "title": "Platform SOP",
+    "section": "ACTIVE ACOUSTICS",
+    "text": "ACTIVE ACOUSTICS\nAn active acoustic system (e.g. EK80/echosounder) will be alternated between “ON/ACTIVE” (1200 – 0700) and “OFF/PASSIVE MODE” (0700 – 1200) daily. This is because beaked whales exhibit an acoustic response to echosounders thus we need to balance collecting passive acoustic information on beaked whales, with the need to collect prey layer data from the echosounder, which has been found to be a useful covariate in some species models. The survey technician on board is responsible for changing the echosounder state, however, it is your responsibility to VERIFY that the EK80 has been turned to passive mode based on the proposed schedule. If it has not, find the survey tech and kindly ask them to turn it off.\n If you cannot find the survey tech, contact the bridge and ask for them, if that doesn’t work:\n\nOn the Pisces, the EK80 controls are in the acoustics lab toward the galley. To change the status of the echosounder, select “Normal operation” button on the right. Under “Mode” select “Passive” for all echosounder rows. Click “Apply” and “Ok”. This sets the echosounder settings to “OFF”.\nClick the sound icon to the right of the “Ping” button to stop transmission.\nRemember to turn the echosounder back on at 1130 by doing the inverse steps.",
+    "crumbs": [
+      "Platform SOP"
+    ]
+  },
+  {
+    "objectID": "content/sop.html#array-care",
+    "href": "content/sop.html#array-care",
+    "title": "Platform SOP",
+    "section": "ARRAY CARE",
+    "text": "ARRAY CARE\n\nWash the array and tow cable with a hose (not on high power)\nRemove all tape from the connector connecting the array to the tow cable as well as at the tail. Remove the tail\nBring the array to the wet lab and begin array spa\n\nUsing a q-tip and alcohol, clean out any salt/water inside the connectors\nCan also use canned air\n\nTry not to spray it directly on the o-ring so that it doesn’t become brittle\n\nLook for corrosion and be sure to remove it\nDo not bend the pins\nClean the caps as well, removing all salt residue\nFor a demonstration of this process, please refer to Acoustics_CleaningArray.mov\n\nOnce dry, secure it in its pelican case\nBe sure to also clean the connectors connecting the tow cable to the deck cable in the same manner\n\nRinse off any part of the deck cable that was exposed to the elements\n\nSpool the tow cable onto the wooden drum using two jackstands and a pipe\n\nMake sure both connector ends are visible/easy to access",
+    "crumbs": [
+      "Platform SOP"
+    ]
+  },
+  {
+    "objectID": "content/sop.html#towed-array-logger-forms",
+    "href": "content/sop.html#towed-array-logger-forms",
+    "title": "Platform SOP",
+    "section": "TOWED ARRAY: LOGGER FORMS",
+    "text": "TOWED ARRAY: LOGGER FORMS\n\nOverall NOTES:\n\n Make sure that Function keys are locked ON\n\nHold “fn” key and press “Esc” to activate\nImportant on newer computers\n\nAlways fill out Date/Time on each sheet\n\nARS\n\n\nFill out at start of each Leg and then only if something changes in the Leg\nAcoustic Recording System\n\nSettings that impact the entire ARS\n\nGPS Unit: Shipboard GPS\nLeave rest blank\n\n\nRecorder 1 (Recording)\n\nSettings for each system\n\nComputer - Recorder computer\nSound Card - NiDAQ\nSampling Rate - 500000 Hz\nHigh pass - 1000 Hz\nFill out each channel and the dB level assigned within PAMGuard module Sound Acquisition (Toolbar: Settings -&gt; Sound Acquisition)\n\n\nRecorder 2 (Tracking)\n\nSettings for each system\n\nComputer - Tracking\nSound Card - NiDAQ\nSampling Rate - 250000 Hz (There is a decimator in place)\nHigh pass - 2000 Hz\nFill out each channel and the dB level assigned within PAMGuard module Sound Acquisition (Toolbar: Settings -&gt; Sound Acquisition)\n\n\nClick SAVE\n\nArray\n\n\nFill out at start of each leg and then only if something changes in the Leg\n\nArray Weight: 30 lbs\nArray Name 1 - Echidna array selected\nSeparator - 0 m\nArray Name 2 – leave blank\nLeave rest blank\nClick SAVE\n\n\nDeploy (not used)\n\n\n\nDetection (1,2,3)\n\n\nThere can be up to 3 active detections at one time using the forms\n\nIf all you are is waiting on an End Time to close the detection and another form is needed, then Save the entry and put the End Time in the Comments Tab (ex: *End Time AC2 06/19/2023 12:12:12)\nAll acoustic detection distances should be reported in meters\nTo save the detection there must be a minimum of 3 signals (clicks or whistles) and at a minimum record the initial bearing angle.\n\nIf never detected, write a note in the comments field that the encounter was “untraceable”\n\n\n\nIf minimum is not met make a comment in the log with what was heard and when\n\nTo signify a new group: incoming bearings must be at a smaller angle than the current group’s bearings you are tracking & the original group must be behind 90 degrees (this is because there are lots of individuals/subgroups and can be spread out)\n\nEg: you are tracking a group and they are at 108 degrees +/- 10 degrees. New clicks come in at 20 degrees. These new clicks would belong to a new group\n\n\n\nFor the following fields, underline= required field\n\n\nStartTime Date: Start of detection (auto fill using F1, but correct the time to the initial click or whistle detected on the tracking computer) by either clicking on the click in the T-B plot and reading the time off the waveform, or hovering over the end of the bearing line drawn on the map\nEndTime Date: Last signal (click or whistle) detected (auto fill using F1, but correct the time to the last click or whistle detected on the tracking computer) using the same methodology as in 5.c.i\nLocation: Autofill with F1 within 2 minutes of start time\n\nIf there has been more than 2 minutes from the StartTime to filling in the field then place this comment in the Detection’s comment box (*Edit Lat/Lon to StartTime). If you’ve made a map comment for the start of the event, you can get that value in data QAQC (*see map comment for position of A1)\n\nAcoustic ID: Start with 1 at beginning of cruise and continue counting until end of the project (do NOT start over each Leg)\nVisual ID: Sighting ID number from Visual time that matches current detection\n\nIf never seen, leave blank\n\n\n\nInitial Angle: First angle detected from either a click or whistle\nInitial Distance: Location at start of localization\n\nIf never localized then fill in NA for units\n\nBeam Distance: Perpendicular distance from the beam (90 degrees) of the array to the first subgroup of animals\n\nWith timestamp\nIf never localized then fill in NA for units\n\nDetection Distance: Greatest distance animals were detected from the array. That can be the same as Initial or Beam distance.\n\nIf never localized then fill in NA for units\n\nLocalization Method: If any of the distances were measured then select Pamguard, otherwise NA.\nVocals detected: Select as many vocal types that were present at any point throughout the detection (order does not matter)\nDetection Type: Acoustics or Both. Never use Visual as an option for this field. All Visual only sightings can be recorded in the User input.\nFirst Detection: Acoustics, Visual, or Both (Whomever’s start time is earliest). \nMethod: Acoustic Technician\nSpecies Code 1: Select species acoustics detects and fill out 2 & 3 if needed.\nAdditional Method fields are to be filled out if Visuals has a species ID. They don’t have to match acoustics. Example: Visuals has Unid. beaked whale, but Acoustics detects Cuvier’s beaked whales. OR Visuals has sperm whales and Acoustics detects sperm whales & Unid. dolphins.\nComments: Any additional information of note from the detection. If the field is filled then add additional information in the User input. Add the UID number so we can match the PAMGuard annotations to the Acoustic ID later\n\nClick SAVE\n\nEffort\n\n\nFill out at every shift change and/or change in effort status\n\nStartTime Date: auto fill using F1\nCruise Number: e.g. PC2501\nTrackline ID: Leave empty if off the trackline, fill in the trackline number if on effort and on track\nAcousticians: Those present in the chairs. The first one is the person on effort, the second one is for the standby acoustician\nEffort\n\nAcoustic: ON when acousticians are monitoring the recordings\nVisual: ON when members of the Visual team are on the flying bridge (or bridge) regardless of their effort status. Make a comment if they are on weather watch (PIFSC surveys, for NEFSC the chief sci does this)\nRecording: ON when data is being collected\nOther effort: echosounder status (ON/OFF)\n\nReal-time Monitoring: Select the channels being monitored on the tracking computer\nSound speed: enter the soundspeed from the most recent bongo\nSea state: if an observer is in the dry lab ask them, otherwise determine it yourself\nLeave the rest blank\n\n\n\nClick SAVE\n\n\nSperm whale (NEFSC only)\n\n\nStart/End Time\nStart/End latitude and longitude\nID (46-Sperm Whale) and ID type (acoustic tech, visual, or both) \nCall type detected (Usual, Coda, etc)\nLocalization not required, but feel free to practice if clicks registering on detector and nothing else is happening (NEFSC only).  \nComments should contain a rough estimate of how many sperm whales are in the event\n\nPlayback (NEFSC only)\n1. Refer to Appendix III link\nFor further details, please refer to the Video &gt;&gt;&gt;&gt;&gt;&gt;&gt; parent of 17286fc (Added Data QAQC, Array care, Logger forms, and active acoustics section from NEFSC manual)",
+    "crumbs": [
+      "Platform SOP"
+    ]
+  },
+  {
+    "objectID": "content/Real-time_SpeciesGuides.html",
+    "href": "content/Real-time_SpeciesGuides.html",
+    "title": "Real-time_SpeciesGuides",
+    "section": "",
+    "text": "Atlantic\n\n\n\n\n\nThis table serves as a visual cheat sheet for classifying acoustic detections in the Atlantic. Match the colors and symbols seen in the Pamguard click detector to the species listed below.\n\n🞳 Green Star: Upsweep between 30-50 kHz (Beaked whales, Risso’s dolphins)\n◆ Orange Diamond: Peak Freq. 2-15 kHz (Sperm whales, false killer whales)\n⬣ Red Hexagon: Peak Freq. 15-30 kHz (Pilot whales, killer whales, rough-toothed dolphins, common dolphins, and Cuvier’s beaked whales)\n● Blue Circle: Peak Freq. 30-50 kHz (Striped, bottlenose, spinner, and spotted dolphins; beaked whales)\n■ Yellow Square: Peak Freq. 50-80 kHz (Large groups of dolphins close to the ship)\n▲ Pink Triangle: Peak Freq. 80-200 kHz (Kogia)\n\n\n\n\nPacific",
+    "crumbs": [
+      "Field Methods",
+      "Species Guides"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "NOAA Fisheries Passive Acoustic Towed Arrays",
+    "section": "",
+    "text": "Array Models\nHardware\nLab Setup\nField Methods\nSoftware\nPlatform SOPs\nTroubleshooting",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#towed-hydrophone-arrays",
+    "href": "index.html#towed-hydrophone-arrays",
+    "title": "NOAA Fisheries Passive Acoustic Towed Arrays",
+    "section": "",
+    "text": "Array Models\nHardware\nLab Setup\nField Methods\nSoftware\nPlatform SOPs\nTroubleshooting",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "content/sop/ne/sop_ne.html",
+    "href": "content/sop/ne/sop_ne.html",
+    "title": "NEFSC Towed Array SOP",
+    "section": "",
+    "text": "This serves as a landing page for the NEFSC Towed Array SOP You can put an intro here, or links to the different sections, or whatever you want.\nI find it is good to have a first landing page for a section, but it is not required. Change this info as it suits you (or delete)."
   },
   {
     "objectID": "content/Pamguard_tips_tricks.html",
@@ -208,207 +358,68 @@
     ]
   },
   {
-    "objectID": "content/sop/ne/sop_ne.html",
-    "href": "content/sop/ne/sop_ne.html",
-    "title": "NEFSC Towed Array SOP",
+    "objectID": "content/depth.html",
+    "href": "content/depth.html",
+    "title": "Depth Sensors",
     "section": "",
-    "text": "This serves as a landing page for the NEFSC Towed Array SOP You can put an intro here, or links to the different sections, or whatever you want.\nI find it is good to have a first landing page for a section, but it is not required. Change this info as it suits you (or delete)."
+    "text": "The depth of an oil-filled array can be measured using a pressure transponder that is submersed in the oil. The pressure in the oil will be the same as the water pressure (this is not true of solid-urethane hydrophones). Use a pressure transponder that measures pressure using a 4-20 milliamp scale (e.g. Keller model # PA7FLE ). When a voltage is applied to the positive wire, the current will be proportional to the depth. The current will be 4 mA at the surface and 20 mA at the maximum rated depth of the transponder (for example 20 Bar or approximately 200 m). You can use a 9v battery and a digital multimeter to measure this current. Because this device uses electronics, you cannot reverse the wires. The positive wire needs to be attached to the positive side of the battery. The current can be translated to depth using a simple formula. For a 20 Bar transponder:\nDepth (m) = [current (mA) * 12.5] - 50.\nNotes: 200 m / 16  = 12.5 meters per mA (16 is the range of mA [20-4].\n            12.5 meters per mA * 4 = 50 (to account for not starting at 0 mA)\nTo display and record depth data on a computer, you need to use an Analog-to-Digital (A/D) converter (e.g. Measurement Computing model # USB-1208LS). This device measures voltage, not current. You can measure the voltage drop over a resistor to measure current if you put a 100 ohm resistor in series with the depth transponder (see figure). Ohm’s law says that the voltage drop (V) over a resistor is equal to the product of the resistance in ohms (R) and the current (I):\nV= I * R\nSo, with a 100 ohm resistor, voltage will be 100 times the current in amps. The equation for depth is therefore:\nDepth (m) = [voltage (V) * 125] - 50.\nThe Measurement Computing 1208LS can be used in single-ended (grounded) or differential mode. The latter measures the voltage difference between the two pins but does not ground one of the pins. This is less likely to introduce noise from the computer or the A/D device itself into the array cable. You can change this setting with the Instacalc software included with the 1208LS. You can also set the voltage range to give the best resolution using PamGuard’s depth setup window or Logger’s database. Voltage across the resistor will not exceed 2 volts, so you can chose the +/- 2.5V scale.\n\n\n\nThe depth of an oil-filled array can be measured using a pressure transponder that is submersed in the oil. The pressure in the oil will be the same as the water pressure (this is not true of solid-urethane hydrophones). Use a pressure transponder that measures pressure using a 4-20 milliamp scale (e.g. Honeywell model # PX2EN1XX200PSCHX ). When a voltage is applied to the positive wire, the current will be proportional to the depth. The current will be 4 mA at the surface and 20 mA at the maximum rated depth of the transponder (in this case, 200 psi or 13.79 Bar, or approximately 137.3 m). You can use a 9v battery and a digital multimeter to measure this current. Because this device uses electronics, you cannot reverse the wires. The positive wire needs to be attached to the positive side of the battery. The current can be translated to depth using a simple formula. For a 13.79 Bar transponder:\nDepth (m) = [current (mA) * 8.6] – 34.4.\nNotes: 137.3 m / 16 = 8.6 meters per mA (16 is the range of mA [20-4].\n            8.6 meters per mA * 4 = 34.4 (to account for not starting at 0 mA)\nTo display and record depth data on a computer, you need to use an Analog-to-Digital (A/D) converter (e.g. Measurement Computing model # USB-1208LS). This device measures voltage, not current. You can measure the voltage drop over a resistor to measure current if you put a 100 ohm resistor in series with the depth transponder (see figure). Ohm’s law says that the voltage drop (V) over a resistor is equal to the product of the resistance in ohms (R) and the current (I):\nV= I * R\nSo, with a 100 ohm resistor, voltage will be 100 times the current in amps. The equation for depth is therefore:\nDepth (m) = [voltage (V) * 86] – 34.4.\nThe Measurement Computing 1208LS can be used in single-ended (grounded) or differential mode. The latter measures the voltage difference between the two pins but does not ground one of the pins. This is less likely to introduce noise from the computer or the A/D device itself into the array cable. You can change this setting with the Instacalc software included with the 1208LS. You can also set the voltage range to give the best resolution using PamGuard’s depth setup window or Logger’s database. Voltage across the resistor will not exceed 2 volts, so you can chose the +/- 2.5V scale.",
+    "crumbs": [
+      "Hardware",
+      "Depth"
+    ]
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "NOAA Fisheries Passive Acoustic Towed Arrays",
+    "objectID": "content/depth.html#kellar",
+    "href": "content/depth.html#kellar",
+    "title": "Depth Sensors",
     "section": "",
-    "text": "Array Models\nHardware\nLab Setup\nField Methods\nSoftware\nPlatform SOPs\nTroubleshooting",
+    "text": "The depth of an oil-filled array can be measured using a pressure transponder that is submersed in the oil. The pressure in the oil will be the same as the water pressure (this is not true of solid-urethane hydrophones). Use a pressure transponder that measures pressure using a 4-20 milliamp scale (e.g. Keller model # PA7FLE ). When a voltage is applied to the positive wire, the current will be proportional to the depth. The current will be 4 mA at the surface and 20 mA at the maximum rated depth of the transponder (for example 20 Bar or approximately 200 m). You can use a 9v battery and a digital multimeter to measure this current. Because this device uses electronics, you cannot reverse the wires. The positive wire needs to be attached to the positive side of the battery. The current can be translated to depth using a simple formula. For a 20 Bar transponder:\nDepth (m) = [current (mA) * 12.5] - 50.\nNotes: 200 m / 16  = 12.5 meters per mA (16 is the range of mA [20-4].\n            12.5 meters per mA * 4 = 50 (to account for not starting at 0 mA)\nTo display and record depth data on a computer, you need to use an Analog-to-Digital (A/D) converter (e.g. Measurement Computing model # USB-1208LS). This device measures voltage, not current. You can measure the voltage drop over a resistor to measure current if you put a 100 ohm resistor in series with the depth transponder (see figure). Ohm’s law says that the voltage drop (V) over a resistor is equal to the product of the resistance in ohms (R) and the current (I):\nV= I * R\nSo, with a 100 ohm resistor, voltage will be 100 times the current in amps. The equation for depth is therefore:\nDepth (m) = [voltage (V) * 125] - 50.\nThe Measurement Computing 1208LS can be used in single-ended (grounded) or differential mode. The latter measures the voltage difference between the two pins but does not ground one of the pins. This is less likely to introduce noise from the computer or the A/D device itself into the array cable. You can change this setting with the Instacalc software included with the 1208LS. You can also set the voltage range to give the best resolution using PamGuard’s depth setup window or Logger’s database. Voltage across the resistor will not exceed 2 volts, so you can chose the +/- 2.5V scale.",
     "crumbs": [
-      "Home"
+      "Hardware",
+      "Depth"
     ]
   },
   {
-    "objectID": "index.html#towed-hydrophone-arrays",
-    "href": "index.html#towed-hydrophone-arrays",
-    "title": "NOAA Fisheries Passive Acoustic Towed Arrays",
+    "objectID": "content/depth.html#honeywell",
+    "href": "content/depth.html#honeywell",
+    "title": "Depth Sensors",
     "section": "",
-    "text": "Array Models\nHardware\nLab Setup\nField Methods\nSoftware\nPlatform SOPs\nTroubleshooting",
+    "text": "The depth of an oil-filled array can be measured using a pressure transponder that is submersed in the oil. The pressure in the oil will be the same as the water pressure (this is not true of solid-urethane hydrophones). Use a pressure transponder that measures pressure using a 4-20 milliamp scale (e.g. Honeywell model # PX2EN1XX200PSCHX ). When a voltage is applied to the positive wire, the current will be proportional to the depth. The current will be 4 mA at the surface and 20 mA at the maximum rated depth of the transponder (in this case, 200 psi or 13.79 Bar, or approximately 137.3 m). You can use a 9v battery and a digital multimeter to measure this current. Because this device uses electronics, you cannot reverse the wires. The positive wire needs to be attached to the positive side of the battery. The current can be translated to depth using a simple formula. For a 13.79 Bar transponder:\nDepth (m) = [current (mA) * 8.6] – 34.4.\nNotes: 137.3 m / 16 = 8.6 meters per mA (16 is the range of mA [20-4].\n            8.6 meters per mA * 4 = 34.4 (to account for not starting at 0 mA)\nTo display and record depth data on a computer, you need to use an Analog-to-Digital (A/D) converter (e.g. Measurement Computing model # USB-1208LS). This device measures voltage, not current. You can measure the voltage drop over a resistor to measure current if you put a 100 ohm resistor in series with the depth transponder (see figure). Ohm’s law says that the voltage drop (V) over a resistor is equal to the product of the resistance in ohms (R) and the current (I):\nV= I * R\nSo, with a 100 ohm resistor, voltage will be 100 times the current in amps. The equation for depth is therefore:\nDepth (m) = [voltage (V) * 86] – 34.4.\nThe Measurement Computing 1208LS can be used in single-ended (grounded) or differential mode. The latter measures the voltage difference between the two pins but does not ground one of the pins. This is less likely to introduce noise from the computer or the A/D device itself into the array cable. You can change this setting with the Instacalc software included with the 1208LS. You can also set the voltage range to give the best resolution using PamGuard’s depth setup window or Logger’s database. Voltage across the resistor will not exceed 2 volts, so you can chose the +/- 2.5V scale.",
     "crumbs": [
-      "Home"
+      "Hardware",
+      "Depth"
     ]
   },
   {
-    "objectID": "content/Real-time_SpeciesGuides.html",
-    "href": "content/Real-time_SpeciesGuides.html",
-    "title": "Real-time_SpeciesGuides",
+    "objectID": "content/history.html",
+    "href": "content/history.html",
+    "title": "Historical Array Models",
     "section": "",
-    "text": "Atlantic\n\n\n\n\n\nThis table serves as a visual cheat sheet for classifying acoustic detections in the Atlantic. Match the colors and symbols seen in the Pamguard click detector to the species listed below.\n\n🞳 Green Star: Upsweep between 30-50 kHz (Beaked whales, Risso’s dolphins)\n◆ Orange Diamond: Peak Freq. 2-15 kHz (Sperm whales, false killer whales)\n⬣ Red Hexagon: Peak Freq. 15-30 kHz (Pilot whales, killer whales, rough-toothed dolphins, common dolphins, and Cuvier’s beaked whales)\n● Blue Circle: Peak Freq. 30-50 kHz (Striped, bottlenose, spinner, and spotted dolphins; beaked whales)\n■ Yellow Square: Peak Freq. 50-80 kHz (Large groups of dolphins close to the ship)\n▲ Pink Triangle: Peak Freq. 80-200 kHz (Kogia)\n\n\n\n\nPacific",
+    "text": "Southwest Fisheries Science Center initiated towed array research in the late 1990s using solid hydrophone arrays developed by Norris (Santa Barbara). Breakages at sea were common, and Jay Barlow began designing a custom towed hydrophone to provide more control over building and repairing equipment. The first towed hydrophones developed by SWFSC consisted of solid polyeurethane hydrophones molded onto cable (see Construction Guide). These solid hydrophones required a long and robust ‘tail’ to minimize ‘fish-tailing’, and yet damage to internal wires at the front end of the mold were common (this area acted as a ‘joint’, bending and eventually leading to wear on the internal wires). A need for more robust towed arrays with the ability to repair and replace internal components lead to the design of oil-filled towed hydrophone arrays (still in use today).\nLater, SWFSC conducted several efforts to develop a volumetric (tetrahedral) towed hydrophone array to allow for improved real-time localization. Initial efforts led by Jay Barlow led to successful tracking of beaked whales during SoCal Behavioral Response Studies (SoCal BRS), and later collaborations with external organizations via Small Business Innovation Research programs.\nUltimately, the need for real-time detection during surveys off the U.S. West Coast did not justify the resources required and SWFSC conducted their final towed array survey in 2016. All towed array equipment was transferred to other science centers still conducting towed array surveys, and ongoing improvement of towed array systems are being led by our colleagues at PIFSC.",
     "crumbs": [
-      "Field Methods",
-      "Species Guides"
+      "Array Models",
+      "Historical Arrays"
     ]
   },
   {
-    "objectID": "content/sop.html",
-    "href": "content/sop.html",
-    "title": "Platform SOP",
+    "objectID": "content/history.html#resources",
+    "href": "content/history.html#resources",
+    "title": "Historical Array Models",
+    "section": "Resources",
+    "text": "Resources\nA guide to constructing hydrophones and hydrophone arrays for monitoring marine mammal vocalizations. 2008. Jay Barlow, Shannon Rankin, Steve Dawson.\nA guide to constructing hydrophone arrays for passive acoustic data collection during NMFS shipboard cetacean surveys. 2013. Shannon Rankin, Jay Barlow, Yvonne Barkley, Robert Valtierra.\nDevelopment and testing of two towed volumetric hydrophone array prototypes to improve localization accuracy during shipboard line-transect surveys. 2016. Yvonne Barkley, Jay Barlow, Shannon Rankin, Geral D’Spain, Erin Oleson.\nDesign of a flooded housing for a towed autonomous hydrophone recording system (NOAA Technical Memorandum NMFS-SWFSC-647). 2021. Jay Barlow. National Oceanic and Atmospheric Administration, U.S. Department of Commerce. 12 pp.\nAn assessment of the accuracy and precision of localization of a stationary sound source using a two-element towed hydrophone array (NOAA Technical Memorandum NMFS-SWFSC-416). 2008. Shannon Rankin, Jay Barlow, Julie Oswald. National Oceanic and Atmospheric Administration, U.S. Department of Commerce. 33 pp.\nAcoustic Recording System: a portable hardware system for shipboard passive acoustic monitoring of cetaceans using a towed hydrophone array (NOAA Administrative Report). 2011. Shannon Rankin, Jay Barlow. National Oceanic and Atmospheric Administration, U.S. Department of Commerce. 8 pp.\nMulti-bank power supply system for small towed hydrophone arrays. (NOAA Technical Memorandum NMFS-SWFSC-544). 2015. Emily Griffiths, J. Scott Ferguson, Erin Oleson, and Shannon Rankin. National Oceanic and Atmospheric Administration, U.S. Department of Commerce. 19 pp.\nDevelopment and testing of two towed volumetric hydrophone array prototypes to improve localization accuracy during shipboard line-transect cetacean surveys (NOAA Technical Memorandum NMFS-PIFSC-49). 2016. Yvonne Barkley, Jay Barlow, Shannon Rankin, Gerald D’Spain, Erin Oleson. National Oceanic and Atmospheric Administration, U.S. Department of Commerce. 42 pp.\nBuilding a Better Array: Developments in towed hydrophone arrays improve identification and localization of cetacean groups.Shannon Rankin, Jay Barlow, Robert Valtierra, and Yvonne Barkley. Poster for DCLDE conference.\nPIFSC Blog: NMFS acousticians collaborate to create new interchangeable hydrophone array systems",
+    "crumbs": [
+      "Array Models",
+      "Historical Arrays"
+    ]
+  },
+  {
+    "objectID": "content/Hardware.html",
+    "href": "content/Hardware.html",
+    "title": "Hardware",
     "section": "",
-    "text": "Tracking animals will be done primarily through the click detector. Once you see a click train (3-5 consecutive clicks along the same bearing), start a detection in the Detection tab. Hit F1 to enter the time & date. Hit F1 to enter the Lat/long. Enter the Acoustic ID # along with at least the initial bearing angle. You can fill out the other fields as the event goes on. There are 3 Detection tabs so that you can track 3 things at once. You can also use the TD tab to localize whistles.\n\nFor encounters in which there are both bearings from the whistles and clicks, you can merge them into one event by going to the map, holding down CTRL + left click and select “Assign X bearings to UID#”. You should then see both the whistle and click bearings as the same color. You may need to repeat this step over the course of the encounter.\n\nA mark should be placed at the start position on the trackline of the initial bearing location- clicks don’t stay on the map for long, the markers will last longer. Double click the spot on the map to enter “start of A#- [species]”\nMeasuring the perpendicular distance from the ship’s track to the marked location can be done in the Map tab, by double-clicking next to the map comment and click + hold to the convergences (note: if you happen to select the pixel the map comment is on Pamguard won’t draw the measuring line). If you have R and L locations, measure on both sides of the ship’s track and take the average distance (this will be the beam distance). If you only have one location, take all measurements from the trackline to that location. Also measure the distance from the ship’s track along the first angle plotted that converged at the location (the first detection distance).\nCan you tie this detection to a visual sighting?? If so, be sure to record the visual ID, and any other info from the visual team in the comments field (time, bearing, distance, species ID, etc.).\n\nUse the Visual to Array Angle module and the incoming information from the flying bridge to do so\n\nFor marking the end of a detection, follow these general guidelines\n\nSperm whales: until 5 min have passed where no clicks are detected (can feel free to press F1 prior to this but keep the detection tab open for another 5 min)\nBeaked whales: get an end time when 1 minute has passed without clicks. You will probably need to press F1 a few times as the clicks come back (thus constantly updating the end time)\nDolphins: if it’s just clicks, the end time is within 30s of the last click train. If it’s whistles and clicks, keep the detection open for up to 2 min after the last whistle. It’s common for whistle presence to come in and out\n\nClick “Save” to save this detection to the database.\n\nIf you end the encounter prematurely, you can double click on the row below the form to make any changes. Note that the F1 features do not work in this view. If the encounter’s row is not visible, you can make a comment using an asterisk (*) in the User Input for later modification during the QAQC process.\n\nLook/listen for new groups. Continue to check bearings to sounds. Sometimes you will pick up a new group ahead of the ship while you are still hearing a group behind the ship.  Start a new Acoustic ID when another group is detected.  If a second group is detected before you have stored the info about the first group, you can save the first group and start a new group, then go back and edit the info for the 1st group when time allows.  Make note if long periods occur with no acoustic activity (i.e. “AQ”).\n\n&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD For further details, please refer to the [movie link- TBD]",
+    "text": "This page is for components (not full arrays)",
     "crumbs": [
-      "Platform SOP"
-    ]
-  },
-  {
-    "objectID": "content/sop.html#data-qaqc-backup",
-    "href": "content/sop.html#data-qaqc-backup",
-    "title": "Platform SOP",
-    "section": "DATA QAQC & BACKUP",
-    "text": "DATA QAQC & BACKUP\n\nTracking Computer\n\nClean up edits at the end of each day\n\nOpen SQLiteStudio from the task bar (silver icon)\nLook at tables for current cruise Leg\nTables to check are Detection (1,2,3), Effort, Sperm whale, UserInput, Map comments\n\nOpen table (double click), then select the Data tab\nScroll to bottom and/or advance page to end for latest data entries\nDetection (1,2,3): Use notepad ID numbers to check AC_ID count and all relevant fields. Where localizations were impossible, the entry should have NA\nSperm whale: should have at a minimum a start and end time, start and end lat/lon, click types heard/seen, and estimate of number of animals in the comments field\nTo edit a field - double click and it will turn blue, click once more in the field, then the cursor will appear and you can edit. Click on the GREEN check box to commit the edit. Click the RED X if you want to restore the field to its original value.\nR-Click on lower bar and select Close all windows\n\nMake sure all fields are filled in and Acoustic ID numbers have not been skipped\n* in front of any comment signifies a correction is needed\n\nAdd (DONE) to the beginning of all * fields that have been corrected\n\n\nInsert NEFSC_48 hard drive into computer\nGo to E:\\AMAPPS 2025 Backup\\Pamguard_Binaries_Databases\n\nMake copies of the day’s database with the date (ex. NEFSC_NE-OFFSHORE_20250110_PC2501_Leg1_Tracking.sqlite3)\nCopy the days Binary files, and Database to Acoustics NEFSC_48 hard drive under the respective computer’s folder\n\nUpdate daily summary of acoustic detections NEFSC_NE-OFFSHORE_202501_PC2501_Acoustic-Detection-Summary\n\nBackup to the external hard-drive under Cruise_Summary\n\nUpdate daily notes in the cruise log PC2505_Leg#_PAM_Cruise_Log \n\nBackup to the external hard-drive under Cruise_Summary\n\nSave daily print screen power point \n\nBackup to the external hard-drive under Daily_Printscreens\n\n\n\n\nRecording Computer\n\nGo to E:\\AMAPPS 2025 Backup\\Pamguard_Binaries_Databases\n\nMake copies of the day’s database with the date (ex. NEFSC_NE-OFFSHORE_20250110_PC2501_Leg1_Tracking.sqlite3)\nCopy the days Binary files, and Database to Acoustics NEFSC_48 hard drive under the respective computer’s folder\n\n\nTerraMaster\n\nCheck that the internal hard drive has enough space for the next day; change drives if they will run out of space.\n\n\nThis will need to be moved to a NEFSC protocol section",
-    "crumbs": [
-      "Platform SOP"
-    ]
-  },
-  {
-    "objectID": "content/sop.html#active-acoustics",
-    "href": "content/sop.html#active-acoustics",
-    "title": "Platform SOP",
-    "section": "ACTIVE ACOUSTICS",
-    "text": "ACTIVE ACOUSTICS\nAn active acoustic system (e.g. EK80/echosounder) will be alternated between “ON/ACTIVE” (1200 – 0700) and “OFF/PASSIVE MODE” (0700 – 1200) daily. This is because beaked whales exhibit an acoustic response to echosounders thus we need to balance collecting passive acoustic information on beaked whales, with the need to collect prey layer data from the echosounder, which has been found to be a useful covariate in some species models. The survey technician on board is responsible for changing the echosounder state, however, it is your responsibility to VERIFY that the EK80 has been turned to passive mode based on the proposed schedule. If it has not, find the survey tech and kindly ask them to turn it off.\n If you cannot find the survey tech, contact the bridge and ask for them, if that doesn’t work:\n\nOn the Pisces, the EK80 controls are in the acoustics lab toward the galley. To change the status of the echosounder, select “Normal operation” button on the right. Under “Mode” select “Passive” for all echosounder rows. Click “Apply” and “Ok”. This sets the echosounder settings to “OFF”.\nClick the sound icon to the right of the “Ping” button to stop transmission.\nRemember to turn the echosounder back on at 1130 by doing the inverse steps.",
-    "crumbs": [
-      "Platform SOP"
-    ]
-  },
-  {
-    "objectID": "content/sop.html#array-care",
-    "href": "content/sop.html#array-care",
-    "title": "Platform SOP",
-    "section": "ARRAY CARE",
-    "text": "ARRAY CARE\n\nWash the array and tow cable with a hose (not on high power)\nRemove all tape from the connector connecting the array to the tow cable as well as at the tail. Remove the tail\nBring the array to the wet lab and begin array spa\n\nUsing a q-tip and alcohol, clean out any salt/water inside the connectors\nCan also use canned air\n\nTry not to spray it directly on the o-ring so that it doesn’t become brittle\n\nLook for corrosion and be sure to remove it\nDo not bend the pins\nClean the caps as well, removing all salt residue\nFor a demonstration of this process, please refer to Acoustics_CleaningArray.mov\n\nOnce dry, secure it in its pelican case\nBe sure to also clean the connectors connecting the tow cable to the deck cable in the same manner\n\nRinse off any part of the deck cable that was exposed to the elements\n\nSpool the tow cable onto the wooden drum using two jackstands and a pipe\n\nMake sure both connector ends are visible/easy to access",
-    "crumbs": [
-      "Platform SOP"
-    ]
-  },
-  {
-    "objectID": "content/sop.html#towed-array-logger-forms",
-    "href": "content/sop.html#towed-array-logger-forms",
-    "title": "Platform SOP",
-    "section": "TOWED ARRAY: LOGGER FORMS",
-    "text": "TOWED ARRAY: LOGGER FORMS\n\nOverall NOTES:\n\n Make sure that Function keys are locked ON\n\nHold “fn” key and press “Esc” to activate\nImportant on newer computers\n\nAlways fill out Date/Time on each sheet\n\nARS\n\n\nFill out at start of each Leg and then only if something changes in the Leg\nAcoustic Recording System\n\nSettings that impact the entire ARS\n\nGPS Unit: Shipboard GPS\nLeave rest blank\n\n\nRecorder 1 (Recording)\n\nSettings for each system\n\nComputer - Recorder computer\nSound Card - NiDAQ\nSampling Rate - 500000 Hz\nHigh pass - 1000 Hz\nFill out each channel and the dB level assigned within PAMGuard module Sound Acquisition (Toolbar: Settings -&gt; Sound Acquisition)\n\n\nRecorder 2 (Tracking)\n\nSettings for each system\n\nComputer - Tracking\nSound Card - NiDAQ\nSampling Rate - 250000 Hz (There is a decimator in place)\nHigh pass - 2000 Hz\nFill out each channel and the dB level assigned within PAMGuard module Sound Acquisition (Toolbar: Settings -&gt; Sound Acquisition)\n\n\nClick SAVE\n\nArray\n\n\nFill out at start of each leg and then only if something changes in the Leg\n\nArray Weight: 30 lbs\nArray Name 1 - Echidna array selected\nSeparator - 0 m\nArray Name 2 – leave blank\nLeave rest blank\nClick SAVE\n\n\nDeploy (not used)\n\n\n\nDetection (1,2,3)\n\n\nThere can be up to 3 active detections at one time using the forms\n\nIf all you are is waiting on an End Time to close the detection and another form is needed, then Save the entry and put the End Time in the Comments Tab (ex: *End Time AC2 06/19/2023 12:12:12)\nAll acoustic detection distances should be reported in meters\nTo save the detection there must be a minimum of 3 signals (clicks or whistles) and at a minimum record the initial bearing angle.\n\nIf never detected, write a note in the comments field that the encounter was “untraceable”\n\n\n\nIf minimum is not met make a comment in the log with what was heard and when\n\nTo signify a new group: incoming bearings must be at a smaller angle than the current group’s bearings you are tracking & the original group must be behind 90 degrees (this is because there are lots of individuals/subgroups and can be spread out)\n\nEg: you are tracking a group and they are at 108 degrees +/- 10 degrees. New clicks come in at 20 degrees. These new clicks would belong to a new group\n\n\n\nFor the following fields, underline= required field\n\n\nStartTime Date: Start of detection (auto fill using F1, but correct the time to the initial click or whistle detected on the tracking computer) by either clicking on the click in the T-B plot and reading the time off the waveform, or hovering over the end of the bearing line drawn on the map\nEndTime Date: Last signal (click or whistle) detected (auto fill using F1, but correct the time to the last click or whistle detected on the tracking computer) using the same methodology as in 5.c.i\nLocation: Autofill with F1 within 2 minutes of start time\n\nIf there has been more than 2 minutes from the StartTime to filling in the field then place this comment in the Detection’s comment box (*Edit Lat/Lon to StartTime). If you’ve made a map comment for the start of the event, you can get that value in data QAQC (*see map comment for position of A1)\n\nAcoustic ID: Start with 1 at beginning of cruise and continue counting until end of the project (do NOT start over each Leg)\nVisual ID: Sighting ID number from Visual time that matches current detection\n\nIf never seen, leave blank\n\n\n\nInitial Angle: First angle detected from either a click or whistle\nInitial Distance: Location at start of localization\n\nIf never localized then fill in NA for units\n\nBeam Distance: Perpendicular distance from the beam (90 degrees) of the array to the first subgroup of animals\n\nWith timestamp\nIf never localized then fill in NA for units\n\nDetection Distance: Greatest distance animals were detected from the array. That can be the same as Initial or Beam distance.\n\nIf never localized then fill in NA for units\n\nLocalization Method: If any of the distances were measured then select Pamguard, otherwise NA.\nVocals detected: Select as many vocal types that were present at any point throughout the detection (order does not matter)\nDetection Type: Acoustics or Both. Never use Visual as an option for this field. All Visual only sightings can be recorded in the User input.\nFirst Detection: Acoustics, Visual, or Both (Whomever’s start time is earliest). \nMethod: Acoustic Technician\nSpecies Code 1: Select species acoustics detects and fill out 2 & 3 if needed.\nAdditional Method fields are to be filled out if Visuals has a species ID. They don’t have to match acoustics. Example: Visuals has Unid. beaked whale, but Acoustics detects Cuvier’s beaked whales. OR Visuals has sperm whales and Acoustics detects sperm whales & Unid. dolphins.\nComments: Any additional information of note from the detection. If the field is filled then add additional information in the User input. Add the UID number so we can match the PAMGuard annotations to the Acoustic ID later\n\nClick SAVE\n\nEffort\n\n\nFill out at every shift change and/or change in effort status\n\nStartTime Date: auto fill using F1\nCruise Number: e.g. PC2501\nTrackline ID: Leave empty if off the trackline, fill in the trackline number if on effort and on track\nAcousticians: Those present in the chairs. The first one is the person on effort, the second one is for the standby acoustician\nEffort\n\nAcoustic: ON when acousticians are monitoring the recordings\nVisual: ON when members of the Visual team are on the flying bridge (or bridge) regardless of their effort status. Make a comment if they are on weather watch (PIFSC surveys, for NEFSC the chief sci does this)\nRecording: ON when data is being collected\nOther effort: echosounder status (ON/OFF)\n\nReal-time Monitoring: Select the channels being monitored on the tracking computer\nSound speed: enter the soundspeed from the most recent bongo\nSea state: if an observer is in the dry lab ask them, otherwise determine it yourself\nLeave the rest blank\n\n\n\nClick SAVE\n\n\nSperm whale (NEFSC only)\n\n\nStart/End Time\nStart/End latitude and longitude\nID (46-Sperm Whale) and ID type (acoustic tech, visual, or both) \nCall type detected (Usual, Coda, etc)\nLocalization not required, but feel free to practice if clicks registering on detector and nothing else is happening (NEFSC only).  \nComments should contain a rough estimate of how many sperm whales are in the event\n\nPlayback (NEFSC only)\n1. Refer to Appendix III link\nFor further details, please refer to the Video &gt;&gt;&gt;&gt;&gt;&gt;&gt; parent of 17286fc (Added Data QAQC, Array care, Logger forms, and active acoustics section from NEFSC manual)",
-    "crumbs": [
-      "Platform SOP"
-    ]
-  },
-  {
-    "objectID": "content/sop/ne/page1.html",
-    "href": "content/sop/ne/page1.html",
-    "title": "page1",
-    "section": "",
-    "text": "Change name of this file. Lower left of RStudio, Files-&gt; PAM_towed_array/content/sop/ne, then click on box next to ‘page1.qmd’… then click on ‘More’ and rename to a name that suits you. Suggestion: Use the minimum wording needed for clarity, use lowercase and “_” and absolutely NO other symbols. Save.\nOpen quarto.yml (in root directory of PAM_towed_array), scroll down to find the ‘page1.qmd’ and change the name to your new filename. Change the name you wan to see on the left-hand sidebar (should be short but informative name). Save.\nBack to your new file… Remove this blurb, and then copy/paste in your relevant info. Don’t worry about it being perfect, but if you use the ‘Visual’ approach in RStudio (top left window), then you can easily add bullets, headers, bold, italics, links, and images. Save and render locally to see if your changes worked.\nImages? make sure any of your images have are thoughtfully named (only “_”, avoid other symbols, and maybe add ‘ne’ if they are for your SOP)."
-  },
-  {
-    "objectID": "content/sop/ne/page1.html#sop-ne-landing-page",
-    "href": "content/sop/ne/page1.html#sop-ne-landing-page",
-    "title": "page1",
-    "section": "SOP-NE Landing Page",
-    "text": "SOP-NE Landing Page\n\nOpen sop_ne.qmd and change that page to reflect what you’d like to see on your SOP ‘landing page’."
-  },
-  {
-    "objectID": "content/sop/ne/page1.html#add-a-new-page",
-    "href": "content/sop/ne/page1.html#add-a-new-page",
-    "title": "page1",
-    "section": "Add a New Page",
-    "text": "Add a New Page\n\nGo back to Files (lower right on RStudio), navigate to your sop/ne folder. Click ‘New File’ and select a quarto document (*.qmd). Name it and then enter in your info.\nGo to the _quarty.yml and add that page to the structure. If you are unsure how to do it, or have problems… then you can comment out that line in the yaml (#) so that it hopefully will not mess up your rendering."
-  },
-  {
-    "objectID": "content/sop/ne/page1.html#help",
-    "href": "content/sop/ne/page1.html#help",
-    "title": "page1",
-    "section": "Help",
-    "text": "Help\nPAM Open Science Site"
-  },
-  {
-    "objectID": "content/NEFSC_towed_array_manual.html",
-    "href": "content/NEFSC_towed_array_manual.html",
-    "title": "NEFSC_towed_array_manual",
-    "section": "",
-    "text": "Get accurate start/end times of all species encounters.\nDetermine overlap between acoustic groups and visual sightings of delphinids, so that we have acoustic encounters identified to species as often as possible.\nCollect group vocal period information for Gervais’ beaked whales (high quality recordings of Gervais’ needed).\nCollect high quality recordings of Kogia species and get group vocal period information.\nMark start and ends of sperm whale vocal activity.\nCapture the changing environmental conditions/situations.",
-    "crumbs": [
-      "Field Methods",
-      "NEFSC_test"
-    ]
-  },
-  {
-    "objectID": "content/NEFSC_towed_array_manual.html#purpose",
-    "href": "content/NEFSC_towed_array_manual.html#purpose",
-    "title": "NEFSC_towed_array_manual",
-    "section": "",
-    "text": "Get accurate start/end times of all species encounters.\nDetermine overlap between acoustic groups and visual sightings of delphinids, so that we have acoustic encounters identified to species as often as possible.\nCollect group vocal period information for Gervais’ beaked whales (high quality recordings of Gervais’ needed).\nCollect high quality recordings of Kogia species and get group vocal period information.\nMark start and ends of sperm whale vocal activity.\nCapture the changing environmental conditions/situations.",
-    "crumbs": [
-      "Field Methods",
-      "NEFSC_test"
-    ]
-  },
-  {
-    "objectID": "content/NEFSC_towed_array_manual.html#general-procedure",
-    "href": "content/NEFSC_towed_array_manual.html#general-procedure",
-    "title": "NEFSC_towed_array_manual",
-    "section": "GENERAL DATA COLLECTION PROCEDURE",
-    "text": "GENERAL DATA COLLECTION PROCEDURE\nWe will be using Pamguard to collect and record data. There is both an aural (sperm whales, some dolphin whistles and clicks), and visual component (spectrogram, click bearing-time display), data entry form, and incoming sightings information on a separate computer, so your attention needs to be diverted amongst multiple screens and incoming information.\n\nPlease keep in mind that while you will hear sperm whales and dolphin whistles, you often will not hear echolocation – the aural component is to reduce the stress of what to pay attention to on screen.\nSperm whale start/ends can be assessed aurally, and for dolphins, serve more as a cue.",
-    "crumbs": [
-      "Field Methods",
-      "NEFSC_test"
-    ]
-  },
-  {
-    "objectID": "content/NEFSC_towed_array_manual.html#start-of-cruise",
-    "href": "content/NEFSC_towed_array_manual.html#start-of-cruise",
-    "title": "NEFSC_towed_array_manual",
-    "section": "START OF CRUISE",
-    "text": "START OF CRUISE\n\nMAINTAIN LOGGER LOOKUP TABLE\nIn the steps below, you will be generating a blank database specific to each cruise that will contain all of the information pertaining to the modules in your Pamguard settings file. This blank database however, will not contain the historical record of the field options for the Logger forms. To use those options (and create new ones) requires you to upload the master Logger form into your new database. The master Logger form is Logger_UDF_20190814_Blank_NEFSC.sqlite3.\n\n\n\nLogger Form Content Description\n\n\n\nAll tables starting with “UDF” equates to a Logger form that an analyst can fill out to record cruise metadata and detection data.\nIf there is an “x” preceding “UDF”, it means that form is invisible to Pamguard, but still retained in case you ever need to use it.\nCheck to make sure that the forms you need for your cruise are active in the Logger file.\n\n\nLOOKUP TABLE\nThe Lookup table within the Logger_UDF_20190814_Blank_NEFSC database contains all the reference material to populate the Logger forms.\n\n\n\n\n\n\n\nField\nDefinition\n\n\n\n\nId\nHas to be a unique ID number. Please sort this column to see the last number used.\n\n\nTopic\nGeneral theme the field relates to (e.g., “Who”, “species”, “cruise number”).\n\n\nDisplayOrder\nOrder in which the row should show up in the dropdown menu; must be unique within a Topic.\n\n\nCode\nShortened code of the ItemText stored in database tables.\n\n\nItemText\nHuman readable short description.\n\n\nisSelectable\nBinary 1/0 to let Pamguard know whether to show that row (1) or not (0).",
-    "crumbs": [
-      "Field Methods",
-      "NEFSC_test"
-    ]
-  },
-  {
-    "objectID": "content/NEFSC_towed_array_manual.html#dry-lab-setup",
-    "href": "content/NEFSC_towed_array_manual.html#dry-lab-setup",
-    "title": "NEFSC_towed_array_manual",
-    "section": "DRY LAB SETUP",
-    "text": "DRY LAB SETUP\n\nTowed Array Order of Connection\n\nTail, End Array, attach to tow cable.\nTow cable and array in full deployed are attached to the deck cable.\nDeck cable plugs into the front of the Acoustic Recording System (ARS).\nARS sound cards plug into the Recording and Tracking computers via black USB cables.\n\n\n\nPower and Depth Sensor\n\nWhite power cord at the back of the ARS plugs into ship’s UPS strip.\nWhite USB cable from the back of the ARS plugs into the Recording computer.",
-    "crumbs": [
-      "Field Methods",
-      "NEFSC_test"
-    ]
-  },
-  {
-    "objectID": "content/NEFSC_towed_array_manual.html#start-of-leg",
-    "href": "content/NEFSC_towed_array_manual.html#start-of-leg",
-    "title": "NEFSC_towed_array_manual",
-    "section": "START OF LEG",
-    "text": "START OF LEG\n\nDRY LAB COLD START UP: TOWED ARRAY\n\nPower up Recording and Tracking computers.\nLogin to encryption and Admin profiles.\nUpdate time on computers at beginning of the Leg (UTC).\nConfiguring GPS: Use serial to USB adapter cables (Keyspan Tripp-Lite).\n\n\n\n\nTripp-Lite Serial to USB Adapter\n\n\n\nRequires driver: USA-19HS Windows v3.7S.\nToggle Windows Security “Memory integrity” to Off to allow driver installation.\nPlug in GPS USB AFTER the computer has been restarted to avoid the “jumpy mouse” problem.\n\n\n\nSoundcard and Depth Sensor\n\nInstall NiDAQ_installer_1551.\nFollow the setup wizard and ensure “Always trust software from National Instruments” and “Disable Windows Fast Startup” are checked.\n\n \n\nConfiguring Depth Sensor in Pamguard\n\nDownload Instacal to the recording computer.\nApply the Windows 11 fix from MicroDAQ.\n\n\n\n\nMicroDAQ Windows 11 Fix\n\n\n\nEnsure the USB-1208LS is recognized in Instacal.\n\n\n\n\nInstacal Recognition\n\n\n\nConfigure Depth Readout in Pamguard settings.",
-    "crumbs": [
-      "Field Methods",
-      "NEFSC_test"
-    ]
-  },
-  {
-    "objectID": "content/NEFSC_towed_array_manual.html#deployment",
-    "href": "content/NEFSC_towed_array_manual.html#deployment",
-    "title": "NEFSC_towed_array_manual",
-    "section": "TOWED ARRAY: DEPLOYMENT AND RECOVERY",
-    "text": "TOWED ARRAY: DEPLOYMENT AND RECOVERY\n\nMORNING\n\nContact Bridge for deck department assistance.\nDeploy at speeds between 5-10 knots (5 preferred).\nDo not deploy in waters less than 100 meters.\nSafety: Always wear a life jacket during over-the-side work.\nTwo people should handle the oil-filled section (at least one acoustician).\nConnect lines with carabiners to the Yale grip and secure to aft cleats.\n\n\n\n\nYale Grip\n\n\n\n\n\nBigelow Fantail Setup",
-    "crumbs": [
-      "Field Methods",
-      "NEFSC_test"
-    ]
-  },
-  {
-    "objectID": "content/PI_LabSetup_1.html",
-    "href": "content/PI_LabSetup_1.html",
-    "title": "PIFSC - Towed Array Lab Setup",
-    "section": "",
-    "text": "Acoustic Recording System (ARS) - Schematic\n\n\n\n\n\nHigh Resolution PDF for better zooming found here.",
-    "crumbs": [
-      "Lab Setup",
-      "PIFSC Lab Bench"
+      "Hardware"
     ]
   }
 ]
