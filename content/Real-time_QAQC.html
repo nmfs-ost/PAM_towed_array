@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>PIFSC - Towed Array Lab Setup – NOAA quarto simple</title>
+<title>Real-time_QAQC – NOAA quarto simple</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -29,8 +29,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<link href="../content/NEFSC_lab_setup.html" rel="next">
-<link href="../content/lab.html" rel="prev">
+<link href="../content/sop.html" rel="next">
+<link href="../content/NMFS_Logger_Forms.html" rel="prev">
 <link href="../images/favicon.ico" rel="icon">
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
@@ -249,7 +249,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../content/lab.html">Lab Setup</a></li><li class="breadcrumb-item"><a href="../content/PI_LabSetup_1.html">PIFSC Lab Bench</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../content/Software.html">Software</a></li><li class="breadcrumb-item"><a href="../content/Real-time_QAQC.html">QAQC</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -342,14 +342,14 @@ ul.task-list li input[type="checkbox"] {
       <div class="sidebar-item-container"> 
             <a href="../content/lab.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Lab Setup</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/PI_LabSetup_1.html" class="sidebar-item-text sidebar-link active">
+  <a href="../content/PI_LabSetup_1.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">PIFSC Lab Bench</span></a>
   </div>
 </li>
@@ -394,11 +394,11 @@ ul.task-list li input[type="checkbox"] {
       <div class="sidebar-item-container"> 
             <a href="../content/Software.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Software</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 ">  
+      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../content/Pamguard_tips_tricks.html" class="sidebar-item-text sidebar-link">
@@ -413,7 +413,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/Real-time_QAQC.html" class="sidebar-item-text sidebar-link">
+  <a href="../content/Real-time_QAQC.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">QAQC</span></a>
   </div>
 </li>
@@ -456,17 +456,20 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#acoustic-recording-system-ars---schematic" id="toc-acoustic-recording-system-ars---schematic" class="nav-link active" data-scroll-target="#acoustic-recording-system-ars---schematic"><strong>Acoustic Recording System (ARS) - Schematic</strong></a></li>
+  <li><a href="#data-qaqc-backup" id="toc-data-qaqc-backup" class="nav-link active" data-scroll-target="#data-qaqc-backup">DATA QAQC &amp; BACKUP</a>
+  <ul class="collapse">
+  <li><a href="#tracking-computer" id="toc-tracking-computer" class="nav-link" data-scroll-target="#tracking-computer">Tracking Computer</a></li>
+  </ul></li>
   </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/nmfs-ost/PAM_towed_array/edit/main/content/PI_LabSetup_1.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/nmfs-ost/PAM_towed_array/blob/main/content/PI_LabSetup_1.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/nmfs-ost/PAM_towed_array/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/nmfs-ost/PAM_towed_array/edit/main/content/Real-time_QAQC.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/nmfs-ost/PAM_towed_array/blob/main/content/Real-time_QAQC.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/nmfs-ost/PAM_towed_array/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../content/lab.html">Lab Setup</a></li><li class="breadcrumb-item"><a href="../content/PI_LabSetup_1.html">PIFSC Lab Bench</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../content/Software.html">Software</a></li><li class="breadcrumb-item"><a href="../content/Real-time_QAQC.html">QAQC</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">PIFSC - Towed Array Lab Setup</h1>
+<h1 class="title">Real-time_QAQC</h1>
 </div>
 
 
@@ -483,16 +486,67 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="acoustic-recording-system-ars---schematic" class="level1">
-<h1><strong>Acoustic Recording System (ARS) - Schematic</strong></h1>
-<div class="quarto-figure quarto-figure-left">
-<figure class="figure">
-<p><img src="images/Acoustic_Recording_System_20250624.png" class="img-fluid quarto-figure quarto-figure-left figure-img"></p>
-</figure>
-</div>
-<p>High Resolution PDF for better zooming found <a href="https://drive.google.com/file/d/11aSSTe9cjoWrGphNXa20uQeGt9DV9olJ/view?usp=sharing">here</a>.</p>
+<section id="data-qaqc-backup" class="level2">
+<h2 class="anchored" data-anchor-id="data-qaqc-backup">DATA QAQC &amp; BACKUP</h2>
+<section id="tracking-computer" class="level3">
+<h3 class="anchored" data-anchor-id="tracking-computer">Tracking Computer</h3>
+<ol type="1">
+<li><p>Clean up edits at the end of each day</p>
+<ol type="1">
+<li><p>Open SQLiteStudio from the task bar (silver icon)</p></li>
+<li><p>Look at tables for current cruise Leg</p></li>
+<li><p>Tables to check are Detection (1,2,3), Effort, Sperm whale, UserInput, Map comments</p>
+<ol type="1">
+<li><p>Open table (double click), then select the Data tab</p></li>
+<li><p>Scroll to bottom and/or advance page to end for latest data entries</p></li>
+<li><p>Detection (1,2,3): Use notepad ID numbers to check AC_ID count and all relevant fields. Where localizations were impossible, the entry should have NA</p></li>
+<li><p>Sperm whale: should have at a minimum a start and end time, start and end lat/lon, click types heard/seen, and estimate of number of animals in the comments field</p></li>
+<li><p>To edit a field - double click and it will turn blue, click once more in the field, then the cursor will appear and you can edit. Click on the <strong>GREEN</strong> check box to commit the edit. Click the <strong>RED</strong> X if you want to restore the field to its original value.</p></li>
+<li><p>R-Click on lower bar and select Close all windows</p></li>
+</ol></li>
+<li><p>Make sure all fields are filled in and Acoustic ID numbers have not been skipped</p></li>
+<li><p>* in front of any comment signifies a correction is needed</p>
+<ol type="1">
+<li>Add <strong>(DONE)</strong> to the beginning of all * fields that have been corrected</li>
+</ol></li>
+</ol></li>
+<li><p>Insert NEFSC_48 hard drive into computer</p></li>
+<li><p>Go to E:\AMAPPS 2025 Backup\Pamguard_Binaries_Databases</p>
+<ol type="1">
+<li><p>Make copies of the day’s database with the date (ex. NEFSC_NE-OFFSHORE_20250110_PC2501_Leg1_Tracking.sqlite3)</p></li>
+<li><p>Copy the days Binary files, and Database to Acoustics NEFSC_48 hard drive under the respective computer’s folder</p></li>
+</ol></li>
+<li><p>Update daily summary of acoustic detections NEFSC_NE-OFFSHORE_202501_PC2501_Acoustic-Detection-Summary</p>
+<ol type="1">
+<li>Backup to the external hard-drive under Cruise_Summary</li>
+</ol></li>
+<li><p>Update daily notes in the cruise log PC2505_Leg#_PAM_Cruise_Log&nbsp;</p>
+<ol type="1">
+<li>Backup to the external hard-drive under Cruise_Summary</li>
+</ol></li>
+<li><p>Save daily print screen power point&nbsp;</p>
+<ol type="1">
+<li>Backup to the external hard-drive under Daily_Printscreens</li>
+</ol></li>
+</ol>
+<!-- -->
+<ol start="2" type="1">
+<li><p><strong>Recording Computer</strong></p>
+<ol type="1">
+<li><p>Go to E:\AMAPPS 2025 Backup\Pamguard_Binaries_Databases</p>
+<ol type="1">
+<li><p>Make copies of the day’s database with the date (ex. NEFSC_NE-OFFSHORE_20250110_PC2501_Leg1_Tracking.sqlite3)</p></li>
+<li><p>Copy the days Binary files, and Database to Acoustics NEFSC_48 hard drive under the respective computer’s folder</p></li>
+</ol></li>
+</ol></li>
+<li><p>TerraMaster</p>
+<ol type="1">
+<li>Check that the internal hard drive has enough space for the next day; change drives if they will run out of space.</li>
+</ol></li>
+</ol>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
@@ -911,13 +965,13 @@ ul.task-list li input[type="checkbox"] {
   </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../content/lab.html" class="pagination-link" aria-label="Lab Setup">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Lab Setup</span>
+      <a href="../content/NMFS_Logger_Forms.html" class="pagination-link" aria-label="Logger Forms">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Logger Forms</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../content/NEFSC_lab_setup.html" class="pagination-link" aria-label="NEFSC Lab Bench">
-        <span class="nav-page-text">NEFSC Lab Bench</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../content/sop.html" class="pagination-link" aria-label="Platform SOP">
+        <span class="nav-page-text">Platform SOP</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
@@ -929,7 +983,7 @@ ul.task-list li input[type="checkbox"] {
 </div>   
     <div class="nav-footer-center">
       &nbsp;
-    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/nmfs-ost/PAM_towed_array/edit/main/content/PI_LabSetup_1.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/nmfs-ost/PAM_towed_array/blob/main/content/PI_LabSetup_1.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/nmfs-ost/PAM_towed_array/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/nmfs-ost/PAM_towed_array/edit/main/content/Real-time_QAQC.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/nmfs-ost/PAM_towed_array/blob/main/content/Real-time_QAQC.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/nmfs-ost/PAM_towed_array/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
 <p>This page is built with <a href="https://quarto.org/">Quarto</a>.</p>
 </div>
