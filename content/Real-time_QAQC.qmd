@@ -1,0 +1,68 @@
+---
+title: "Real-time_QAQC"
+format: html
+---
+
+## DATA QAQC & BACKUP
+
+### Tracking Computer
+
+1.  Clean up edits at the end of each day
+
+    1.  Open SQLiteStudio from the task bar (silver icon)
+
+    2.  Look at tables for current cruise Leg
+
+    3.  Tables to check are Detection (1,2,3), Effort, Sperm whale, UserInput, Map comments
+
+        1.  Open table (double click), then select the Data tab
+
+        2.  Scroll to bottom and/or advance page to end for latest data entries
+
+        3.  Detection (1,2,3): Use notepad ID numbers to check AC_ID count and all relevant fields. Where localizations were impossible, the entry should have NA
+
+        4.  Sperm whale: should have at a minimum a start and end time, start and end lat/lon, click types heard/seen, and estimate of number of animals in the comments field
+
+        5.  To edit a field - double click and it will turn blue, click once more in the field, then the cursor will appear and you can edit. Click on the **GREEN** check box to commit the edit. Click the **RED** X if you want to restore the field to its original value.
+
+        6.  R-Click on lower bar and select Close all windows
+
+    4.  Make sure all fields are filled in and Acoustic ID numbers have not been skipped
+
+    5.  \* in front of any comment signifies a correction is needed
+
+        1.  Add **(DONE)** to the beginning of all \* fields that have been corrected
+
+2.  Insert NEFSC_48 hard drive into computer
+
+3.  Go to E:\\AMAPPS 2025 Backup\\Pamguard_Binaries_Databases
+
+    1.  Make copies of the day’s database with the date (ex. NEFSC_NE-OFFSHORE_20250110_PC2501_Leg1_Tracking.sqlite3)
+
+    2.  Copy the days Binary files, and Database to Acoustics NEFSC_48 hard drive under the respective computer’s folder
+
+4.  Update daily summary of acoustic detections NEFSC_NE-OFFSHORE_202501_PC2501_Acoustic-Detection-Summary
+
+    1.  Backup to the external hard-drive under Cruise_Summary
+
+5.  Update daily notes in the cruise log PC2505_Leg#\_PAM_Cruise_Log 
+
+    1.  Backup to the external hard-drive under Cruise_Summary
+
+6.  Save daily print screen power point 
+
+    1.  Backup to the external hard-drive under Daily_Printscreens
+
+<!-- -->
+
+2.  **Recording Computer**
+
+    1.  Go to E:\\AMAPPS 2025 Backup\\Pamguard_Binaries_Databases
+
+        1.  Make copies of the day’s database with the date (ex. NEFSC_NE-OFFSHORE_20250110_PC2501_Leg1_Tracking.sqlite3)
+
+        2.  Copy the days Binary files, and Database to Acoustics NEFSC_48 hard drive under the respective computer’s folder
+
+3.  TerraMaster
+
+    1.  Check that the internal hard drive has enough space for the next day; change drives if they will run out of space.

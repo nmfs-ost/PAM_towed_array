@@ -126,3 +126,15 @@ The Lookup table within the `Logger_UDF_20190814_Blank_NEFSC` database contains 
 ![Yale Grip](images/IMG9.jpg)
 
 ![Bigelow Fantail Setup](images/IMG10.jpg)
+
+## ACTIVE ACOUSTICS
+
+An active acoustic system (e.g. EK80/echosounder) will be alternated between “ON/ACTIVE” (1200 – 0700) and “OFF/PASSIVE MODE” (0700 – 1200) daily. This is because beaked whales exhibit an acoustic response to echosounders thus we need to balance collecting passive acoustic information on beaked whales, with the need to collect prey layer data from the echosounder, which has been found to be a useful covariate in some species models. The survey technician on board is responsible for changing the echosounder state, however, it is your responsibility to VERIFY that the EK80 has been turned to passive mode based on the proposed schedule. If it has not, find the survey tech and kindly ask them to turn it off.
+
+ If you cannot find the survey tech, contact the bridge and ask for them, if that doesn’t work:
+
+1.  On the Pisces, the EK80 controls are in the acoustics lab toward the galley. To change the status of the echosounder, select “Normal operation” button on the right. Under “Mode” select “Passive” for all echosounder rows. Click “Apply” and “Ok”. This sets the echosounder settings to “OFF”.
+
+2.  Click the sound icon to the right of the “Ping” button to stop transmission.
+
+3.  Remember to turn the echosounder back on at 1130 by doing the inverse steps.

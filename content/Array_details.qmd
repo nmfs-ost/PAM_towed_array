@@ -1,0 +1,36 @@
+---
+title: "Array_details"
+format: html
+---
+
+## ARRAY CARE
+
+1.  Wash the array and tow cable with a hose (not on high power)
+
+2.  Remove all tape from the connector connecting the array to the tow cable as well as at the tail. Remove the tail
+
+3.  Bring the array to the wet lab and begin array spa
+
+    1.  Using a q-tip and alcohol, clean out any salt/water inside the connectors
+
+    2.  Can also use canned air
+
+        1.  Try not to spray it directly on the o-ring so that it doesn’t become brittle
+
+    3.  Look for corrosion and be sure to remove it
+
+    4.  Do not bend the pins
+
+    5.  Clean the caps as well, removing all salt residue
+
+    6.  For a demonstration of this process, please refer to [Acoustics_CleaningArray.mov](https://drive.google.com/file/d/1Ti1M_cINw-5IzJ1vR0UbfwU4s1-1wu_h/view?usp=drive_link)
+
+4.  Once dry, secure it in its pelican case
+
+5.  Be sure to also clean the connectors connecting the tow cable to the deck cable in the same manner
+
+    1.  Rinse off any part of the deck cable that was exposed to the elements
+
+6.  Spool the tow cable onto the wooden drum using two jackstands and a pipe
+
+    1.  Make sure both connector ends are visible/easy to access
