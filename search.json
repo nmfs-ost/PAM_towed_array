@@ -469,9 +469,31 @@
   {
     "objectID": "content/SEFSC_lab_manual.html#tester-row-2",
     "href": "content/SEFSC_lab_manual.html#tester-row-2",
-    "title": "SEFSC_lab_manual",
+    "title": "SEFSC Towed Array Lab Manual",
     "section": "tester row 2",
     "text": "tester row 2\nJust a test by Shannon to see if this breaks anything",
+    "crumbs": [
+      "Field Methods",
+      "SEFSC"
+    ]
+  },
+  {
+    "objectID": "content/SEFSC_lab_manual.html#tester-2-tester-2",
+    "href": "content/SEFSC_lab_manual.html#tester-2-tester-2",
+    "title": "SEFSC Towed Array Lab Manual",
+    "section": "TESTER 2 {#tester 2}",
+    "text": "TESTER 2 {#tester 2}",
+    "crumbs": [
+      "Field Methods",
+      "SEFSC"
+    ]
+  },
+  {
+    "objectID": "content/SEFSC_lab_manual.html#tester-2-row-2",
+    "href": "content/SEFSC_lab_manual.html#tester-2-row-2",
+    "title": "SEFSC Towed Array Lab Manual",
+    "section": "tester 2 row 2",
+    "text": "tester 2 row 2",
     "crumbs": [
       "Field Methods",
       "SEFSC"
