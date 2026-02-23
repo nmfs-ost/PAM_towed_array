@@ -7,13 +7,64 @@ format: html
     # toc-depth: 3
     # number-sections: true
 ---
+## Option 1 - link 
 
-## TESTER {#tester}
+Instead of writing everything here on the webpage, this is to test if having a link to the google doc makes more sense? Or doing a combination of the two? 
 
-## tester row 2
+Here is the link to the [Towed Array Lab Manual](https://docs.google.com/document/d/1Ghee6ouRU3hK26Hyo6PwP_H6zm4VTfbE/edit#heading=h.eyo5wwgq9y93)
 
-Just a test by Shannon to see if this breaks anything 
+Jump to [Start of Cruise Section](https://docs.google.com/document/d/1Ghee6ouRU3hK26Hyo6PwP_H6zm4VTfbE/edit#heading=h.eyo5wwgq9y93)
 
-## TESTER 2 {#tester 2}
+Jump to [Daily Operations Section](https://docs.google.com/document/d/1Ghee6ouRU3hK26Hyo6PwP_H6zm4VTfbE/edit#heading=h.xehotsawehj1)
 
-## tester 2 row 2 
+Jump to [End of Cruise Section](https://docs.google.com/document/d/1Ghee6ouRU3hK26Hyo6PwP_H6zm4VTfbE/edit#heading=h.17yuoacehjv5)
+
+Jump to [Maintenance Section](https://docs.google.com/document/d/1Ghee6ouRU3hK26Hyo6PwP_H6zm4VTfbE/edit#heading=h.ob77nd5bzzbr)
+
+
+## Towed Array Operations Lab Manual {#Description}
+
+This is the lab manual for Towed Array Operations onboard NOAA Whiteship Gordon Gunter. This document is written in relation to Southeast procedures and specific to the Gordon Gunter, but can be applied to other towed array projects. 
+
+------------------------------------------------------------------------
+
+## Start of Cruise {#start-of-cruise}
+
+### Hardware 
+
+#### Winch
+The winch lives in the Pascagoula warehouse and will be fitted by the FPC and deckcrew prior to the cruise. 
+
+-   the 450m tow cable lives permanently on the winch 
+-   grease the winch and pin prior to first use (as of 2025 engineers do this)
+
+#### Pin Testing
+Test the array and deck/tow cables prior to each first use
+
+-   See [Pin Testing Methods](https://docs.google.com/document/d/1lwk3N2yckeFL7B3lomJO9ylVolc4FPHE/view)
+
+#### Deck Cable 
+The 200m deck cable lives in the array box in Miami and will need setup prior to every cruise. 
+Start *outside* the drylab door on the port side, feed the ARS connection *in* from the *outside* using the hole above the door 
+
+-   If the ARS connections are not already covered in a plastic bag, do this first
+-   make sure to feed enough additional cable for easy connection plus some extra if needed
+
+Run the remaining cable down the railings *on the outside to avoid tripping hazards* and gently secure with zipties. Continue running the cable along the CTD crane *avoiding any pinch points* and use a cable cover (from the deck crew) if running along a trafficked area. Run down the railing opposite the hardhat storage container, under the stairs, and around the CTD grill to the cleat.
+
+#### Array
+Prior to connecting the array, check for any air-bubbles and hang from the O2 deck if found. Top up with oil if needed. Connect the array to the tow cable located on the winch with 1-2 days prior to sailing - do *not* want the array exposed to the sun for extended amounts of time 
+
+-   Remove end caps and secure together for safe storage
+-   Ensure all pins and o-ring connections are clean, see [Connector Care] (insert link)
+-   Connect male and female end **securely** and wrap with self amalgamating tape to ensure water tight hold 
+     *Tip* : For best amalgamation allow the tape to sit outside for ~30 mins to acclimate to temperature
+-   Secure tail line on the end of the array 
+
+
+#### Fantail
+Install the yellow rollers to the stern of the vessel - deck crew can assist if needed
+
+### Acoustic Recording System (ARS) 
+To be continued 
+
