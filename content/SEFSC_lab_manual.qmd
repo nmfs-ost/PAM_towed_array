@@ -1,5 +1,5 @@
 ---
-title: "SEFSC_lab_manual"
+title: "SEFSC Towed Array Lab Manual"
 author: "Shannon Merkle"
 date: "2026-02-23"
 format: html
@@ -13,3 +13,7 @@ format: html
 ## tester row 2
 
 Just a test by Shannon to see if this breaks anything 
+
+## TESTER 2 {#tester 2}
+
+## tester 2 row 2 
