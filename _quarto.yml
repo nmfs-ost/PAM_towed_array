@@ -61,6 +61,9 @@ website:
             text: NEFSC
           - href: content/SEFSC_lab_manual.qmd
             text: SEFSC 
+            contents:
+              - href: content/SEFSC_Start_of_cruise.qmd
+                text: Start of Cruise
           - href: content/Array_details.qmd
             text: Array details
           - href: content/Real-time_SpeciesGuides.qmd
