@@ -6,7 +6,19 @@ format: html
 
 # How to deploy the array
 
-[text here]
+### MORNING
+
+-   Contact Bridge for deck department assistance.
+-   Deploy at speeds between 5-10 knots (5 preferred).
+-   Do not deploy in waters less than 100 meters.
+-   **Safety:** Always wear a life jacket during over-the-side work.
+-   Two people should handle the oil-filled section (at least one acoustician).
+-   Connect lines with carabiners to the Yale grip and secure to aft cleats.
+
+![Yale Grip](images/IMG9.jpg)
+
+![Bigelow Fantail Setup](images/IMG10.jpg)
+
 
 # How to recover the array
 
@@ -14,7 +26,21 @@ format: html
 
 # How to connect to the ship's GPS
 
-[text here]
+#### Configuring Depth Sensor in Pamguard
+
+-   Download Instacal to the recording computer.
+-   Apply the Windows 11 fix from MicroDAQ.
+
+![MicroDAQ Windows 11 Fix](images/IMG5.jpg)
+
+-   Ensure the USB-1208LS is recognized in Instacal.
+
+![Instacal Recognition](images/IMG6.jpg)
+
+-   Configure Depth Readout in Pamguard settings.
+
+![Pamguard Depth Configuration 1](images/IMG7.jpg) ![Pamguard Depth Configuration 2](images/IMG8.jpg)
+
 
 # Computer set up guides
 

@@ -57,10 +57,10 @@ website:
       - section: content/FieldMethods.qmd
         text: Field Methods
         contents: 
-          - href: content/Array_deployment_instructions.qmd
-            text: Array Deployment
-          - href: content/Array_recovery_instructions.qmd
-            text: Array Recovery
+          # - href: content/Array_deployment_instructions.qmd
+          #   text: Array Deployment
+          # - href: content/Array_recovery_instructions.qmd
+          #   text: Array Recovery
           - href: content/NEFSC_towed_array_manual.qmd
             text: NEFSC
           - href: content/SEFSC_lab_manual.qmd
@@ -82,6 +82,7 @@ website:
           - href: content/Real-time_QAQC.qmd
             text: QAQC
       - section: content/sop.qmd
+         text: SOP
         contents: 
        #   - href: content/xxx.qmd
         #    text: xxx
