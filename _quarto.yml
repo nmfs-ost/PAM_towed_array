@@ -82,7 +82,7 @@ website:
           - href: content/Real-time_QAQC.qmd
             text: QAQC
       - section: content/sop.qmd
-         text: SOP
+        text: SOP
         contents: 
        #   - href: content/xxx.qmd
         #    text: xxx
