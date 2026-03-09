@@ -111,9 +111,9 @@
     "href": "content/sop.html",
     "title": "Platform SOP",
     "section": "",
-    "text": "How to deploy the array\n[text here]\n\n\nHow to recover the array\n[text here]\n\n\nHow to connect to the ship’s GPS\n[text here]\n\n\nComputer set up guides\n[text here]",
+    "text": "How to deploy the array\n\nMORNING\n\nContact Bridge for deck department assistance.\nDeploy at speeds between 5-10 knots (5 preferred).\nDo not deploy in waters less than 100 meters.\nSafety: Always wear a life jacket during over-the-side work.\nTwo people should handle the oil-filled section (at least one acoustician).\nConnect lines with carabiners to the Yale grip and secure to aft cleats.\n\n\n\n\nYale Grip\n\n\n\n\n\nBigelow Fantail Setup\n\n\n\n\n\nHow to recover the array\n[text here]\n\n\nHow to connect to the ship’s GPS\n\nConfiguring Depth Sensor in Pamguard\n\nDownload Instacal to the recording computer.\nApply the Windows 11 fix from MicroDAQ.\n\n\n\n\nMicroDAQ Windows 11 Fix\n\n\n\nEnsure the USB-1208LS is recognized in Instacal.\n\n\n\n\nInstacal Recognition\n\n\n\nConfigure Depth Readout in Pamguard settings.\n\n \n\n\n\nComputer set up guides\n[text here]",
     "crumbs": [
-      "Platform SOP"
+      "SOP"
     ]
   },
   {
