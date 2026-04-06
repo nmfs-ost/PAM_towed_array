@@ -1,0 +1,14 @@
+---
+title: "SEFSC Lab Bench"
+format: html
+---
+
+## Towed Array setup on NOAA Ship Gordon Gunter
+
+### Acoustic Recording System (ARS)
+
+![](images/Acoustic_Recording_System_20250624.png)
+
+### SEFSC Lab Setup onboard NOAA ship Gordon Gunter 
+
+![](images/SEFSC_lab_setup.png){width=70%}

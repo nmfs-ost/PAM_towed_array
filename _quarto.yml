@@ -54,6 +54,8 @@ website:
             text: PIFSC Lab Bench
           - href: content/NEFSC_lab_setup.qmd
             text: NEFSC Lab Bench
+          - href: content/SEFSC_lab_setup.qmd
+            text: SEFSC Lab Bench
       - section: content/FieldMethods.qmd
         text: Field Methods
         contents: 
@@ -72,6 +74,8 @@ website:
             text: Array details
           - href: content/Real-time_SpeciesGuides.qmd
             text: Species Guides
+          - href: content/Ops_Array_in_Water.qmd
+            rext: Operating with the Array in the Water
       - section: content/Software.qmd
         text: Software
         contents: 

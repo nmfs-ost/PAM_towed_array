@@ -1,0 +1,50 @@
+---
+title: "Operating with the Array in the Water"
+format: html
+---
+
+## Water Depth
+
+General rule here is to be conservative and not push the acoustics team into a situation where the array could be lost or the vessel could be heavily restricted
+
+- Current rule as of 2025 – minimum comfort depth is *150m water depth (roughly half deployment length)*, retrieve the array if transects run into anything shallower
+  - If an area has heavy vessel traffic, lots of underwater cabling, possible underwater debris, or strong currents pushing array down, use best judgement and pull the array earlier if needed
+
+## Array Depth
+
+Average array depth at survey speed is around *10-15m*
+
+Due to sensor capacity and pressure on the tubing, *NEVER allow the array to drop below 100m*
+
+- Historically, 60m was our max depth due to a saltwater leak at greater depth/pressure
+
+Minimum ship speed to maintain >60m depth is around 3kts +/- with currents, if speed is shifting or visual team is driving, monitor depth closely and warn all stations if array is bordering comfort-zone
+
+## Turning
+
+The tow cable should never be 90 degrees from the stern of the ship – while turning the tow cable can be ~45 degrees in relation to the fantail, if greater immediately ask the bridge to widen the turn
+
+While making turns, general rule is the greater the turn the higher the speed necessary
+
+- \<45 degree turn: 3kts or greater
+- 45-90 degree turn: 5kts or greater
+- \>90 degree turn: 7kts or greater
+
+\*\* In the Gulf in the summer the array does not sink as quickly, can get away with >90 degree turns going 5kts but monitor depth closely
+
+## Deployment and Retrieval Speed
+
+As of 2025 we maintain consistency by requesting *5kts for BOTH deployment and retrieval*, along with a steady heading (important!), however technically:
+
+- Deployment speed of 5kts or greater
+- Retrieval speed of 5kts as a maximum, can go slower (~3kts) in emergency situations
+
+## Other & Misc
+
+If fishing gear is in the area and we cannot identify they are deepset long lines (>500m ish) then be conservative and retrieve the array
+
+- Ask visuals and bridge team to monitor for fishing gear and other entanglements
+
+Crew fishing: no passive (unmonitored) fishing off fantail. If they want to actively fish (monitoring lines) they may with permission from FPC under the conditions lines are retrieved for any turns to prevent entanglement and scratching of tow cable
+
+Crew can needlegun and do other maintenance as long as it does not severely impact the quality of recording data or the ability of acoustics to hear detections

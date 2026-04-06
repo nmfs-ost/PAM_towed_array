@@ -13,13 +13,13 @@ Instead of writing everything here on the webpage, this is to test if having a l
 
 Here is the link to the [Towed Array Lab Manual](https://docs.google.com/document/d/1Ghee6ouRU3hK26Hyo6PwP_H6zm4VTfbE/edit#heading=h.eyo5wwgq9y93)
 
-Jump to [Start of Cruise Section](https://docs.google.com/document/d/1Ghee6ouRU3hK26Hyo6PwP_H6zm4VTfbE/edit#heading=h.eyo5wwgq9y93)
+Jump to [Start of Cruise](https://docs.google.com/document/d/1Ghee6ouRU3hK26Hyo6PwP_H6zm4VTfbE/edit#heading=h.eyo5wwgq9y93)
 
-Jump to [Daily Operations Section](https://docs.google.com/document/d/1Ghee6ouRU3hK26Hyo6PwP_H6zm4VTfbE/edit#heading=h.xehotsawehj1)
+Jump to [Daily Operations](https://docs.google.com/document/d/1Ghee6ouRU3hK26Hyo6PwP_H6zm4VTfbE/edit#heading=h.xehotsawehj1)
 
-Jump to [End of Cruise Section](https://docs.google.com/document/d/1Ghee6ouRU3hK26Hyo6PwP_H6zm4VTfbE/edit#heading=h.17yuoacehjv5)
+Jump to [End of Cruise](https://docs.google.com/document/d/1Ghee6ouRU3hK26Hyo6PwP_H6zm4VTfbE/edit#heading=h.17yuoacehjv5)
 
-Jump to [Maintenance Section](https://docs.google.com/document/d/1Ghee6ouRU3hK26Hyo6PwP_H6zm4VTfbE/edit#heading=h.ob77nd5bzzbr)
+Jump to [Maintenance](https://docs.google.com/document/d/1Ghee6ouRU3hK26Hyo6PwP_H6zm4VTfbE/edit#heading=h.ob77nd5bzzbr)
 
 
 ## Towed Array Operations Lab Manual {#Description}
