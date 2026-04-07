@@ -7,14 +7,14 @@ format: html
 
 General rule here is to be conservative and not push the acoustics team into a situation where the array could be lost or the vessel could be heavily restricted
 
-- Current rule as of 2025 – minimum comfort depth is *150m water depth (roughly half deployment length)*, retrieve the array if transects run into anything shallower
+- Current rule as of 2025 – minimum comfort depth is **150m water depth** (roughly half deployment length), retrieve the array if transects run into anything shallower
   - If an area has heavy vessel traffic, lots of underwater cabling, possible underwater debris, or strong currents pushing array down, use best judgement and pull the array earlier if needed
 
 ## Array Depth
 
-Average array depth at survey speed is around *10-15m*
+Average array depth at survey speed is around **10-15m**
 
-Due to sensor capacity and pressure on the tubing, *NEVER allow the array to drop below 100m*
+Due to sensor capacity and pressure on the tubing, **NEVER** allow the array to drop below **100m**
 
 - Historically, 60m was our max depth due to a saltwater leak at greater depth/pressure
 

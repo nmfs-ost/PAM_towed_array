@@ -1,0 +1,46 @@
+---
+title: "Laptop Computers and Software Installation"
+format: html
+---
+
+## IT Setup 
+Include info Jennifer sent SEFSC, plus NEFSC Admins and Encryption info 
+
+## Install / Update Software
+
+- SQLite 
+
+- SailDAQ / NiDAQ
+
+- A-D Depth Board 
+
+- Pamguard 
+
+- NMEA Software? 
+
+- Synology Software? 
+
+## GPS NMEA Connection 
+
+**add information here**
+
+## Pamguard Setup 
+
+- Install working versions of pamguard *check the software -> pamguard section for most updated recommendations*
+    - If using a new version, set the available ram 
+Navigate to C:, Installed Software Folder, Pamguard, select version you are using, navigate to the Configuration settings file types (Pamguard.l4j.ini), open and change top two -Xms and -Xmx to 2048m and 4096m respectively * add screenshot 
+
+- Check array files (in configuration folder), sound acquisition settings, etc. 
+
+- Set database and binary folders/pathways
+
+- Set recordings naming convention, recording length, and recording pathway *if data storage not setup yet, go to 'SATAs and Synology' section, then complete this step*
+
+- Setup and check GPS NMEA connection and make sure it works *if GPS connection not configured, go to 'GPS NMEA Connection' section, then complete this step*
+
+- Add and check plugins **in pamguard software folder 
+
+- Logger Form Checks: Add in all acoustic technicians for the cruise, add cruise number and any necessary details, alter species code (order and if available) based on location and project **additional info from Annamaria/NEFSC**
+
+## SATAs and Synology Box 
+**add information here**

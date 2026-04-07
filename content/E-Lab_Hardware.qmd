@@ -1,0 +1,38 @@
+---
+title: "E-Lab Hardware Setup"
+format: html
+---
+This page (as of now) is acting as the catch all for anything hardware related that is INSIDE the E-Lab/Drylab, this includes
+
+- ARS + headphone amps, etc
+
+- GPS 
+
+- External Power Sources
+
+
+## ARS
+*Each lab has slightly different ARS configurations, this is a generalized description* 
+
+Ensuring the deck cable with the components section has been secured in the E-Lab, setting the ARS on the workbench and gathering all additional connectors and wires
+
+- Connect the array input and depth gauges from the deck cable components end to the appropriate locations on the ARS 
+
+If applicable, connect additional headphone amps, power junctions, and GPS adapters 
+
+## GPS Connection 
+
+Use serial cables to connect to the vessel's GPS feed - work closely with the ET to configure if necessary, *each vessel can be vastly different in GPS configurations, take detailed notes for your specific setup*
+
+Feed this connection into the GPS adapter (RSR232, Keyspan Tripp-Lite, etc) *setup dependent* 
+
+For further steps connecting to conputer and pamguard, see instructions **here - nested link??**
+
+## External Power Sources
+Due to heavy electrical noise, some setups require acoustic systems to be setup on their own power sources as opposed to ship power
+**Link to lab specific setup instructions**
+
+
+
+
+

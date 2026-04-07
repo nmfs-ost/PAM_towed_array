@@ -48,14 +48,6 @@ website:
             text: Depth
           - href: content/Inventory.qmd
             text: Inventory
-      - section: content/lab.qmd
-        contents: 
-          - href: content/PI_LabSetup_1.qmd
-            text: PIFSC Lab Bench
-          - href: content/NEFSC_lab_setup.qmd
-            text: NEFSC Lab Bench
-          - href: content/SEFSC_lab_setup.qmd
-            text: SEFSC Lab Bench
       - section: content/FieldMethods.qmd
         text: Field Methods
         contents: 
@@ -70,12 +62,28 @@ website:
             contents:
               - href: content/SEFSC_Start_of_cruise.qmd
                 text: Start of Cruise
+          - href: content/Hardware_Setup.qmd
+            text: Hardware Setup
+          - href: content/Pin_Testing.qmd
+            text: Pin Testing
           - href: content/Array_details.qmd
             text: Array details
           - href: content/Real-time_SpeciesGuides.qmd
             text: Species Guides
           - href: content/Ops_Array_in_Water.qmd
             rext: Operating with the Array in the Water
+      - section: content/lab.qmd
+        contents:
+          - href: content/E-Lab_Hardware.qmd
+            text: E-Lab Hardware Setup
+          - href: content/Computers+Software.qmd
+            text: Computers and Software Installation
+          - href: content/PI_LabSetup_1.qmd
+            text: PIFSC Lab Bench
+          - href: content/NEFSC_lab_setup.qmd
+            text: NEFSC Lab Bench
+          - href: content/SEFSC_lab_setup.qmd
+            text: SEFSC Lab Bench
       - section: content/Software.qmd
         text: Software
         contents: 

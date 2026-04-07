@@ -1,0 +1,41 @@
+---
+title: "Hardware Setup - Deck Cable, Winch, Array"
+format: html
+---
+
+## Running the Deck Cable 
+*The path the deck cable runs may very depending on the vessel and hardware setup, however the principles remain applicable*
+
+The deck cable will need to be run with the components end running into the e-lab/dry lab to connect to the ARS, while the male connector end runs to the winch to connect to the tow cable. Check with FPC and deck crew to confirm a safe path *prior* to running cable. 
+
+### *A couple general rules include:* 
+- Run the component end into the e-lab/dry lab *first*, leaving enough cable to comfortably connect to the ARS with extra for adjustment if needed 
+
+- When running cable along the deck, it is best practice to run on the *outside* of railings and poles to avoid trip hazards, do not run across busy passageways or deck space without a cable cover. Avoid any pinch points such as doors hinges, tight corners, or crane junctions 
+
+- Secure the cable gently but securely with zip ties, allowing for natural movement with ship movement 
+
+- Leave plenty of cable on the back deck to comfortably connect to the tow cable, locate a safe space to store connector end when not in use
+
+## Winch Setup and Tow Cable Spooling
+
+- If the winch is not permanently fixed on the back deck of the vessel, coorindate with the FPC and deck crew to have it installed prior to each cruise/field season
+
+- In the event the tow cable needs spooled .... Annamaria here 
+
+## Array Setup
+*Only install the array 1-2 days before sailing to prevent unnecessary sun exposure*
+
+- Prior to connecting array, check for air bubbles - if found hang from an upper deck and top up oil
+
+- When ready, remove end-caps from each end and secure together for safe storage
+
+- Ensure all o-rings and pins/connections are clean, service if needed **link to array care** 
+
+- Connect the top of the array to the end of the tow cable *securely*, wrap connection in Christy plumbers tape or self-amalgamating tape to ensure watertight hold (allow tape to sit outside for ~30 mins to acclimate to temperature prior to application)
+
+- Secure tail line to end of the end array and secure on winch for sailing 
+
+## Deck Test
+Consider a final tap test once the hardware and e-lab are setup to ensure all equipment are working properly *prior to sailing* 
+
