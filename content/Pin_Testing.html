@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>PIFSC - Towed Array Lab Setup – NOAA quarto simple</title>
+<title>Pin Testing - Deck and Tow Cables – NOAA quarto simple</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -32,8 +32,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<link href="../content/NEFSC_lab_setup.html" rel="next">
-<link href="../content/Computers+Software.html" rel="prev">
+<link href="../content/Array_details.html" rel="next">
+<link href="../content/Hardware_Setup.html" rel="prev">
 <link href="../images/favicon.ico" rel="icon">
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
@@ -251,7 +251,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../content/lab.html">Lab Setup</a></li><li class="breadcrumb-item"><a href="../content/PI_LabSetup_1.html">PIFSC Lab Bench</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../content/FieldMethods.html">Field Methods</a></li><li class="breadcrumb-item"><a href="../content/Pin_Testing.html">Pin Testing</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -344,11 +344,11 @@ ul.task-list li input[type="checkbox"] {
       <div class="sidebar-item-container"> 
             <a href="../content/FieldMethods.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Field Methods</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 ">  
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../content/NEFSC_towed_array_manual.html" class="sidebar-item-text sidebar-link">
@@ -380,7 +380,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/Pin_Testing.html" class="sidebar-item-text sidebar-link">
+  <a href="../content/Pin_Testing.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Pin Testing</span></a>
   </div>
 </li>
@@ -408,11 +408,11 @@ ul.task-list li input[type="checkbox"] {
       <div class="sidebar-item-container"> 
             <a href="../content/lab.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Lab Setup</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../content/E-Lab_Hardware.html" class="sidebar-item-text sidebar-link">
@@ -427,7 +427,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/PI_LabSetup_1.html" class="sidebar-item-text sidebar-link active">
+  <a href="../content/PI_LabSetup_1.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">PIFSC Lab Bench</span></a>
   </div>
 </li>
@@ -511,17 +511,24 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#acoustic-recording-system-ars---schematic" id="toc-acoustic-recording-system-ars---schematic" class="nav-link active" data-scroll-target="#acoustic-recording-system-ars---schematic"><strong>Acoustic Recording System (ARS) - Schematic</strong></a></li>
+  <li><a href="#tow-cable" id="toc-tow-cable" class="nav-link active" data-scroll-target="#tow-cable">Tow Cable</a>
+  <ul class="collapse">
+  <li><a href="#male-and-female-connector" id="toc-male-and-female-connector" class="nav-link" data-scroll-target="#male-and-female-connector">Male and Female Connector</a></li>
+  </ul></li>
+  <li><a href="#deck-cable" id="toc-deck-cable" class="nav-link" data-scroll-target="#deck-cable">Deck Cable</a>
+  <ul class="collapse">
+  <li><a href="#male-connector-and-components-end-¼-jacks-battery-power" id="toc-male-connector-and-components-end-¼-jacks-battery-power" class="nav-link" data-scroll-target="#male-connector-and-components-end-¼-jacks-battery-power">Male connector and Components End (¼ jacks / battery power)</a></li>
+  </ul></li>
   </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/nmfs-ost/PAM_towed_array/edit/main/content/PI_LabSetup_1.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/nmfs-ost/PAM_towed_array/blob/main/content/PI_LabSetup_1.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/nmfs-ost/PAM_towed_array/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/nmfs-ost/PAM_towed_array/edit/main/content/Pin_Testing.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/nmfs-ost/PAM_towed_array/blob/main/content/Pin_Testing.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/nmfs-ost/PAM_towed_array/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../content/lab.html">Lab Setup</a></li><li class="breadcrumb-item"><a href="../content/PI_LabSetup_1.html">PIFSC Lab Bench</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../content/FieldMethods.html">Field Methods</a></li><li class="breadcrumb-item"><a href="../content/Pin_Testing.html">Pin Testing</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">PIFSC - Towed Array Lab Setup</h1>
+<h1 class="title">Pin Testing - Deck and Tow Cables</h1>
 </div>
 
 
@@ -538,16 +545,54 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="acoustic-recording-system-ars---schematic" class="level1">
-<h1><strong>Acoustic Recording System (ARS) - Schematic</strong></h1>
-<div class="quarto-figure quarto-figure-left">
-<figure class="figure">
-<p><img src="images/Acoustic_Recording_System_20250624.png" class="img-fluid quarto-figure quarto-figure-left figure-img"></p>
-</figure>
-</div>
-<p>High Resolution PDF for better zooming found <a href="https://drive.google.com/file/d/11aSSTe9cjoWrGphNXa20uQeGt9DV9olJ/view?usp=sharing">here</a>.</p>
+<p>Pin testing of deck and tow cables should be completed before every cruise or field season. You will need a buddy and a pin testing kit, which includes:</p>
+<ol type="1">
+<li>Alligator clips to wires, alligator to alligator, alligator to 9V battery adaptor</li>
+<li>Pins to wires (male and female)</li>
+<li>Multimeter</li>
+<li>Pin diagram</li>
+<li>Notebook – later going into Pin Testing Spreadsheet</li>
+<li>9V battery (for hydrophone and depth gauge testing)</li>
+</ol>
+<section id="tow-cable" class="level2">
+<h2 class="anchored" data-anchor-id="tow-cable">Tow Cable</h2>
+<section id="male-and-female-connector" class="level3">
+<h3 class="anchored" data-anchor-id="male-and-female-connector">Male and Female Connector</h3>
+<ul>
+<li><p>Turn on the Multimeter to the setting on the right ‘ohm’ Ω, which measures resistance. Make sure your black and red cables are attached on the bottom right</p></li>
+<li><p>Attach alligator clips to the end of the multimeter red and black prongs (use the groove at the end). On the other end of the alligator clips should be pin adaptors, one a male pin and the other a female pin hole.</p></li>
+<li><p><em>If the tow cable is on the winch</em>, spool out the connector on the winch to a comfortable position and make sure the connector attached to the winch (by the pin) is easily accessible (not upside down)</p></li>
+<li><p>Use your pin diagram to locate pin 1 on both the male and female connectors – use the notches as guides</p></li>
+<li><p>Place your female pin hole onto the male pin 1, then do the reverse for pin 1 on the female end of the connector</p></li>
+<li><p>Record the average reading from the multimeter (may jump around a bit) <em>The number itself is a relative reading, what you are looking for is consistency across all pins with none significantly lower than the other. Additionally, you should compare year to year to look for gradual drops in readings</em></p></li>
+<li><p>Once complete, all number recordings should be entered into the Cable Pin Testing Excel Sheet located in the Cruise Folder</p></li>
+</ul>
+</section>
+</section>
+<section id="deck-cable" class="level2">
+<h2 class="anchored" data-anchor-id="deck-cable">Deck Cable</h2>
+<section id="male-connector-and-components-end-¼-jacks-battery-power" class="level3">
+<h3 class="anchored" data-anchor-id="male-connector-and-components-end-¼-jacks-battery-power">Male connector and Components End (¼ jacks / battery power)</h3>
+<ul>
+<li><p>Turn on the Multimeter to the setting on the right ‘ohm’ Ω, which measures resistance. Make sure your black and red cables are attached on the bottom right side as well</p></li>
+<li><p>Attach alligator clip to ONE end of the multimeter prongs (does not matter red or black), and attach a female pin adaptor</p></li>
+<li><p>Coil your deck cable so that both connector ends are easily accessible and close to each other, with all jacks and power wires free</p></li>
+<li><p>Use the pin diagram to locate pin 1 on the male connector, and the corresponding component on the other end of the deck cable, likely the primary power supply (battery connector)</p>
+<ul>
+<li>Use the multimeter prong on the female side of the battery connector and record number, then move onto pin 2 on the male connector and switch to the (male) section of the battery power connector *double check this section, male may be first <em>If desired, skip to pins 23 and 24 to test secondary power too</em></li>
+</ul></li>
+<li><p>Then move to pins 3 and 4 and locate the corresponding deck cable component, likely a jack for the inline or end array. <em>Each jack will have a ‘ring’ and a ‘tip’ component, corresponding to two pins, it is important to know how your deck cable is wired before proceeding</em></p>
+<ul>
+<li>Ex: SEFSC deck cable is wired to ‘ring’ first, then ‘tip’, therefore the ring (center) will be pin 3, and the tip will be pin 4</li>
+</ul></li>
+<li><p>Move the female pin adaptor to the corresponding prong on the deck cable connector, touch the male multimeter prong to the correct pin/tip on the jack. Record the number</p></li>
+<li><p>Continue with this process across all rings and tips until you get to the depth sensor – <em>Sometimes the depth sensor is wired different</em> confirm wiring and complete as described above</p></li>
+<li><p>Once complete, record all numbers in the corresponding data sheet to track over time</p></li>
+</ul>
+<p><em>I have instructions to test the hydrophones in the array and the array depth gauge (based on Jennifer’s instructions), where does that make the most sense to live??</em></p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
@@ -966,13 +1011,13 @@ ul.task-list li input[type="checkbox"] {
   </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../content/Computers+Software.html" class="pagination-link" aria-label="Computers and Software Installation">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Computers and Software Installation</span>
+      <a href="../content/Hardware_Setup.html" class="pagination-link" aria-label="Hardware Setup">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Hardware Setup</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../content/NEFSC_lab_setup.html" class="pagination-link" aria-label="NEFSC Lab Bench">
-        <span class="nav-page-text">NEFSC Lab Bench</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../content/Array_details.html" class="pagination-link" aria-label="Array details">
+        <span class="nav-page-text">Array details</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
@@ -984,7 +1029,7 @@ ul.task-list li input[type="checkbox"] {
 </div>   
     <div class="nav-footer-center">
       &nbsp;
-    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/nmfs-ost/PAM_towed_array/edit/main/content/PI_LabSetup_1.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/nmfs-ost/PAM_towed_array/blob/main/content/PI_LabSetup_1.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/nmfs-ost/PAM_towed_array/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/nmfs-ost/PAM_towed_array/edit/main/content/Pin_Testing.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/nmfs-ost/PAM_towed_array/blob/main/content/Pin_Testing.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/nmfs-ost/PAM_towed_array/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
 <p>This page is built with <a href="https://quarto.org/">Quarto</a>.</p>
 </div>

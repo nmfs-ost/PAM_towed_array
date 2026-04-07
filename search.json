@@ -255,14 +255,80 @@
     ]
   },
   {
-    "objectID": "content/PI_LabSetup_1.html",
-    "href": "content/PI_LabSetup_1.html",
-    "title": "PIFSC - Towed Array Lab Setup",
+    "objectID": "content/Pin_Testing.html",
+    "href": "content/Pin_Testing.html",
+    "title": "Pin Testing - Deck and Tow Cables",
     "section": "",
-    "text": "Acoustic Recording System (ARS) - Schematic\n\n\n\n\n\nHigh Resolution PDF for better zooming found here.",
+    "text": "Pin testing of deck and tow cables should be completed before every cruise or field season. You will need a buddy and a pin testing kit, which includes:",
+    "crumbs": [
+      "Field Methods",
+      "Pin Testing"
+    ]
+  },
+  {
+    "objectID": "content/Pin_Testing.html#tow-cable",
+    "href": "content/Pin_Testing.html#tow-cable",
+    "title": "Pin Testing - Deck and Tow Cables",
+    "section": "Tow Cable",
+    "text": "Tow Cable\n\nMale and Female Connector\n\nTurn on the Multimeter to the setting on the right ‘ohm’ Ω, which measures resistance. Make sure your black and red cables are attached on the bottom right\nAttach alligator clips to the end of the multimeter red and black prongs (use the groove at the end). On the other end of the alligator clips should be pin adaptors, one a male pin and the other a female pin hole.\nIf the tow cable is on the winch, spool out the connector on the winch to a comfortable position and make sure the connector attached to the winch (by the pin) is easily accessible (not upside down)\nUse your pin diagram to locate pin 1 on both the male and female connectors – use the notches as guides\nPlace your female pin hole onto the male pin 1, then do the reverse for pin 1 on the female end of the connector\nRecord the average reading from the multimeter (may jump around a bit) The number itself is a relative reading, what you are looking for is consistency across all pins with none significantly lower than the other. Additionally, you should compare year to year to look for gradual drops in readings\nOnce complete, all number recordings should be entered into the Cable Pin Testing Excel Sheet located in the Cruise Folder",
+    "crumbs": [
+      "Field Methods",
+      "Pin Testing"
+    ]
+  },
+  {
+    "objectID": "content/Pin_Testing.html#deck-cable",
+    "href": "content/Pin_Testing.html#deck-cable",
+    "title": "Pin Testing - Deck and Tow Cables",
+    "section": "Deck Cable",
+    "text": "Deck Cable\n\nMale connector and Components End (¼ jacks / battery power)\n\nTurn on the Multimeter to the setting on the right ‘ohm’ Ω, which measures resistance. Make sure your black and red cables are attached on the bottom right side as well\nAttach alligator clip to ONE end of the multimeter prongs (does not matter red or black), and attach a female pin adaptor\nCoil your deck cable so that both connector ends are easily accessible and close to each other, with all jacks and power wires free\nUse the pin diagram to locate pin 1 on the male connector, and the corresponding component on the other end of the deck cable, likely the primary power supply (battery connector)\n\nUse the multimeter prong on the female side of the battery connector and record number, then move onto pin 2 on the male connector and switch to the (male) section of the battery power connector *double check this section, male may be first If desired, skip to pins 23 and 24 to test secondary power too\n\nThen move to pins 3 and 4 and locate the corresponding deck cable component, likely a jack for the inline or end array. Each jack will have a ‘ring’ and a ‘tip’ component, corresponding to two pins, it is important to know how your deck cable is wired before proceeding\n\nEx: SEFSC deck cable is wired to ‘ring’ first, then ‘tip’, therefore the ring (center) will be pin 3, and the tip will be pin 4\n\nMove the female pin adaptor to the corresponding prong on the deck cable connector, touch the male multimeter prong to the correct pin/tip on the jack. Record the number\nContinue with this process across all rings and tips until you get to the depth sensor – Sometimes the depth sensor is wired different confirm wiring and complete as described above\nOnce complete, record all numbers in the corresponding data sheet to track over time\n\nI have instructions to test the hydrophones in the array and the array depth gauge (based on Jennifer’s instructions), where does that make the most sense to live??",
+    "crumbs": [
+      "Field Methods",
+      "Pin Testing"
+    ]
+  },
+  {
+    "objectID": "content/E-Lab_Hardware.html",
+    "href": "content/E-Lab_Hardware.html",
+    "title": "E-Lab Hardware Setup",
+    "section": "",
+    "text": "This page (as of now) is acting as the catch all for anything hardware related that is INSIDE the E-Lab/Drylab, this includes",
     "crumbs": [
       "Lab Setup",
-      "PIFSC Lab Bench"
+      "E-Lab Hardware Setup"
+    ]
+  },
+  {
+    "objectID": "content/E-Lab_Hardware.html#ars",
+    "href": "content/E-Lab_Hardware.html#ars",
+    "title": "E-Lab Hardware Setup",
+    "section": "ARS",
+    "text": "ARS\nEach lab has slightly different ARS configurations, this is a generalized description\nEnsuring the deck cable with the components section has been secured in the E-Lab, setting the ARS on the workbench and gathering all additional connectors and wires\n\nConnect the array input and depth gauges from the deck cable components end to the appropriate locations on the ARS\n\nIf applicable, connect additional headphone amps, power junctions, and GPS adapters",
+    "crumbs": [
+      "Lab Setup",
+      "E-Lab Hardware Setup"
+    ]
+  },
+  {
+    "objectID": "content/E-Lab_Hardware.html#gps-connection",
+    "href": "content/E-Lab_Hardware.html#gps-connection",
+    "title": "E-Lab Hardware Setup",
+    "section": "GPS Connection",
+    "text": "GPS Connection\nUse serial cables to connect to the vessel’s GPS feed - work closely with the ET to configure if necessary, each vessel can be vastly different in GPS configurations, take detailed notes for your specific setup\nFeed this connection into the GPS adapter (RSR232, Keyspan Tripp-Lite, etc) setup dependent\nFor further steps connecting to conputer and pamguard, see instructions here - nested link??",
+    "crumbs": [
+      "Lab Setup",
+      "E-Lab Hardware Setup"
+    ]
+  },
+  {
+    "objectID": "content/E-Lab_Hardware.html#external-power-sources",
+    "href": "content/E-Lab_Hardware.html#external-power-sources",
+    "title": "E-Lab Hardware Setup",
+    "section": "External Power Sources",
+    "text": "External Power Sources\nDue to heavy electrical noise, some setups require acoustic systems to be setup on their own power sources as opposed to ship power Link to lab specific setup instructions",
+    "crumbs": [
+      "Lab Setup",
+      "E-Lab Hardware Setup"
     ]
   },
   {
@@ -283,6 +349,138 @@
     "text": "Array Models\nHardware\nLab Setup\nField Methods\nSoftware\nPlatform SOPs\nTroubleshooting",
     "crumbs": [
       "Home"
+    ]
+  },
+  {
+    "objectID": "content/PI_LabSetup_1.html",
+    "href": "content/PI_LabSetup_1.html",
+    "title": "PIFSC - Towed Array Lab Setup",
+    "section": "",
+    "text": "Acoustic Recording System (ARS) - Schematic\n\n\n\n\n\nHigh Resolution PDF for better zooming found here.",
+    "crumbs": [
+      "Lab Setup",
+      "PIFSC Lab Bench"
+    ]
+  },
+  {
+    "objectID": "content/Hardware_Setup.html",
+    "href": "content/Hardware_Setup.html",
+    "title": "Hardware Setup - Deck Cable, Winch, Array",
+    "section": "",
+    "text": "The path the deck cable runs may very depending on the vessel and hardware setup, however the principles remain applicable\nThe deck cable will need to be run with the components end running into the e-lab/dry lab to connect to the ARS, while the male connector end runs to the winch to connect to the tow cable. Check with FPC and deck crew to confirm a safe path prior to running cable.\n\n\n\nRun the component end into the e-lab/dry lab first, leaving enough cable to comfortably connect to the ARS with extra for adjustment if needed\nWhen running cable along the deck, it is best practice to run on the outside of railings and poles to avoid trip hazards, do not run across busy passageways or deck space without a cable cover. Avoid any pinch points such as doors hinges, tight corners, or crane junctions\nSecure the cable gently but securely with zip ties, allowing for natural movement with ship movement\nLeave plenty of cable on the back deck to comfortably connect to the tow cable, locate a safe space to store connector end when not in use",
+    "crumbs": [
+      "Field Methods",
+      "Hardware Setup"
+    ]
+  },
+  {
+    "objectID": "content/Hardware_Setup.html#running-the-deck-cable",
+    "href": "content/Hardware_Setup.html#running-the-deck-cable",
+    "title": "Hardware Setup - Deck Cable, Winch, Array",
+    "section": "",
+    "text": "The path the deck cable runs may very depending on the vessel and hardware setup, however the principles remain applicable\nThe deck cable will need to be run with the components end running into the e-lab/dry lab to connect to the ARS, while the male connector end runs to the winch to connect to the tow cable. Check with FPC and deck crew to confirm a safe path prior to running cable.\n\n\n\nRun the component end into the e-lab/dry lab first, leaving enough cable to comfortably connect to the ARS with extra for adjustment if needed\nWhen running cable along the deck, it is best practice to run on the outside of railings and poles to avoid trip hazards, do not run across busy passageways or deck space without a cable cover. Avoid any pinch points such as doors hinges, tight corners, or crane junctions\nSecure the cable gently but securely with zip ties, allowing for natural movement with ship movement\nLeave plenty of cable on the back deck to comfortably connect to the tow cable, locate a safe space to store connector end when not in use",
+    "crumbs": [
+      "Field Methods",
+      "Hardware Setup"
+    ]
+  },
+  {
+    "objectID": "content/Hardware_Setup.html#winch-setup-and-tow-cable-spooling",
+    "href": "content/Hardware_Setup.html#winch-setup-and-tow-cable-spooling",
+    "title": "Hardware Setup - Deck Cable, Winch, Array",
+    "section": "Winch Setup and Tow Cable Spooling",
+    "text": "Winch Setup and Tow Cable Spooling\n\nIf the winch is not permanently fixed on the back deck of the vessel, coorindate with the FPC and deck crew to have it installed prior to each cruise/field season\nIn the event the tow cable needs spooled …. Annamaria here",
+    "crumbs": [
+      "Field Methods",
+      "Hardware Setup"
+    ]
+  },
+  {
+    "objectID": "content/Hardware_Setup.html#array-setup",
+    "href": "content/Hardware_Setup.html#array-setup",
+    "title": "Hardware Setup - Deck Cable, Winch, Array",
+    "section": "Array Setup",
+    "text": "Array Setup\nOnly install the array 1-2 days before sailing to prevent unnecessary sun exposure\n\nPrior to connecting array, check for air bubbles - if found hang from an upper deck and top up oil\nWhen ready, remove end-caps from each end and secure together for safe storage\nEnsure all o-rings and pins/connections are clean, service if needed link to array care\nConnect the top of the array to the end of the tow cable securely, wrap connection in Christy plumbers tape or self-amalgamating tape to ensure watertight hold (allow tape to sit outside for ~30 mins to acclimate to temperature prior to application)\nSecure tail line to end of the end array and secure on winch for sailing",
+    "crumbs": [
+      "Field Methods",
+      "Hardware Setup"
+    ]
+  },
+  {
+    "objectID": "content/Hardware_Setup.html#deck-test",
+    "href": "content/Hardware_Setup.html#deck-test",
+    "title": "Hardware Setup - Deck Cable, Winch, Array",
+    "section": "Deck Test",
+    "text": "Deck Test\nConsider a final tap test once the hardware and e-lab are setup to ensure all equipment are working properly prior to sailing",
+    "crumbs": [
+      "Field Methods",
+      "Hardware Setup"
+    ]
+  },
+  {
+    "objectID": "content/Computers+Software.html",
+    "href": "content/Computers+Software.html",
+    "title": "Laptop Computers and Software Installation",
+    "section": "",
+    "text": "Include info Jennifer sent SEFSC, plus NEFSC Admins and Encryption info",
+    "crumbs": [
+      "Lab Setup",
+      "Computers and Software Installation"
+    ]
+  },
+  {
+    "objectID": "content/Computers+Software.html#it-setup",
+    "href": "content/Computers+Software.html#it-setup",
+    "title": "Laptop Computers and Software Installation",
+    "section": "",
+    "text": "Include info Jennifer sent SEFSC, plus NEFSC Admins and Encryption info",
+    "crumbs": [
+      "Lab Setup",
+      "Computers and Software Installation"
+    ]
+  },
+  {
+    "objectID": "content/Computers+Software.html#install-update-software",
+    "href": "content/Computers+Software.html#install-update-software",
+    "title": "Laptop Computers and Software Installation",
+    "section": "Install / Update Software",
+    "text": "Install / Update Software\n\nSQLite\nSailDAQ / NiDAQ\nA-D Depth Board\nPamguard\nNMEA Software?\nSynology Software?",
+    "crumbs": [
+      "Lab Setup",
+      "Computers and Software Installation"
+    ]
+  },
+  {
+    "objectID": "content/Computers+Software.html#gps-nmea-connection",
+    "href": "content/Computers+Software.html#gps-nmea-connection",
+    "title": "Laptop Computers and Software Installation",
+    "section": "GPS NMEA Connection",
+    "text": "GPS NMEA Connection\nadd information here",
+    "crumbs": [
+      "Lab Setup",
+      "Computers and Software Installation"
+    ]
+  },
+  {
+    "objectID": "content/Computers+Software.html#pamguard-setup",
+    "href": "content/Computers+Software.html#pamguard-setup",
+    "title": "Laptop Computers and Software Installation",
+    "section": "Pamguard Setup",
+    "text": "Pamguard Setup\n\nInstall working versions of pamguard check the software -&gt; pamguard section for most updated recommendations\n\nIf using a new version, set the available ram Navigate to C:, Installed Software Folder, Pamguard, select version you are using, navigate to the Configuration settings file types (Pamguard.l4j.ini), open and change top two -Xms and -Xmx to 2048m and 4096m respectively * add screenshot\n\nCheck array files (in configuration folder), sound acquisition settings, etc.\nSet database and binary folders/pathways\nSet recordings naming convention, recording length, and recording pathway if data storage not setup yet, go to ‘SATAs and Synology’ section, then complete this step\nSetup and check GPS NMEA connection and make sure it works if GPS connection not configured, go to ‘GPS NMEA Connection’ section, then complete this step\nAdd and check plugins **in pamguard software folder\nLogger Form Checks: Add in all acoustic technicians for the cruise, add cruise number and any necessary details, alter species code (order and if available) based on location and project additional info from Annamaria/NEFSC",
+    "crumbs": [
+      "Lab Setup",
+      "Computers and Software Installation"
+    ]
+  },
+  {
+    "objectID": "content/Computers+Software.html#satas-and-synology-box",
+    "href": "content/Computers+Software.html#satas-and-synology-box",
+    "title": "Laptop Computers and Software Installation",
+    "section": "SATAs and Synology Box",
+    "text": "SATAs and Synology Box\nadd information here",
+    "crumbs": [
+      "Lab Setup",
+      "Computers and Software Installation"
     ]
   },
   {

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>PIFSC - Towed Array Lab Setup – NOAA quarto simple</title>
+<title>Hardware Setup - Deck Cable, Winch, Array – NOAA quarto simple</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -32,8 +32,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<link href="../content/NEFSC_lab_setup.html" rel="next">
-<link href="../content/Computers+Software.html" rel="prev">
+<link href="../content/Pin_Testing.html" rel="next">
+<link href="../content/SEFSC_Start_of_cruise.html" rel="prev">
 <link href="../images/favicon.ico" rel="icon">
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
@@ -251,7 +251,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../content/lab.html">Lab Setup</a></li><li class="breadcrumb-item"><a href="../content/PI_LabSetup_1.html">PIFSC Lab Bench</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../content/FieldMethods.html">Field Methods</a></li><li class="breadcrumb-item"><a href="../content/Hardware_Setup.html">Hardware Setup</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -344,11 +344,11 @@ ul.task-list li input[type="checkbox"] {
       <div class="sidebar-item-container"> 
             <a href="../content/FieldMethods.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Field Methods</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 ">  
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../content/NEFSC_towed_array_manual.html" class="sidebar-item-text sidebar-link">
@@ -374,7 +374,7 @@ ul.task-list li input[type="checkbox"] {
   </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/Hardware_Setup.html" class="sidebar-item-text sidebar-link">
+  <a href="../content/Hardware_Setup.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Hardware Setup</span></a>
   </div>
 </li>
@@ -408,11 +408,11 @@ ul.task-list li input[type="checkbox"] {
       <div class="sidebar-item-container"> 
             <a href="../content/lab.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Lab Setup</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../content/E-Lab_Hardware.html" class="sidebar-item-text sidebar-link">
@@ -427,7 +427,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/PI_LabSetup_1.html" class="sidebar-item-text sidebar-link active">
+  <a href="../content/PI_LabSetup_1.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">PIFSC Lab Bench</span></a>
   </div>
 </li>
@@ -511,17 +511,23 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#acoustic-recording-system-ars---schematic" id="toc-acoustic-recording-system-ars---schematic" class="nav-link active" data-scroll-target="#acoustic-recording-system-ars---schematic"><strong>Acoustic Recording System (ARS) - Schematic</strong></a></li>
+  <li><a href="#running-the-deck-cable" id="toc-running-the-deck-cable" class="nav-link active" data-scroll-target="#running-the-deck-cable">Running the Deck Cable</a>
+  <ul class="collapse">
+  <li><a href="#a-couple-general-rules-include" id="toc-a-couple-general-rules-include" class="nav-link" data-scroll-target="#a-couple-general-rules-include"><em>A couple general rules include:</em></a></li>
+  </ul></li>
+  <li><a href="#winch-setup-and-tow-cable-spooling" id="toc-winch-setup-and-tow-cable-spooling" class="nav-link" data-scroll-target="#winch-setup-and-tow-cable-spooling">Winch Setup and Tow Cable Spooling</a></li>
+  <li><a href="#array-setup" id="toc-array-setup" class="nav-link" data-scroll-target="#array-setup">Array Setup</a></li>
+  <li><a href="#deck-test" id="toc-deck-test" class="nav-link" data-scroll-target="#deck-test">Deck Test</a></li>
   </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/nmfs-ost/PAM_towed_array/edit/main/content/PI_LabSetup_1.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/nmfs-ost/PAM_towed_array/blob/main/content/PI_LabSetup_1.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/nmfs-ost/PAM_towed_array/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/nmfs-ost/PAM_towed_array/edit/main/content/Hardware_Setup.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/nmfs-ost/PAM_towed_array/blob/main/content/Hardware_Setup.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/nmfs-ost/PAM_towed_array/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../content/lab.html">Lab Setup</a></li><li class="breadcrumb-item"><a href="../content/PI_LabSetup_1.html">PIFSC Lab Bench</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../content/FieldMethods.html">Field Methods</a></li><li class="breadcrumb-item"><a href="../content/Hardware_Setup.html">Hardware Setup</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">PIFSC - Towed Array Lab Setup</h1>
+<h1 class="title">Hardware Setup - Deck Cable, Winch, Array</h1>
 </div>
 
 
@@ -538,14 +544,41 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="acoustic-recording-system-ars---schematic" class="level1">
-<h1><strong>Acoustic Recording System (ARS) - Schematic</strong></h1>
-<div class="quarto-figure quarto-figure-left">
-<figure class="figure">
-<p><img src="images/Acoustic_Recording_System_20250624.png" class="img-fluid quarto-figure quarto-figure-left figure-img"></p>
-</figure>
-</div>
-<p>High Resolution PDF for better zooming found <a href="https://drive.google.com/file/d/11aSSTe9cjoWrGphNXa20uQeGt9DV9olJ/view?usp=sharing">here</a>.</p>
+<section id="running-the-deck-cable" class="level2">
+<h2 class="anchored" data-anchor-id="running-the-deck-cable">Running the Deck Cable</h2>
+<p><em>The path the deck cable runs may very depending on the vessel and hardware setup, however the principles remain applicable</em></p>
+<p>The deck cable will need to be run with the components end running into the e-lab/dry lab to connect to the ARS, while the male connector end runs to the winch to connect to the tow cable. Check with FPC and deck crew to confirm a safe path <em>prior</em> to running cable.</p>
+<section id="a-couple-general-rules-include" class="level3">
+<h3 class="anchored" data-anchor-id="a-couple-general-rules-include"><em>A couple general rules include:</em></h3>
+<ul>
+<li><p>Run the component end into the e-lab/dry lab <em>first</em>, leaving enough cable to comfortably connect to the ARS with extra for adjustment if needed</p></li>
+<li><p>When running cable along the deck, it is best practice to run on the <em>outside</em> of railings and poles to avoid trip hazards, do not run across busy passageways or deck space without a cable cover. Avoid any pinch points such as doors hinges, tight corners, or crane junctions</p></li>
+<li><p>Secure the cable gently but securely with zip ties, allowing for natural movement with ship movement</p></li>
+<li><p>Leave plenty of cable on the back deck to comfortably connect to the tow cable, locate a safe space to store connector end when not in use</p></li>
+</ul>
+</section>
+</section>
+<section id="winch-setup-and-tow-cable-spooling" class="level2">
+<h2 class="anchored" data-anchor-id="winch-setup-and-tow-cable-spooling">Winch Setup and Tow Cable Spooling</h2>
+<ul>
+<li><p>If the winch is not permanently fixed on the back deck of the vessel, coorindate with the FPC and deck crew to have it installed prior to each cruise/field season</p></li>
+<li><p>In the event the tow cable needs spooled …. Annamaria here</p></li>
+</ul>
+</section>
+<section id="array-setup" class="level2">
+<h2 class="anchored" data-anchor-id="array-setup">Array Setup</h2>
+<p><em>Only install the array 1-2 days before sailing to prevent unnecessary sun exposure</em></p>
+<ul>
+<li><p>Prior to connecting array, check for air bubbles - if found hang from an upper deck and top up oil</p></li>
+<li><p>When ready, remove end-caps from each end and secure together for safe storage</p></li>
+<li><p>Ensure all o-rings and pins/connections are clean, service if needed <strong>link to array care</strong></p></li>
+<li><p>Connect the top of the array to the end of the tow cable <em>securely</em>, wrap connection in Christy plumbers tape or self-amalgamating tape to ensure watertight hold (allow tape to sit outside for ~30 mins to acclimate to temperature prior to application)</p></li>
+<li><p>Secure tail line to end of the end array and secure on winch for sailing</p></li>
+</ul>
+</section>
+<section id="deck-test" class="level2">
+<h2 class="anchored" data-anchor-id="deck-test">Deck Test</h2>
+<p>Consider a final tap test once the hardware and e-lab are setup to ensure all equipment are working properly <em>prior to sailing</em></p>
 
 
 </section>
@@ -966,13 +999,13 @@ ul.task-list li input[type="checkbox"] {
   </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../content/Computers+Software.html" class="pagination-link" aria-label="Computers and Software Installation">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Computers and Software Installation</span>
+      <a href="../content/SEFSC_Start_of_cruise.html" class="pagination-link" aria-label="Start of Cruise">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Start of Cruise</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../content/NEFSC_lab_setup.html" class="pagination-link" aria-label="NEFSC Lab Bench">
-        <span class="nav-page-text">NEFSC Lab Bench</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../content/Pin_Testing.html" class="pagination-link" aria-label="Pin Testing">
+        <span class="nav-page-text">Pin Testing</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
@@ -984,7 +1017,7 @@ ul.task-list li input[type="checkbox"] {
 </div>   
     <div class="nav-footer-center">
       &nbsp;
-    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/nmfs-ost/PAM_towed_array/edit/main/content/PI_LabSetup_1.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/nmfs-ost/PAM_towed_array/blob/main/content/PI_LabSetup_1.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/nmfs-ost/PAM_towed_array/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/nmfs-ost/PAM_towed_array/edit/main/content/Hardware_Setup.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/nmfs-ost/PAM_towed_array/blob/main/content/Hardware_Setup.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/nmfs-ost/PAM_towed_array/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
 <p>This page is built with <a href="https://quarto.org/">Quarto</a>.</p>
 </div>
