@@ -1,5 +1,6 @@
 ---
 title: Hardware
+format: html
 ---
 
 This page is for components (not full arrays)

@@ -1,5 +1,6 @@
 ---
 title: Field Methods
+format: html
 ---
 
 ### MAIN GOALS FOR REAL-TIME DATA COLLECTION
