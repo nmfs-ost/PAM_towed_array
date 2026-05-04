@@ -10,9 +10,9 @@ This page is for components (not full arrays)
 **Configuring the computers to read the ship’s GPS**\
 1. Use the serial to USB adapter cables (e.g. Keyspan Tripp-Lite), or the RS-232 GPS adapter
 
-![For NEFSC-led cruises](images/Keyspan_Tripp-Lite_GPS_adapter.png){fig-align="left" width="338"}
+![For NEFSC-led cruises](images/Keyspan_Tripp-Lite_GPS_adapter.png){fig-align="center" width="338"}
 
-![For PIFSC and SEFSC led cruises](images/RS-232_GPS_adapter.jpg){fig-align="right" width="242"}
+![For PIFSC and SEFSC led cruises](images/RS-232_GPS_adapter.jpg){fig-align="center" width="242"}
 
 *For the Keyspan Tripp-Lite installation:*
 
