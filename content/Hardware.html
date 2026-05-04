@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.36">
+<meta name="generator" content="quarto-1.9.37">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -41,14 +41,14 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-f418161beb48e0141c760e455f12af2c.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-d0ae9245876894da5ac7e18953ecc5cc.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-8432ee26c2eb86eb0659ec3d4cbd73c9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-049b89148c041f11256bd001a988d46e.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../site_libs/bootstrap/bootstrap-8432ee26c2eb86eb0659ec3d4cbd73c9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-8d51171ab127489a77a17eca793c6490.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-6f148fdfc5ec14e9f951eb17949292fc.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-8d51171ab127489a77a17eca793c6490.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -506,8 +506,14 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#configuring-the-gps" id="toc-configuring-the-gps" class="nav-link active" data-scroll-target="#configuring-the-gps">Configuring the GPS</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/nmfs-ost/PAM_towed_array/edit/main/content/Hardware.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/nmfs-ost/PAM_towed_array/blob/main/content/Hardware.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/nmfs-ost/PAM_towed_array/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -533,8 +539,43 @@ ul.task-list li input[type="checkbox"] {
 
 
 <p>This page is for components (not full arrays)</p>
+<section id="configuring-the-gps" class="level1">
+<h1>Configuring the GPS</h1>
+<p><strong>Configuring the computers to read the ship’s GPS</strong><br>
+1. Use the serial to USB adapter cables (e.g.&nbsp;Keyspan Tripp-Lite), or the RS-232 GPS adapter</p>
+<div class="quarto-figure quarto-figure-left">
+<figure class="figure">
+<p><img src="images/Keyspan_Tripp-Lite_GPS_adapter.png" class="img-fluid figure-img" width="338"></p>
+<figcaption>For NEFSC-led cruises</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-right">
+<figure class="figure">
+<p><img src="images/RS-232_GPS_adapter.jpg" class="img-fluid figure-img" width="242"></p>
+<figcaption>For PIFSC and SEFSC led cruises</figcaption>
+</figure>
+</div>
+<p><em>For the Keyspan Tripp-Lite installation:</em></p>
+<pre><code>  1. Requires driver: USA-19HS Windows (2000, XP, 2003 Server, Vista)\_v3.7S  
+  2. Make sure that Windows Security \&gt; Device Security \&gt; Core Isolation \&gt; Core isolation details \&gt; Memory integrity  \&gt; Toggle the switch to “Off” otherwise the computer cannot install the driver (even with admin priviledges)  </code></pre>
+<p><em>For the RS-232 installation:</em> <em>add text here- to do by Jennifer or Shannon</em></p>
+<ol start="2" type="1">
+<li>Plug in the GPS USB AFTER the computer has been restarted otherwise will have the jumpy mouse problem
+<ol type="1">
+<li>To resolve the jumping mouse, disconnect the GPS USB and you will probably have to log off or restart the computer. Once you have logged back in, reconnect the GPS USB<br>
+</li>
+<li>If that doesn’t work, go to the device manager &gt; Mice and other pointing devices &gt; Microsoft serial ballpoint &gt; Uninstall<br>
+</li>
+</ol></li>
+<li>Use the Device Manager to make sure the USB-1280LS is registering under the COM port section<br>
+</li>
+<li>If you need to change the COM port within Pamguard, go to Settings &gt; NMEA parameters &gt; Serial settings &gt; Port<br>
+</li>
+<li>To confirm Pamguard is reading the incoming GPS data go to Settings &gt; NMEA data collection &gt; NMEA data strings (should see it update)</li>
+</ol>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -970,7 +1011,7 @@ ul.task-list li input[type="checkbox"] {
 </div>   
     <div class="nav-footer-center">
       &nbsp;
-    <div class="toc-actions"><ul><li><a href="https://github.com/nmfs-ost/PAM_towed_array/edit/main/content/Hardware.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/nmfs-ost/PAM_towed_array/blob/main/content/Hardware.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/nmfs-ost/PAM_towed_array/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/nmfs-ost/PAM_towed_array/edit/main/content/Hardware.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/nmfs-ost/PAM_towed_array/blob/main/content/Hardware.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/nmfs-ost/PAM_towed_array/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
 <p>This page is built with <a href="https://quarto.org/">Quarto</a>.</p>
 </div>

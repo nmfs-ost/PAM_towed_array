@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.36">
+<meta name="generator" content="quarto-1.9.37">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -41,14 +41,14 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-f418161beb48e0141c760e455f12af2c.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-d0ae9245876894da5ac7e18953ecc5cc.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-8432ee26c2eb86eb0659ec3d4cbd73c9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-049b89148c041f11256bd001a988d46e.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../site_libs/bootstrap/bootstrap-8432ee26c2eb86eb0659ec3d4cbd73c9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-8d51171ab127489a77a17eca793c6490.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-6f148fdfc5ec14e9f951eb17949292fc.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-8d51171ab127489a77a17eca793c6490.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -511,7 +511,8 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#overall-notes" id="toc-overall-notes" class="nav-link active" data-scroll-target="#overall-notes">Overall NOTES</a>
+  <li><a href="#maintain-logger-lookup-table" id="toc-maintain-logger-lookup-table" class="nav-link active" data-scroll-target="#maintain-logger-lookup-table">MAINTAIN LOGGER LOOKUP TABLE</a></li>
+  <li><a href="#overall-notes" id="toc-overall-notes" class="nav-link" data-scroll-target="#overall-notes">Overall NOTES</a>
   <ul class="collapse">
   <li><a href="#ars" id="toc-ars" class="nav-link" data-scroll-target="#ars">ARS</a></li>
   <li><a href="#array" id="toc-array" class="nav-link" data-scroll-target="#array">Array</a></li>
@@ -547,6 +548,75 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<section id="maintain-logger-lookup-table" class="level3">
+<h3 class="anchored" data-anchor-id="maintain-logger-lookup-table">MAINTAIN LOGGER LOOKUP TABLE</h3>
+<p>In the steps below, you will be generating a blank database specific to each cruise that will contain all of the information pertaining to the modules in your Pamguard settings file. This blank database however, will not contain the historical record of the field options for the Logger forms. To use those options (and create new ones) requires you to upload the master Logger form into your new database. The master Logger form is <code>Logger_UDF_20190814_Blank_NEFSC.sqlite3</code>.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/Logger_Tables_in_Database.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="310"></p>
+</figure>
+</div>
+<ul>
+<li>All tables starting with “UDF” equates to a Logger form that an analyst can fill out to record cruise metadata and detection data.</li>
+<li>If there is an “x” preceding “UDF”, it means that form is invisible to Pamguard, but still retained in case you ever need to use it.</li>
+<li>Check to make sure that the forms you need for your cruise are active in the Logger file.</li>
+</ul>
+<section id="lookup-table" class="level4">
+<h4 class="anchored" data-anchor-id="lookup-table">LOOKUP TABLE</h4>
+<p>The Lookup table within the <code>Logger_UDF_20190814_Blank_NEFSC</code> database contains all the reference material to populate the Logger forms.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Field</th>
+<th>Definition</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Id</strong></td>
+<td>Has to be a unique ID number. Please sort this column to see the last number used.</td>
+</tr>
+<tr class="even">
+<td><strong>Topic</strong></td>
+<td>General theme the field relates to (e.g., “Who”, “species”, “cruise number”).</td>
+</tr>
+<tr class="odd">
+<td><strong>DisplayOrder</strong></td>
+<td>Order in which the row should show up in the dropdown menu; must be unique within a Topic.</td>
+</tr>
+<tr class="even">
+<td><strong>Code</strong></td>
+<td>Shortened code of the ItemText stored in database tables.</td>
+</tr>
+<tr class="odd">
+<td><strong>ItemText</strong></td>
+<td>Human readable short description.</td>
+</tr>
+<tr class="even">
+<td><strong>isSelectable</strong></td>
+<td>Binary 1/0 to let Pamguard know whether to show that row (1) or not (0).</td>
+</tr>
+</tbody>
+</table>
+<p>The following steps should be done prior to the cruise</p>
+<ol type="1">
+<li><p>Make sure that the acousticians who are participating in the cruise are listed within Logger_UDF_20190814_Blank_NEFSC. If not, you can add them by inserting a new row using the green + button and filling out the Id, Topic, DisplayOrder, Code, ItemText, and isSelectable fields. The code should be the acoustician’s initials.</p>
+<ol type="1">
+<li>If there are acousticians in the table that are not going out on your cruise, toggle them from 1 to 0 under the “isSelectable” field</li>
+</ol></li>
+<li><p>Make sure that the cruise name is added to the table. This is under the “cruise number” Topic. The standard NMFS cruise code should go under Code [Ship 2 or 3 digit identifier][Last 2 digits of the year the cruise is being conducted][2 digit number referring to the order your cruise is for that particular ship]</p>
+<ol type="1">
+<li>Toggle off any previous cruises that are still marked as 1 under “isSelectable”</li>
+</ol></li>
+<li><p>There are more fine scale edits that can be made to this table, but please check in with the acoustics lead if you are going to do so</p></li>
+<li><p>When returning from the cruise, make sure that any additions you made are copied into the master database located on the server. Check in with the acoustics lead that you have done so, or need help.</p></li>
+</ol>
+</section>
+</section>
 <section id="overall-notes" class="level2">
 <h2 class="anchored" data-anchor-id="overall-notes">Overall NOTES</h2>
 <pre><code>1.  &nbsp;Make sure that Function keys are locked ON
