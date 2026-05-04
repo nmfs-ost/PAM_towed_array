@@ -18,3 +18,14 @@ format: html
 **ITD laptop 2**: recording computer and Kogia tracking computer. *Needs GPS feed from the ship*
 
 **ARS**: analog to digital converter. Connects to the towed array via deck cable
+
+
+##Installation
+Deck cable plugs into the front of the Acoustic Recording System (ARS)
+
+ARS sound cards plug into the Recording and Tracking computers via black USB cables
+
+Power connections for Towed array: White power cord at the back of the ARS. Plug into ship’s UPS strip
+
+Depth sensor: White USB cable from the back of the ARS. Plug into the Recording computer
+

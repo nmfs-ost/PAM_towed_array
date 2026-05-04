@@ -2,4 +2,18 @@
 title: Field Methods
 ---
 
+### MAIN GOALS FOR REAL-TIME DATA COLLECTION
 
+-   Get accurate start/end times of all species encounters.
+-   Determine overlap between acoustic groups and visual sightings of delphinids, so that we have acoustic encounters identified to species as often as possible.
+-   Collect group vocal period information for Gervais’ beaked whales (high quality recordings of Gervais’ needed).
+-   Collect high quality recordings of Kogia species and get group vocal period information.
+-   Mark start and ends of sperm whale vocal activity.
+-   Capture the changing environmental conditions/situations.
+
+## GENERAL DATA COLLECTION PROCEDURE {#general-procedure}
+
+We will be using Pamguard to collect and record data. There is both an aural (sperm whales, some dolphin whistles and clicks), and visual component (spectrogram, click bearing-time display), data entry form, and incoming sightings information on a separate computer, so your attention needs to be diverted amongst multiple screens and incoming information.
+
+-   Please keep in mind that while you will hear sperm whales and dolphin whistles, you often will not hear echolocation – the aural component is to reduce the stress of what to pay attention to on screen.
+-   Sperm whale start/ends can be assessed aurally, and for dolphins, serve more as a cue.
