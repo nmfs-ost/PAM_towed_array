@@ -3,4 +3,16 @@ title: Hardware
 format: html
 ---
 
+[Hydrophones](/content/hydrophones.qmd)
+
 [Connecting to the ship's GPS](/content/GPS.qmd)
+
+Connecting the depth sensor
+
+-   NEFSC: this is plugging in the white USB cable to the computer
+
+-   SEFSC:
+
+-   PIFSC:
+
+[How to figure out the depth sensor equation](/content/depth.qmd)
