@@ -1,0 +1,64 @@
+---
+title: "Field Setup"
+format: html
+---
+
+Initial blurb here 
+
+## Hardware Setup
+### Necessary Field Components
+- **Deck Cable** with enough length to run from lab to deployment deck 
+- **Tow cable** at least 1.5 times the length of desired tow distance 
+- **Winch** on deck to tow the cable and array *best for larger vessel setups* 
+- **Towed Array** or single hydrophone acoustic recording device - *for more information on towed arrays and hydrophone, see the Array Models section - link* 
+- **'ARS'** "Acoustic Recording System" consisting of *at a minimum* a soundcard and power source 
+- **GPS** connection to determine current location 
+- **Computer System** used for real time monitoring and data collection 
+- **Data storage** typically consisting of external drives or NAS solutions
+
+The necessary setup will vary significantly based on the scale of the system and size of the vessel, however the following process remains similar 
+
+### *Run Deck Cable*
+Starting from the 'lab' location on the vessel, begin by running the **deck cable** from the lab to the deployment location on the back deck. Pay attention to each end of the deck cable to ensure the appropriate end connections are in the correct orientation. 
+
+**A couple general rules include:**
+
+- When running cable along the deck, it is best practice to run on the *outside* of railings and poles to avoid trip hazards, do not run across busy passageways or deck space without a cable cover. Avoid any pinch points such as doors hinges, tight corners, or crane junctions 
+
+- Secure the cable gently but securely with zip ties, allowing for natural movement with ship movement 
+
+- Leave plenty of cable on the back deck to comfortably connect to the tow cable, locate a safe space to store connector end when not in use
+
+### *Winch and Tow Cable*
+- If using a **winch**, station securely on the back deck at the desired location, preferably as close to center deck width as possible 
+
+- Spool the **tow cable** onto the winch by securing the attachment end to the winch for easy access, then carefully feeding the cable onto the moving winch ensuring the cable is not tangled
+
+### *Towed Array*
+Attach the towed array to the end of the tow cable and secure connection with water tight tape such as electrical tape, self amalgamating tape, or Christy's plumbers tape 
+- If desired, pin test prior to connection using the guide **linked here - link**
+- If desired, secure a tail line to the end of the array to reduce drag movement 
+
+## Lab Setup
+
+- **Acoustic Recording System**
+Setup ARS based on specification and complexity of the system, and connect the deck cable end to the ARS soundcard. Ideal power sources can vary based on the ship power and the level of noise input into the acoustic system. When in doubt, a 12V marine battery is a suitable choice to power the recording system with minimal noise. 
+
+- **Computer and Data Storage**
+Larger NOAA operations use two laptop computers, one for monitoring a click detector and tracking, and the other for a spectrogram, data entry, and recording of raw data. If using an external data storage hard drive, connect this to the recording computer. 
+
+- **GPS Connection** 
+If applicable, use a serial port to connect to the vessel's NMEA GPS string. If the vessel does not have this capability, use a self contained GPS device. *For more details see the GPS section - link*
+
+## Software Setup 
+
+### *Recommended Software*: 
+
+- **Pamguard**: for acoustic data collection and monitoring
+
+- **SQLite Studio**: for pamguard database viewing  
+
+### *Software Setup* 
+
+
+

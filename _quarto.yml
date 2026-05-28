@@ -64,8 +64,10 @@ website:
             contents:
               - href: content/SEFSC_Start_of_cruise.qmd
                 text: Start of Cruise
-          - href: content/Hardware_Setup.qmd
-            text: Hardware Setup
+          # - href: content/Hardware_Setup.qmd
+          #   text: Hardware Setup
+          - href: content/Field_Setup.qmd
+            text: Field Setup
           - href: content/Pin_Testing.qmd
             text: Pin Testing
           - href: content/Array_details.qmd
