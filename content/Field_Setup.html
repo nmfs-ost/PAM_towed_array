@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>xxx – NOAA quarto simple</title>
+<title>Field Setup – NOAA quarto simple</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -32,8 +32,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<link href="../content/yyy.html" rel="next">
-<link href="../content/troubleshoot.html" rel="prev">
+<link href="../content/Pin_Testing.html" rel="next">
+<link href="../content/SEFSC_Start_of_cruise.html" rel="prev">
 <link href="../images/favicon.ico" rel="icon">
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
@@ -251,7 +251,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../content/troubleshoot.html">Troubleshooting</a></li><li class="breadcrumb-item"><a href="../content/xxx.html">xxx</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../content/FieldMethods.html">Field Methods</a></li><li class="breadcrumb-item"><a href="../content/Field_Setup.html">Field Setup</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -350,11 +350,11 @@ ul.task-list li input[type="checkbox"] {
       <div class="sidebar-item-container"> 
             <a href="../content/FieldMethods.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Field Methods</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 ">  
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../content/NEFSC_towed_array_manual.html" class="sidebar-item-text sidebar-link">
@@ -380,7 +380,7 @@ ul.task-list li input[type="checkbox"] {
   </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/Field_Setup.html" class="sidebar-item-text sidebar-link">
+  <a href="../content/Field_Setup.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Field Setup</span></a>
   </div>
 </li>
@@ -488,14 +488,14 @@ ul.task-list li input[type="checkbox"] {
       <div class="sidebar-item-container"> 
             <a href="../content/troubleshoot.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Troubleshooting</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" role="navigation" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-7" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-7" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/xxx.html" class="sidebar-item-text sidebar-link active">
+  <a href="../content/xxx.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">xxx</span></a>
   </div>
 </li>
@@ -512,16 +512,34 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#hardware-setup" id="toc-hardware-setup" class="nav-link active" data-scroll-target="#hardware-setup">Hardware Setup</a>
+  <ul class="collapse">
+  <li><a href="#necessary-field-components" id="toc-necessary-field-components" class="nav-link" data-scroll-target="#necessary-field-components">Necessary Field Components</a></li>
+  <li><a href="#run-deck-cable" id="toc-run-deck-cable" class="nav-link" data-scroll-target="#run-deck-cable"><em>Run Deck Cable</em></a></li>
+  <li><a href="#winch-and-tow-cable" id="toc-winch-and-tow-cable" class="nav-link" data-scroll-target="#winch-and-tow-cable"><em>Winch and Tow Cable</em></a></li>
+  <li><a href="#towed-array" id="toc-towed-array" class="nav-link" data-scroll-target="#towed-array"><em>Towed Array</em></a></li>
+  </ul></li>
+  <li><a href="#lab-setup" id="toc-lab-setup" class="nav-link" data-scroll-target="#lab-setup">Lab Setup</a></li>
+  <li><a href="#software-setup" id="toc-software-setup" class="nav-link" data-scroll-target="#software-setup">Software Setup</a>
+  <ul class="collapse">
+  <li><a href="#recommended-software" id="toc-recommended-software" class="nav-link" data-scroll-target="#recommended-software"><em>Recommended Software</em>:</a></li>
+  <li><a href="#software-setup-1" id="toc-software-setup-1" class="nav-link" data-scroll-target="#software-setup-1"><em>Software Setup</em></a></li>
+  </ul></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/nmfs-ost/PAM_towed_array/edit/main/content/Field_Setup.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/nmfs-ost/PAM_towed_array/blob/main/content/Field_Setup.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/nmfs-ost/PAM_towed_array/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../content/troubleshoot.html">Troubleshooting</a></li><li class="breadcrumb-item"><a href="../content/xxx.html">xxx</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../content/FieldMethods.html">Field Methods</a></li><li class="breadcrumb-item"><a href="../content/Field_Setup.html">Field Setup</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">xxx</h1>
+<h1 class="title">Field Setup</h1>
 </div>
 
 
@@ -538,8 +556,68 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<p>Initial blurb here</p>
+<section id="hardware-setup" class="level2">
+<h2 class="anchored" data-anchor-id="hardware-setup">Hardware Setup</h2>
+<section id="necessary-field-components" class="level3">
+<h3 class="anchored" data-anchor-id="necessary-field-components">Necessary Field Components</h3>
+<ul>
+<li><strong>Deck Cable</strong> with enough length to run from lab to deployment deck</li>
+<li><strong>Tow cable</strong> at least 1.5 times the length of desired tow distance</li>
+<li><strong>Winch</strong> on deck to tow the cable and array <em>best for larger vessel setups</em></li>
+<li><strong>Towed Array</strong> or single hydrophone acoustic recording device - <em>for more information on towed arrays and hydrophone, see the Array Models section - link</em></li>
+<li><strong>‘ARS’</strong> “Acoustic Recording System” consisting of <em>at a minimum</em> a soundcard and power source</li>
+<li><strong>GPS</strong> connection to determine current location</li>
+<li><strong>Computer System</strong> used for real time monitoring and data collection</li>
+<li><strong>Data storage</strong> typically consisting of external drives or NAS solutions</li>
+</ul>
+<p>The necessary setup will vary significantly based on the scale of the system and size of the vessel, however the following process remains similar</p>
+</section>
+<section id="run-deck-cable" class="level3">
+<h3 class="anchored" data-anchor-id="run-deck-cable"><em>Run Deck Cable</em></h3>
+<p>Starting from the ‘lab’ location on the vessel, begin by running the <strong>deck cable</strong> from the lab to the deployment location on the back deck. Pay attention to each end of the deck cable to ensure the appropriate end connections are in the correct orientation.</p>
+<p><strong>A couple general rules include:</strong></p>
+<ul>
+<li><p>When running cable along the deck, it is best practice to run on the <em>outside</em> of railings and poles to avoid trip hazards, do not run across busy passageways or deck space without a cable cover. Avoid any pinch points such as doors hinges, tight corners, or crane junctions</p></li>
+<li><p>Secure the cable gently but securely with zip ties, allowing for natural movement with ship movement</p></li>
+<li><p>Leave plenty of cable on the back deck to comfortably connect to the tow cable, locate a safe space to store connector end when not in use</p></li>
+</ul>
+</section>
+<section id="winch-and-tow-cable" class="level3">
+<h3 class="anchored" data-anchor-id="winch-and-tow-cable"><em>Winch and Tow Cable</em></h3>
+<ul>
+<li><p>If using a <strong>winch</strong>, station securely on the back deck at the desired location, preferably as close to center deck width as possible</p></li>
+<li><p>Spool the <strong>tow cable</strong> onto the winch by securing the attachment end to the winch for easy access, then carefully feeding the cable onto the moving winch ensuring the cable is not tangled</p></li>
+</ul>
+</section>
+<section id="towed-array" class="level3">
+<h3 class="anchored" data-anchor-id="towed-array"><em>Towed Array</em></h3>
+<p>Attach the towed array to the end of the tow cable and secure connection with water tight tape such as electrical tape, self amalgamating tape, or Christy’s plumbers tape - If desired, pin test prior to connection using the guide <strong>linked here - link</strong> - If desired, secure a tail line to the end of the array to reduce drag movement</p>
+</section>
+</section>
+<section id="lab-setup" class="level2">
+<h2 class="anchored" data-anchor-id="lab-setup">Lab Setup</h2>
+<ul>
+<li><p><strong>Acoustic Recording System</strong> Setup ARS based on specification and complexity of the system, and connect the deck cable end to the ARS soundcard. Ideal power sources can vary based on the ship power and the level of noise input into the acoustic system. When in doubt, a 12V marine battery is a suitable choice to power the recording system with minimal noise.</p></li>
+<li><p><strong>Computer and Data Storage</strong> Larger NOAA operations use two laptop computers, one for monitoring a click detector and tracking, and the other for a spectrogram, data entry, and recording of raw data. If using an external data storage hard drive, connect this to the recording computer.</p></li>
+<li><p><strong>GPS Connection</strong> If applicable, use a serial port to connect to the vessel’s NMEA GPS string. If the vessel does not have this capability, use a self contained GPS device. <em>For more details see the GPS section - link</em></p></li>
+</ul>
+</section>
+<section id="software-setup" class="level2">
+<h2 class="anchored" data-anchor-id="software-setup">Software Setup</h2>
+<section id="recommended-software" class="level3">
+<h3 class="anchored" data-anchor-id="recommended-software"><em>Recommended Software</em>:</h3>
+<ul>
+<li><p><strong>Pamguard</strong>: for acoustic data collection and monitoring</p></li>
+<li><p><strong>SQLite Studio</strong>: for pamguard database viewing</p></li>
+</ul>
+</section>
+<section id="software-setup-1" class="level3">
+<h3 class="anchored" data-anchor-id="software-setup-1"><em>Software Setup</em></h3>
 
 
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -957,13 +1035,13 @@ ul.task-list li input[type="checkbox"] {
   </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../content/troubleshoot.html" class="pagination-link" aria-label="Troubleshooting">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Troubleshooting</span>
+      <a href="../content/SEFSC_Start_of_cruise.html" class="pagination-link" aria-label="Start of Cruise">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Start of Cruise</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../content/yyy.html" class="pagination-link" aria-label="yyy">
-        <span class="nav-page-text">yyy</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../content/Pin_Testing.html" class="pagination-link" aria-label="Pin Testing">
+        <span class="nav-page-text">Pin Testing</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
@@ -975,7 +1053,7 @@ ul.task-list li input[type="checkbox"] {
 </div>   
     <div class="nav-footer-center">
       &nbsp;
-    <div class="toc-actions"><ul><li><a href="https://github.com/nmfs-ost/PAM_towed_array/edit/main/content/xxx.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/nmfs-ost/PAM_towed_array/blob/main/content/xxx.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/nmfs-ost/PAM_towed_array/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/nmfs-ost/PAM_towed_array/edit/main/content/Field_Setup.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/nmfs-ost/PAM_towed_array/blob/main/content/Field_Setup.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/nmfs-ost/PAM_towed_array/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
 <p>This page is built with <a href="https://quarto.org/">Quarto</a>.</p>
 </div>

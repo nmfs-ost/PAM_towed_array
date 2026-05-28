@@ -527,15 +527,55 @@
     ]
   },
   {
-    "objectID": "content/Real-time_SpeciesGuides.html",
-    "href": "content/Real-time_SpeciesGuides.html",
-    "title": "Real-time_SpeciesGuides",
+    "objectID": "content/Field_Setup.html",
+    "href": "content/Field_Setup.html",
+    "title": "Field Setup",
     "section": "",
-    "text": "Atlantic\n\n\n\n\n\nThis table serves as a visual cheat sheet for classifying acoustic detections in the Atlantic. Match the colors and symbols seen in the Pamguard click detector to the species listed below.\n\n🞳 Green Star: Upsweep between 30-50 kHz (Beaked whales, Risso’s dolphins)\n◆ Orange Diamond: Peak Freq. 2-15 kHz (Sperm whales, false killer whales)\n⬣ Red Hexagon: Peak Freq. 15-30 kHz (Pilot whales, killer whales, rough-toothed dolphins, common dolphins, and Cuvier’s beaked whales)\n● Blue Circle: Peak Freq. 30-50 kHz (Striped, bottlenose, spinner, and spotted dolphins; beaked whales)\n■ Yellow Square: Peak Freq. 50-80 kHz (Large groups of dolphins close to the ship)\n▲ Pink Triangle: Peak Freq. 80-200 kHz (Kogia)\n\n\n\n\nPacific",
+    "text": "Initial blurb here",
     "crumbs": [
       "Field Methods",
-      "Species Guides"
+      "Field Setup"
     ]
+  },
+  {
+    "objectID": "content/Field_Setup.html#hardware-setup",
+    "href": "content/Field_Setup.html#hardware-setup",
+    "title": "Field Setup",
+    "section": "Hardware Setup",
+    "text": "Hardware Setup\n\nNecessary Field Components\n\nDeck Cable with enough length to run from lab to deployment deck\nTow cable at least 1.5 times the length of desired tow distance\nWinch on deck to tow the cable and array best for larger vessel setups\nTowed Array or single hydrophone acoustic recording device - for more information on towed arrays and hydrophone, see the Array Models section - link\n‘ARS’ “Acoustic Recording System” consisting of at a minimum a soundcard and power source\nGPS connection to determine current location\nComputer System used for real time monitoring and data collection\nData storage typically consisting of external drives or NAS solutions\n\nThe necessary setup will vary significantly based on the scale of the system and size of the vessel, however the following process remains similar\n\n\nRun Deck Cable\nStarting from the ‘lab’ location on the vessel, begin by running the deck cable from the lab to the deployment location on the back deck. Pay attention to each end of the deck cable to ensure the appropriate end connections are in the correct orientation.\nA couple general rules include:\n\nWhen running cable along the deck, it is best practice to run on the outside of railings and poles to avoid trip hazards, do not run across busy passageways or deck space without a cable cover. Avoid any pinch points such as doors hinges, tight corners, or crane junctions\nSecure the cable gently but securely with zip ties, allowing for natural movement with ship movement\nLeave plenty of cable on the back deck to comfortably connect to the tow cable, locate a safe space to store connector end when not in use\n\n\n\nWinch and Tow Cable\n\nIf using a winch, station securely on the back deck at the desired location, preferably as close to center deck width as possible\nSpool the tow cable onto the winch by securing the attachment end to the winch for easy access, then carefully feeding the cable onto the moving winch ensuring the cable is not tangled\n\n\n\nTowed Array\nAttach the towed array to the end of the tow cable and secure connection with water tight tape such as electrical tape, self amalgamating tape, or Christy’s plumbers tape - If desired, pin test prior to connection using the guide linked here - link - If desired, secure a tail line to the end of the array to reduce drag movement",
+    "crumbs": [
+      "Field Methods",
+      "Field Setup"
+    ]
+  },
+  {
+    "objectID": "content/Field_Setup.html#lab-setup",
+    "href": "content/Field_Setup.html#lab-setup",
+    "title": "Field Setup",
+    "section": "Lab Setup",
+    "text": "Lab Setup\n\nAcoustic Recording System Setup ARS based on specification and complexity of the system, and connect the deck cable end to the ARS soundcard. Ideal power sources can vary based on the ship power and the level of noise input into the acoustic system. When in doubt, a 12V marine battery is a suitable choice to power the recording system with minimal noise.\nComputer and Data Storage Larger NOAA operations use two laptop computers, one for monitoring a click detector and tracking, and the other for a spectrogram, data entry, and recording of raw data. If using an external data storage hard drive, connect this to the recording computer.\nGPS Connection If applicable, use a serial port to connect to the vessel’s NMEA GPS string. If the vessel does not have this capability, use a self contained GPS device. For more details see the GPS section - link",
+    "crumbs": [
+      "Field Methods",
+      "Field Setup"
+    ]
+  },
+  {
+    "objectID": "content/Field_Setup.html#software-setup",
+    "href": "content/Field_Setup.html#software-setup",
+    "title": "Field Setup",
+    "section": "Software Setup",
+    "text": "Software Setup\n\nRecommended Software:\n\nPamguard: for acoustic data collection and monitoring\nSQLite Studio: for pamguard database viewing\n\n\n\nSoftware Setup",
+    "crumbs": [
+      "Field Methods",
+      "Field Setup"
+    ]
+  },
+  {
+    "objectID": "content/Real-time_tracking.html",
+    "href": "content/Real-time_tracking.html",
+    "title": "Real-time_tracking",
+    "section": "",
+    "text": "TRACKING PROCESS\n\nTracking animals will be done primarily through the click detector. Once you see a click train (3-5 consecutive clicks along the same bearing), start a detection in the Detection tab. Hit F1 to enter the time & date. Hit F1 to enter the Lat/long. Enter the Acoustic ID # along with at least the initial bearing angle. You can fill out the other fields as the event goes on. There are 3 Detection tabs so that you can track 3 things at once. You can also use the TD tab to localize whistles.\n\nFor encounters in which there are both bearings from the whistles and clicks, you can merge them into one event by going to the map, holding down CTRL + left click and select “Assign X bearings to UID#”. You should then see both the whistle and click bearings as the same color. You may need to repeat this step over the course of the encounter.\n\nA mark should be placed at the start position on the trackline of the initial bearing location- clicks don’t stay on the map for long, the markers will last longer. Double click the spot on the map to enter “start of A#- [species]”\nMeasuring the perpendicular distance from the ship’s track to the marked location can be done in the Map tab, by double-clicking next to the map comment and click + hold to the convergences (note: if you happen to select the pixel the map comment is on Pamguard won’t draw the measuring line). If you have R and L locations, measure on both sides of the ship’s track and take the average distance (this will be the beam distance). If you only have one location, take all measurements from the trackline to that location. Also measure the distance from the ship’s track along the first angle plotted that converged at the location (the first detection distance).\nCan you tie this detection to a visual sighting?? If so, be sure to record the visual ID, and any other info from the visual team in the comments field (time, bearing, distance, species ID, etc.).\n\nUse the Visual to Array Angle module and the incoming information from the flying bridge to do so\n\nFor marking the end of a detection, follow these general guidelines\n\nSperm whales: until 5 min have passed where no clicks are detected (can feel free to press F1 prior to this but keep the detection tab open for another 5 min)\nBeaked whales: get an end time when 1 minute has passed without clicks. You will probably need to press F1 a few times as the clicks come back (thus constantly updating the end time)\nDolphins: if it’s just clicks, the end time is within 30s of the last click train. If it’s whistles and clicks, keep the detection open for up to 2 min after the last whistle. It’s common for whistle presence to come in and out\n\nClick “Save” to save this detection to the database.\n\nIf you end the encounter prematurely, you can double click on the row below the form to make any changes. Note that the F1 features do not work in this view. If the encounter’s row is not visible, you can make a comment using an asterisk (*) in the User Input for later modification during the QAQC process.\n\nLook/listen for new groups. Continue to check bearings to sounds. Sometimes you will pick up a new group ahead of the ship while you are still hearing a group behind the ship.  Start a new Acoustic ID when another group is detected.  If a second group is detected before you have stored the info about the first group, you can save the first group and start a new group, then go back and edit the info for the 1st group when time allows.  Make note if long periods occur with no acoustic activity (i.e. “AQ”)."
   },
   {
     "objectID": "content/FieldMethods.html",
@@ -558,66 +598,50 @@
     ]
   },
   {
-    "objectID": "content/Real-time_tracking.html",
-    "href": "content/Real-time_tracking.html",
-    "title": "Real-time_tracking",
+    "objectID": "content/Real-time_SpeciesGuides.html",
+    "href": "content/Real-time_SpeciesGuides.html",
+    "title": "Real-time_SpeciesGuides",
     "section": "",
-    "text": "TRACKING PROCESS\n\nTracking animals will be done primarily through the click detector. Once you see a click train (3-5 consecutive clicks along the same bearing), start a detection in the Detection tab. Hit F1 to enter the time & date. Hit F1 to enter the Lat/long. Enter the Acoustic ID # along with at least the initial bearing angle. You can fill out the other fields as the event goes on. There are 3 Detection tabs so that you can track 3 things at once. You can also use the TD tab to localize whistles.\n\nFor encounters in which there are both bearings from the whistles and clicks, you can merge them into one event by going to the map, holding down CTRL + left click and select “Assign X bearings to UID#”. You should then see both the whistle and click bearings as the same color. You may need to repeat this step over the course of the encounter.\n\nA mark should be placed at the start position on the trackline of the initial bearing location- clicks don’t stay on the map for long, the markers will last longer. Double click the spot on the map to enter “start of A#- [species]”\nMeasuring the perpendicular distance from the ship’s track to the marked location can be done in the Map tab, by double-clicking next to the map comment and click + hold to the convergences (note: if you happen to select the pixel the map comment is on Pamguard won’t draw the measuring line). If you have R and L locations, measure on both sides of the ship’s track and take the average distance (this will be the beam distance). If you only have one location, take all measurements from the trackline to that location. Also measure the distance from the ship’s track along the first angle plotted that converged at the location (the first detection distance).\nCan you tie this detection to a visual sighting?? If so, be sure to record the visual ID, and any other info from the visual team in the comments field (time, bearing, distance, species ID, etc.).\n\nUse the Visual to Array Angle module and the incoming information from the flying bridge to do so\n\nFor marking the end of a detection, follow these general guidelines\n\nSperm whales: until 5 min have passed where no clicks are detected (can feel free to press F1 prior to this but keep the detection tab open for another 5 min)\nBeaked whales: get an end time when 1 minute has passed without clicks. You will probably need to press F1 a few times as the clicks come back (thus constantly updating the end time)\nDolphins: if it’s just clicks, the end time is within 30s of the last click train. If it’s whistles and clicks, keep the detection open for up to 2 min after the last whistle. It’s common for whistle presence to come in and out\n\nClick “Save” to save this detection to the database.\n\nIf you end the encounter prematurely, you can double click on the row below the form to make any changes. Note that the F1 features do not work in this view. If the encounter’s row is not visible, you can make a comment using an asterisk (*) in the User Input for later modification during the QAQC process.\n\nLook/listen for new groups. Continue to check bearings to sounds. Sometimes you will pick up a new group ahead of the ship while you are still hearing a group behind the ship.  Start a new Acoustic ID when another group is detected.  If a second group is detected before you have stored the info about the first group, you can save the first group and start a new group, then go back and edit the info for the 1st group when time allows.  Make note if long periods occur with no acoustic activity (i.e. “AQ”)."
+    "text": "Atlantic\n\n\n\n\n\nThis table serves as a visual cheat sheet for classifying acoustic detections in the Atlantic. Match the colors and symbols seen in the Pamguard click detector to the species listed below.\n\n🞳 Green Star: Upsweep between 30-50 kHz (Beaked whales, Risso’s dolphins)\n◆ Orange Diamond: Peak Freq. 2-15 kHz (Sperm whales, false killer whales)\n⬣ Red Hexagon: Peak Freq. 15-30 kHz (Pilot whales, killer whales, rough-toothed dolphins, common dolphins, and Cuvier’s beaked whales)\n● Blue Circle: Peak Freq. 30-50 kHz (Striped, bottlenose, spinner, and spotted dolphins; beaked whales)\n■ Yellow Square: Peak Freq. 50-80 kHz (Large groups of dolphins close to the ship)\n▲ Pink Triangle: Peak Freq. 80-200 kHz (Kogia)\n\n\n\n\nPacific",
+    "crumbs": [
+      "Field Methods",
+      "Species Guides"
+    ]
   },
   {
     "objectID": "content/Hardware_Setup.html",
     "href": "content/Hardware_Setup.html",
     "title": "Hardware Setup - Deck Cable, Winch, Array",
     "section": "",
-    "text": "The path the deck cable runs may very depending on the vessel and hardware setup, however the principles remain applicable\nThe deck cable will need to be run with the components end running into the e-lab/dry lab to connect to the ARS, while the male connector end runs to the winch to connect to the tow cable. Check with FPC and deck crew to confirm a safe path prior to running cable.\n\n\n\nRun the component end into the e-lab/dry lab first, leaving enough cable to comfortably connect to the ARS with extra for adjustment if needed\nWhen running cable along the deck, it is best practice to run on the outside of railings and poles to avoid trip hazards, do not run across busy passageways or deck space without a cable cover. Avoid any pinch points such as doors hinges, tight corners, or crane junctions\nSecure the cable gently but securely with zip ties, allowing for natural movement with ship movement\nLeave plenty of cable on the back deck to comfortably connect to the tow cable, locate a safe space to store connector end when not in use",
-    "crumbs": [
-      "Field Methods",
-      "Hardware Setup"
-    ]
+    "text": "The path the deck cable runs may very depending on the vessel and hardware setup, however the principles remain applicable\nThe deck cable will need to be run with the components end running into the e-lab/dry lab to connect to the ARS, while the male connector end runs to the winch to connect to the tow cable. Check with FPC and deck crew to confirm a safe path prior to running cable.\n\n\n\nRun the component end into the e-lab/dry lab first, leaving enough cable to comfortably connect to the ARS with extra for adjustment if needed\nWhen running cable along the deck, it is best practice to run on the outside of railings and poles to avoid trip hazards, do not run across busy passageways or deck space without a cable cover. Avoid any pinch points such as doors hinges, tight corners, or crane junctions\nSecure the cable gently but securely with zip ties, allowing for natural movement with ship movement\nLeave plenty of cable on the back deck to comfortably connect to the tow cable, locate a safe space to store connector end when not in use"
   },
   {
     "objectID": "content/Hardware_Setup.html#running-the-deck-cable",
     "href": "content/Hardware_Setup.html#running-the-deck-cable",
     "title": "Hardware Setup - Deck Cable, Winch, Array",
     "section": "",
-    "text": "The path the deck cable runs may very depending on the vessel and hardware setup, however the principles remain applicable\nThe deck cable will need to be run with the components end running into the e-lab/dry lab to connect to the ARS, while the male connector end runs to the winch to connect to the tow cable. Check with FPC and deck crew to confirm a safe path prior to running cable.\n\n\n\nRun the component end into the e-lab/dry lab first, leaving enough cable to comfortably connect to the ARS with extra for adjustment if needed\nWhen running cable along the deck, it is best practice to run on the outside of railings and poles to avoid trip hazards, do not run across busy passageways or deck space without a cable cover. Avoid any pinch points such as doors hinges, tight corners, or crane junctions\nSecure the cable gently but securely with zip ties, allowing for natural movement with ship movement\nLeave plenty of cable on the back deck to comfortably connect to the tow cable, locate a safe space to store connector end when not in use",
-    "crumbs": [
-      "Field Methods",
-      "Hardware Setup"
-    ]
+    "text": "The path the deck cable runs may very depending on the vessel and hardware setup, however the principles remain applicable\nThe deck cable will need to be run with the components end running into the e-lab/dry lab to connect to the ARS, while the male connector end runs to the winch to connect to the tow cable. Check with FPC and deck crew to confirm a safe path prior to running cable.\n\n\n\nRun the component end into the e-lab/dry lab first, leaving enough cable to comfortably connect to the ARS with extra for adjustment if needed\nWhen running cable along the deck, it is best practice to run on the outside of railings and poles to avoid trip hazards, do not run across busy passageways or deck space without a cable cover. Avoid any pinch points such as doors hinges, tight corners, or crane junctions\nSecure the cable gently but securely with zip ties, allowing for natural movement with ship movement\nLeave plenty of cable on the back deck to comfortably connect to the tow cable, locate a safe space to store connector end when not in use"
   },
   {
     "objectID": "content/Hardware_Setup.html#winch-setup-and-tow-cable-spooling",
     "href": "content/Hardware_Setup.html#winch-setup-and-tow-cable-spooling",
     "title": "Hardware Setup - Deck Cable, Winch, Array",
     "section": "Winch Setup and Tow Cable Spooling",
-    "text": "Winch Setup and Tow Cable Spooling\n\nIf the winch is not permanently fixed on the back deck of the vessel, coorindate with the FPC and deck crew to have it installed prior to each cruise/field season\nIn the event the tow cable needs spooled …. Annamaria here",
-    "crumbs": [
-      "Field Methods",
-      "Hardware Setup"
-    ]
+    "text": "Winch Setup and Tow Cable Spooling\n\nIf the winch is not permanently fixed on the back deck of the vessel, coorindate with the FPC and deck crew to have it installed prior to each cruise/field season\nIn the event the tow cable needs spooled …. Annamaria here"
   },
   {
     "objectID": "content/Hardware_Setup.html#array-setup",
     "href": "content/Hardware_Setup.html#array-setup",
     "title": "Hardware Setup - Deck Cable, Winch, Array",
     "section": "Array Setup",
-    "text": "Array Setup\nOnly install the array 1-2 days before sailing to prevent unnecessary sun exposure\n\nPrior to connecting array, check for air bubbles - if found hang from an upper deck and top up oil\nWhen ready, remove end-caps from each end and secure together for safe storage\nEnsure all o-rings and pins/connections are clean, service if needed link to array care\nConnect the top of the array to the end of the tow cable securely, wrap connection in Christy plumbers tape or self-amalgamating tape to ensure watertight hold (allow tape to sit outside for ~30 mins to acclimate to temperature prior to application)\nSecure tail line to end of the end array and secure on winch for sailing",
-    "crumbs": [
-      "Field Methods",
-      "Hardware Setup"
-    ]
+    "text": "Array Setup\nOnly install the array 1-2 days before sailing to prevent unnecessary sun exposure\n\nPrior to connecting array, check for air bubbles - if found hang from an upper deck and top up oil\nWhen ready, remove end-caps from each end and secure together for safe storage\nEnsure all o-rings and pins/connections are clean, service if needed link to array care\nConnect the top of the array to the end of the tow cable securely, wrap connection in Christy plumbers tape or self-amalgamating tape to ensure watertight hold (allow tape to sit outside for ~30 mins to acclimate to temperature prior to application)\nSecure tail line to end of the end array and secure on winch for sailing"
   },
   {
     "objectID": "content/Hardware_Setup.html#deck-test",
     "href": "content/Hardware_Setup.html#deck-test",
     "title": "Hardware Setup - Deck Cable, Winch, Array",
     "section": "Deck Test",
-    "text": "Deck Test\nConsider a final tap test once the hardware and e-lab are setup to ensure all equipment are working properly prior to sailing",
-    "crumbs": [
-      "Field Methods",
-      "Hardware Setup"
-    ]
+    "text": "Deck Test\nConsider a final tap test once the hardware and e-lab are setup to ensure all equipment are working properly prior to sailing"
   },
   {
     "objectID": "content/NEFSC_lab_setup.html",
