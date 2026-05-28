@@ -46,6 +46,8 @@ website:
             text: Hydrophones
           - href: content/depth.qmd
             text: Depth
+          - href: content/GPS.qmd
+            text: GPS
           - href: content/Inventory.qmd
             text: Inventory
       - section: content/FieldMethods.qmd
