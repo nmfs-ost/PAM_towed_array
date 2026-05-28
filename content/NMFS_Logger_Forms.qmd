@@ -18,7 +18,7 @@ In the steps below, you will be generating a blank database specific to each cru
 The Lookup table within the `Logger_UDF_20190814_Blank_NEFSC` database contains all the reference material to populate the Logger forms.
 
 | Field | Definition |
-|------------------------------------|------------------------------------|
+|----|----|
 | **Id** | Has to be a unique ID number. Please sort this column to see the last number used. |
 | **Topic** | General theme the field relates to (e.g., “Who”, “species”, “cruise number”). |
 | **DisplayOrder** | Order in which the row should show up in the dropdown menu; must be unique within a Topic. |

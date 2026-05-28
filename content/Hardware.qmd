@@ -3,9 +3,4 @@ title: Hardware
 format: html
 ---
 
-
 [Connecting to the ship's GPS](/content/GPS.qmd)
-
-
-
-
