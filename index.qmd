@@ -1,23 +1,9 @@
 ---
-title: "NOAA Fisheries Passive Acoustic Towed Arrays"
+title: "Home"
 page-layout: full
 editor: 
   markdown: 
     wrap: 72
 ---
 
-## Towed Hydrophone Arrays
-
--   [Array Models](content/arrayModel.qmd)
-
--   [Hardware](content/Hardware.qmd)
-
--   [Lab Setup](content/lab.qmd)
-
--   [Field Methods](content/FieldMethods.qmd)
-
--   [Software](content/Software.qmd)
-
--   [Platform SOPs](content/sop.qmd)
-
--   [Troubleshooting](content/troubleshoot.qmd)
+![](content/images/TA_Manual_Overview.png){fig-align="left"}

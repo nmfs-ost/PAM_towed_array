@@ -98,7 +98,7 @@ website:
           - href: content/Real-time_QAQC.qmd
             text: QAQC
       - section: content/sop.qmd
-        text: SOP
+        text: Platform SOPs
         contents: 
        #   - href: content/xxx.qmd
         #    text: xxx
