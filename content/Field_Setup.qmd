@@ -51,14 +51,46 @@ Larger NOAA operations use two laptop computers, one for monitoring a click dete
 If applicable, use a serial port to connect to the vessel's NMEA GPS string. If the vessel does not have this capability, use a self contained GPS device. *For more details see the GPS section - link*
 
 ## Software Setup 
-
+Viewing acoustic data in real time will require a spectrogram software such as those listed below. Database software 
 ### *Recommended Software*: 
 
-- **Pamguard**: for acoustic data collection and monitoring
+- **Pamguard**: preferred software for acoustic data visualization and monitoring
 
 - **SQLite Studio**: for pamguard database viewing  
 
-### *Software Setup* 
+- **A-D Depth Board**: for corresponding depth sensors *if applicable*
+
+-**NMEA GPS String**: for GPS connection *if applicable*
+
+- **Ishmael**: alternative/secondary acoustic data visualization 
+- **Raven**: alternative/secondary acoustic data visualization 
+
+### *Software* 
+**Pamguard** is an open source software widely used in acoustic research. Download pamguard **here - link**. 
+New versions are released regularly, check for updates for new features and bug fixes. 
+
+Pamguard will require a configuration settings file, .pfsx, which can be fully customized to the users needs. Basic configuration files will include: 
+Binary Data - set pathway to desired data folder
+Database - set pathway to desired database location 
+Sound Acquisition - set pathway to sound card
+FFT Spectrogram 
+Click Detector 
+Recording Location - set pathway for raw data 
+However there are many additional modules which can be added. Please see **Pamguard Software - link** for more details on configurations, settings, and plug ins. 
+
+**SQLite Studio** is necessary to visualize pamguard databases created during data collection. Download the latest version **here - link**
+
+**Soundcard Software**: bespoke software is typically required for compatible soundcards. Common examples include a SailDAQ, NiDAQ, Fireface, etc. Typically soundcard hardware will come with the required software, check the manuals for further details. For more informtaion on soundcards, see **hardware - link here**
+
+**Depth Board**: common NOAA towed arrays have depth sensors read by a depth board hardware which require software and drivers. See depth board manuals for more details. More information on depth sensors and boards can be found in **Hardware - link**
+
+**NMEA GPS String**: blurb here 
+
+*ADD THE DETAILS OF EACH HERE OR IN THE SOFTWARE SECTION?*
+
+
+
+
 
 
 
