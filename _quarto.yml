@@ -100,8 +100,8 @@ website:
       - section: content/sop.qmd
         text: Platform SOPs
         contents: 
-       #   - href: content/xxx.qmd
-        #    text: xxx
+          - href: content/xxx.qmd
+            text: xxx
          # - section: content/sop/ne/sop_ne.qmd
           #  contents:
            # - href: content/sop/ne/page1.qmd

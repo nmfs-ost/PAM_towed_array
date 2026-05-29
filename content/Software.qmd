@@ -2,3 +2,5 @@
 title: Software
 format: html
 ---
+
+![](images/Software.png){fig-align="left" width="280"}

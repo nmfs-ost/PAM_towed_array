@@ -3,6 +3,8 @@ title: Hardware
 format: html
 ---
 
+![](images/Hardware.png){fig-align="left" width="281"}
+
 [Hydrophones](/content/hydrophones.qmd)
 
 [Connecting to the ship's GPS](/content/GPS.qmd)

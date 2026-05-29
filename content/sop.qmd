@@ -4,6 +4,8 @@ subtitle: Standard Operating Procedures
 format: html
 ---
 
+![](images/Platform_SOP.png){fig-align="left" width="281"}
+
 # How to deploy the array
 
 ### MORNING
@@ -19,10 +21,9 @@ format: html
 
 ![Bigelow Fantail Setup](images/IMG10.jpg)
 
-
 # How to recover the array
 
-[text here]
+\[text here\]
 
 # How to connect to the ship's GPS
 
@@ -41,11 +42,6 @@ format: html
 
 ![Pamguard Depth Configuration 1](images/IMG7.jpg) ![Pamguard Depth Configuration 2](images/IMG8.jpg)
 
-
 # Computer set up guides
 
-[text here]
-
-
-
-
+\[text here\]

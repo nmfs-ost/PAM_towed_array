@@ -3,6 +3,8 @@ title: Field Methods
 format: html
 ---
 
+![](images/FieldMethods.png){fig-align="left" width="281"}
+
 ### MAIN GOALS FOR REAL-TIME DATA COLLECTION
 
 -   Get accurate start/end times of all species encounters.

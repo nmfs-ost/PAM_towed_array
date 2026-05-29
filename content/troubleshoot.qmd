@@ -3,3 +3,4 @@ title: "Troubleshooting"
 format: html
 ---
 
+![](images/Troubleshooting.png){fig-align="left" width="281"}

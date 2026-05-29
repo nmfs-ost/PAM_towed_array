@@ -1,3 +1,5 @@
 ---
 title: Lab Setup
 ---
+
+![](images/Labsetup.png){fig-align="left" width="281"}
